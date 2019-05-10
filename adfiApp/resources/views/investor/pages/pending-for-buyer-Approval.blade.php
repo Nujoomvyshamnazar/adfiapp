@@ -1,8 +1,8 @@
 @extends('admin.layouts.adminlayout')
 
-@section('title', 'All Transaction ')
+@section('title', 'Pending For Buyer Approval')
 
-@section('maintitle', 'By investor wise')
+@section('maintitle', 'Pending For Buyer Approval')
 
 @section('content')
 
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> By investor wise
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Pending For Buyer Approval
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -23,12 +23,11 @@
                                             <th>Invoice No</th>
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
-                                            <th class="numeric">supplier</th>
                                             <th class="numeric">Buyer</th>
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
-
+                                            <th class="numeric">Pending Days</th>
                                             <th class="numeric">Remark</th>
                                         </tr>
                                     </thead>
@@ -39,14 +38,13 @@
                                             <td>PO 1321</td>
                                             <td>DELL</td>
 
-                                            <td class="numeric">Intel</td>
-                                              <td class="numeric">$10000</td>
+                                            <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
                                             <td>
-<span class="label label-sm label-success">Investor Approved</span>
+<span class="label label-sm label-success">Offer Submitted</span>
 
 </td>
-
+<td class="numeric">3</td>
                                             <td class="numeric">Followup</td>
                                         </tr>
 
@@ -56,14 +54,13 @@
                                             <td>PO 1321</td>
                                             <td>DELL</td>
 
-                                            <td class="numeric">Intel</td>
-                                              <td class="numeric">$10000</td>
+                                            <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
                                             <td>
-<span class="label label-sm label-success">Investor Approved</span>
+<span class="label label-sm label-danger">Offer Rejected</span>
 
 </td>
-
+<td class="numeric">3</td>
                                             <td class="numeric">Followup</td>
                                         </tr>
                                     </tbody>

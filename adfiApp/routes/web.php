@@ -58,6 +58,9 @@ Route::get('/admin/invitation-success-statistics', function()
     return View::make('admin.pages.invitation-success-statistics');
 });
 
+
+
+// Admin Early payments
 Route::get('/admin/offer-pending-supplier', function()
 {
     return View::make('admin.pages.offer-pending-supplier');
@@ -72,16 +75,6 @@ Route::get('/admin/offer-pending-buyer', function()
 Route::get('/admin/buyer-returned-offer', function()
 {
     return View::make('admin.pages.buyer-returned-offer');
-});
-
-Route::get('/admin/offer-pending-supplier', function()
-{
-    return View::make('admin.pages.offer-pending-supplier');
-});
-
-Route::get('/admin/offer-pending-buyer', function()
-{
-    return View::make('admin.pages.offer-pending-buyer');
 });
 
 
@@ -90,11 +83,34 @@ Route::get('/admin/offer-pending-investor', function()
     return View::make('admin.pages.offer-pending-investor');
 });
 
-Route::get('/admin/buyer-returned-offer', function()
+
+
+// Admin Invoices Module
+
+Route::get('/admin/invoices-pending-admin-Approval', function()
 {
-    return View::make('admin.pages.buyer-returned-offer');
+    return View::make('admin.pages.invoices-pending-admin-Approval');
 });
 
+
+Route::get('/admin/invoices-rejected', function()
+{
+    return View::make('admin.pages.invoices-rejected');
+});
+
+
+Route::get('/admin/invoices-uploaded', function()
+{
+    return View::make('admin.pages.invoices-uploaded');
+});
+
+Route::get('/admin/pending-for-buyer-Approval', function()
+{
+    return View::make('admin.pages.pending-for-buyer-Approval');
+});
+
+
+// Admin Kyc Updations
 Route::get('/admin/Buyer-KYC-edits', function()
 {
     return View::make('admin.pages.Buyer-KYC-edits');
@@ -147,4 +163,39 @@ Route::get('/admin/user-profile', function()
 });
 // admin menu ends
 
-Route::get('/home', 'HomeController@index')->name('home');
+
+// Buyer routing
+
+
+
+Route::get('/buyer/', function()
+{
+    return View::make('buyer.pages.dashboard');
+});
+
+Route::get('/buyer/edit-KYC', function()
+{
+    return View::make('buyer.pages.editkyc');
+});
+
+Route::get('/buyer/Submit-KYC', function()
+{
+    return View::make('buyer.pages.submitkyc');
+});
+// Supplier routing
+
+
+//Investor routing
+
+
+
+
+// Force Email Vari
+//Auth::routes();
+Auth::routes(['verify' => true]);
+
+Route::get('/home', 'HomeController@index')->name('home')->middleware('verified');
+
+
+
+//Route::get('/home', 'HomeController@index')->name('home');

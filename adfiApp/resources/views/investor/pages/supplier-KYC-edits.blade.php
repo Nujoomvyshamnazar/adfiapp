@@ -3,7 +3,7 @@
 @section('title', 'Dashboard')
 @section('maintitle', 'Welcome to Dashboard')
 
-@section('signin-alert  ')
+@section('signin-alert')
 <div class="alert alert-success alert-dismissable margin5">
     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
     <strong>Success:</strong> You have successfully logged in.

@@ -1,8 +1,8 @@
 @extends('admin.layouts.adminlayout')
 
-@section('title', 'Supplier Enquirys')
+@section('title', 'All Enquirys')
 
-@section('maintitle', 'Supplier Enquirys')
+@section('maintitle', 'All Enquirys')
 
 @section('content')
 
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Supplier Enquirys
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> All Enquirys
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
