@@ -161,6 +161,8 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
+        //Mongodb conn provider
+        Jenssegers\Mongodb\MongodbServiceProvider::class,
 
         /*
          * Package Service Providers...
