@@ -1,7 +1,7 @@
-@extends('admin.layouts.adminlayout')
+@extends('supplier.layouts.adminlayout')
 
 @section('title', 'Dashboard')
-@section('maintitle', 'Welcome to Dashboard')
+@section('maintitle', 'Welcome to Supplier Dashboard')
 
 @section('signin-alert  ')
 <div class="alert alert-success alert-dismissable margin5">

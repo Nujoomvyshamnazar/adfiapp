@@ -42,13 +42,131 @@
 <!-- All Enquirys menu -->
 
 
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">Early payment</span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
+
+ <li>
+     <a href="{{ url('/buyer/offer-pending') }}">
+         <i class="fa fa-angle-double-right"></i>Offer Pending
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/payed-early') }}">
+         <i class="fa fa-angle-double-right"></i> Payed Early
+     </a>
+ </li>
+
+</ul>
+</li>
+
+
+
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">Invoices</span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
+
+ <li>
+     <a href="{{ url('/buyer/Approval-pending') }}">
+         <i class="fa fa-angle-double-right"></i>Approval Pending
+     </a>
+ </li>
+
+
+</ul>
+</li>
+
+
+
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">All Transactions</span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
+
+ <li>
+     <a href="{{ url('/buyer/date-range') }}">
+         <i class="fa fa-angle-double-right"></i>Date Range
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/supplier-wise') }}">
+         <i class="fa fa-angle-double-right"></i> Supplier Wise
+     </a>
+ </li>
+
+</ul>
+</li>
+
+
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">Supplier</span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
+
+ <li>
+     <a href="{{ url('/buyer/request-kyc') }}">
+         <i class="fa fa-angle-double-right"></i>Request KYC
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/report-supplier') }}">
+         <i class="fa fa-angle-double-right"></i> Report Supplier
+     </a>
+ </li>
+ <li>
+     <a href="{{ url('/buyer/supplier-list') }}">
+         <i class="fa fa-angle-double-right"></i>  Supplier List
+     </a>
+ </li>
+</ul>
+</li>
 
 
 
 
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">Settings</span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
 
+ <li>
+     <a href="{{ url('/buyer/change-Password') }}">
+         <i class="fa fa-angle-double-right"></i>change Password
+     </a>
+ </li>
 
-
+ <li>
+     <a href="{{ url('/buyer/report-supplier') }}">
+         <i class="fa fa-angle-double-right"></i> Add User
+     </a>
+ </li>
+ <li>
+     <a href="{{ url('/buyer/supplier-list') }}">
+         <i class="fa fa-angle-double-right"></i>  Supplier List
+     </a>
+ </li>
+</ul>
+</li>
 
 
 <!-- Settings menu -->
@@ -72,13 +190,33 @@
                          </a>
                      </li>
 
-
-
-
                  </ul>
              </li>
 <!-- All Settings end there -->
+<li>
+<a href="#">
+ <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">
+Purchase order
+ </span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
 
+ <li>
+     <a href="{{ url('/buyer/new-purchase-order') }}">
+         <i class="fa fa-angle-double-right"></i>New Purchase Order
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/manage-po') }}">
+         <i class="fa fa-angle-double-right"></i> Manage PO
+     </a>
+ </li>
+
+</ul>
+</li>
 
 
                 </ul>

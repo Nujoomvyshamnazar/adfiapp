@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout')
+@extends('investor.layouts.adminlayout')
 
 @section('title', 'Dashboard')
 @section('maintitle', 'Welcome to Dashboard')

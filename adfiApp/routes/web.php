@@ -188,8 +188,19 @@ Route::get('/buyer/Submit-KYC', function()
 //Investor routing
 
 
+//supplier MENU
+
+Route::get('/supplier', function()
+{
+    return View::make('supplier.pages.dashboard');
+});
 
 
+//investor routes
+Route::get('/investor', function()
+{
+    return View::make('investor.pages.dashboard');
+});
 // Force Email Vari
 //Auth::routes();
 Auth::routes(['verify' => true]);

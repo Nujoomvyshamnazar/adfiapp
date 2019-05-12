@@ -1,10 +1,10 @@
-@include('admin.includes.head')
+@include('supplier.includes.head')
 
-    @include('admin.includes.header')
+    @include('supplier.includes.header')
 
-        @include('admin.includes.leftmenu')
-
-
+        @include('supplier.includes.leftmenu')
 
 
-            @include('admin.includes.footer')
+
+
+            @include('supplier.includes.footer')
