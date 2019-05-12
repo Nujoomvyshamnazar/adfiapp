@@ -51,7 +51,7 @@
                  </a>
                  <ul class="sub-menu">
                      <li>
-                         <a href="{{ url('/admin/offer-pending') }}">
+                         <a href="{{ url('/supplier/offer-pending') }}">
                              <i class="fa fa-angle-double-right"></i> Offer pending
                          </a>
                      </li>
