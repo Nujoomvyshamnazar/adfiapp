@@ -1,10 +1,10 @@
-@include('admin.includes.head')
+@include('investor.includes.head')
 
-    @include('admin.includes.header')
+    @include('investor.includes.header')
 
-        @include('admin.includes.leftmenu')
-
-
+        @include('investor.includes.leftmenu')
 
 
-            @include('admin.includes.footer')
+
+
+            @include('investor.includes.footer')
