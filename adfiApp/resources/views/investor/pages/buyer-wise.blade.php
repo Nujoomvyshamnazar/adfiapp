@@ -1,157 +1,63 @@
 @extends('investor.layouts.adminlayout')
 
-@section('title', 'User Profile')
+@section('title', 'Buyer Wise')
 
-@section('maintitle', 'User Profile')
+@section('maintitle', 'Buyer Wise')
 
 @section('content')
 
 <section class="content">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="nav  nav-tabs ">
-                        <li class="active">
-                            <a href="#tab1" data-toggle="tab">
-                                <i class="livicon" data-name="user" data-size="16" data-c="#000" data-hc="#000" data-loop="true"></i> User Profile</a>
-                        </li>
-                        <li>
-                            <a href="#tab2" data-toggle="tab">
-                                <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i> Change Password</a>
-                        </li>
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- BEGIN SAMPLE TABLE PORTLET-->
+                        <div class="portlet box primary">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> By Buyer Wise
+                                </div>
+                            </div>
+                            <div class="portlet-body flip-scroll">
+                                <table class="table table-bordered table-striped table-condensed flip-content">
+                                    <thead class="flip-content">
+                                        <tr>
+                                            <th>Invoice No</th>
+                                            <th>Transaction ID</th>
+                                            <th class="numeric">PO reference</th>
+                                            <th class="numeric">supplier</th>
+                                            <th class="numeric">Buyer</th>
+                                            <th class="numeric">Invoice Amount</th>
+                                            <th class="numeric">Due date</th>
+                                            <th class="numeric">Status</th>
 
-                    </ul>
-                    <div class="tab-content mar-top">
-                        <div id="tab1" class="tab-pane fade active in">
-                            <div class="row">
-                                <div class="col-lg-12">
-                                    <div class="panel">
-                                        <div class="panel-heading">
-                                            <h3 class="panel-title">
-                                                User Profile
-                                            </h3>
-                                        </div>
-                                        <div class="panel-body">
-                                            <div class="col-md-4">
-                                                <div class="text-center">
-                                                    <div class="fileinput fileinput-new" data-provides="fileinput">
-                                                        <div class="fileinput-new thumbnail img-file">
-                                                            <img src="{{asset('assets/img/authors/avatar3.jpg')}}" width="200" class="img-responsive" height="150" alt="riot">
-                                                        </div>
-                                                        <div class="fileinput-preview fileinput-exists thumbnail img-max">
-                                                        </div>
-                                                        <div>
-                                                            <span class="btn btn-default btn-file ">
-                                                            <span class="fileinput-new">Select image</span>
-                                                            <span class="fileinput-exists">Change</span>
-                                                            <input type="file" name="...">
-                                                            </span>
-                                                            <a href="#" class="btn btn-default fileinput-exists" data-dismiss="fileinput">Remove</a>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-8">
-                                                <div class="panel-body">
-                                                    <div class="table-responsive">
-                                                        <table class="table table-bordered table-striped" id="users">
-                                                            <tr>
-                                                                <td>User Name</td>
-                                                                <td>
-                                                                    <a href="#" data-pk="1" class="editable" data-title="Edit User Name">Bella</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>E-mail</td>
-                                                                <td>
-                                                                    <a href="#" data-pk="1" class="editable" data-title="Edit E-mail">gankunding@hotmail.com</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Phone Number</td>
-                                                                <td>
-                                                                    <a href="#" data-pk="1" class="editable" data-title="Edit Phone Number">(999) 999-9999</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Address</td>
-                                                                <td>
-                                                                    <a href="#" data-pk="1" class="editable" data-title="Edit Address">Sydney, Australia</a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Status</td>
-                                                                <td>
-                                                                    <a href="#" id="status" data-type="select" data-pk="1" data-value="1" data-title="Status"></a>
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>Created At</td>
-                                                                <td>
-                                                                    1 month ago
-                                                                </td>
-                                                            </tr>
-                                                            <tr>
-                                                                <td>City</td>
-                                                                <td>
-                                                                    <a href="#" data-pk="1" class="editable" data-title="Edit City">Nakia</a>
-                                                                </td>
-                                                            </tr>
-                                                        </table>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                            <th class="numeric">Remark</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>INV20002 </td>
+                                            <td>235612</td>
+                                            <td>PO 1321</td>
+                                            <td>DELL</td>
+
+                                            <td class="numeric">Intel</td>
+                                              <td class="numeric">$10000</td>
+                                            <td class="numeric">30/11/2019</td>
+                                            <td>
+<span class="label label-sm label-success">Available</span>
+
+</td>
+
+                                            <td class="numeric">Followup</td>
+                                        </tr>
+
+
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
-                        <div id="tab2" class="tab-pane fade">
-                            <div class="row">
-                                <div class="col-md-12 pd-top">
-                                    <form action="#" class="form-horizontal">
-                                        <div class="form-body">
-                                            <div class="form-group">
-                                                <label for="inputpassword" class="col-md-3 control-label">
-                                                    Password
-                                                    <span class='require'>*</span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    <div class="input-group">
-                                                        <span class="input-group-addon">
-                                                            <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                        </span>
-                                                        <input type="password" id="inputpassword" placeholder="Password" class="form-control" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="form-group">
-                                                <label for="inputnumber" class="col-md-3 control-label">
-                                                    Confirm Password
-                                                    <span class='require'>*</span>
-                                                </label>
-                                                <div class="col-md-9">
-                                                    <div class="input-group">
-                                                        <span class="input-group-addon">
-                                                            <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                        </span>
-                                                        <input type="password" id="inputnumber" placeholder="Confirm Password" class="form-control" />
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="form-actions">
-                                            <div class="col-md-offset-3 col-md-9">
-                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                                &nbsp;
-                                                <input type="reset" class="btn btn-default hidden-xs" value="Reset">
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+                        <!-- END SAMPLE TABLE PORTLET-->
+
+</div>
+</div>
+</div>
 @endsection

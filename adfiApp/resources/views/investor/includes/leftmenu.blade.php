@@ -27,7 +27,7 @@
 
                     <li>
                   <a href="#">
-                     <i class="livicon" data-name="clip" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                     <i class="livicon" data-name="piggybank" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
                      <span class="title">Early payments</span>
                      <span class="fa arrow"></span>
                   </a>
@@ -82,7 +82,7 @@
 
                   <li>
                 <a href="#">
-                   <i class="livicon" data-name="clip" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                   <i class="livicon" data-name="spinner-one" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
                    <span class="title">Information Update</span>
                    <span class="fa arrow"></span>
                 </a>
@@ -128,11 +128,7 @@
                              <i class="fa fa-angle-double-right"></i> Password Change
                          </a>
                      </li>
-                     <li>
-                         <a href="{{ url('/investor/add-users') }}">
-                             <i class="fa fa-angle-double-right"></i>Add New User
-                         </a>
-                     </li>
+            
 
                      <li>
                          <a href="{{ url('/investor/change-view-settings') }}">

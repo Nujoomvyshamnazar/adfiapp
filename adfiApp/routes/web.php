@@ -20,6 +20,12 @@ Route::get('/admin/', function()
 {
     return View::make('admin.pages.dashboard');
 });
+//add-admin
+Route::get('/admin/add-admin', function()
+{
+    return View::make('admin.pages.add-users');
+});
+
 
 Route::get('/admin/all-enquirys', function()
 {
@@ -199,6 +205,14 @@ Route::get('/buyer/payed-early', function()
     return View::make('buyer.pages.payed-early');
 });
 
+
+//Returned Offers
+Route::get('/buyer/returned-offer', function()
+{
+    return View::make('buyer.pages.returned-offer');
+});
+
+
 //Approval-pending
 
 Route::get('/buyer/Approval-pending', function()
@@ -270,6 +284,17 @@ Route::get('/buyer/manage-po', function()
 {
     return View::make('buyer.pages.manage-po');
 });
+
+//user Profile
+
+Route::get('/buyer/user-profile', function()
+{
+    return View::make('buyer.pages.userprofile');
+});
+
+
+
+
 // Supplier routing
 
 
@@ -455,6 +480,11 @@ Route::get('/supplier/list-buyer', function()
     return View::make('supplier.pages.list-buyer');
 });
 
+// user Profile
+Route::get('/supplier/user-profile', function()
+{
+    return View::make('supplier.pages.userprofile');
+});
 
 
 

@@ -1,11 +1,10 @@
-@extends('investor.layouts.adminlayout')
+@extends('buyer.layouts.adminlayout')
 
-@section('title', 'By Date Range')
+@section('title', 'Returned Offer')
+@section('maintitle', 'Returned Offer')
 
-@section('maintitle', 'By Date Range')
 
 @section('content')
-
 <section class="content">
                 <div class="row">
                     <div class="col-md-12">
@@ -13,7 +12,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> By Date Range
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Returned Offer
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -23,12 +22,11 @@
                                             <th>Invoice No</th>
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
-                                            <th class="numeric">supplier</th>
-                                            <th class="numeric">Buyer</th>
+                                            <th class="numeric">Supplier</th>
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
-
+                                  <th class="numeric">Action</th>
                                             <th class="numeric">Remark</th>
                                         </tr>
                                     </thead>
@@ -39,14 +37,17 @@
                                             <td>PO 1321</td>
                                             <td>DELL</td>
 
-                                            <td class="numeric">Intel</td>
-                                              <td class="numeric">$10000</td>
+                                            <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
                                             <td>
-<span class="label label-sm label-success">Available</span>
+<span class="label label-sm label-danger">Offer returned</span>
 
 </td>
+<td>
+<button type="button" class="btn btn-primary btn_sizes">Check Availability</button>
 
+
+                                            </td>
                                             <td class="numeric">Followup</td>
                                         </tr>
 

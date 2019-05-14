@@ -44,7 +44,7 @@
 
 <li>
 <a href="#">
- <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <i class="livicon" data-name="piggybank" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
  <span class="title">Early payment</span>
  <span class="fa arrow"></span>
 </a>
@@ -58,10 +58,14 @@
 
  <li>
      <a href="{{ url('/buyer/payed-early') }}">
-         <i class="fa fa-angle-double-right"></i> Payed Early
+         <i class="fa fa-angle-double-right"></i> Paid Early
      </a>
  </li>
-
+ <li>
+     <a href="{{ url('/buyer/returned-offer') }}">
+         <i class="fa fa-angle-double-right"></i> Returned Offer
+     </a>
+ </li>
 </ul>
 </li>
 
@@ -69,7 +73,7 @@
 
 <li>
 <a href="#">
- <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <i class="livicon" data-name="archive-add" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
  <span class="title">Invoices</span>
  <span class="fa arrow"></span>
 </a>
@@ -89,7 +93,7 @@
 
 <li>
 <a href="#">
- <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <i class="livicon" data-name="clip" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
  <span class="title">All Transactions</span>
  <span class="fa arrow"></span>
 </a>
@@ -113,7 +117,7 @@
 
 <li>
 <a href="#">
- <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <i class="livicon" data-name="truck" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
  <span class="title">Supplier</span>
  <span class="fa arrow"></span>
 </a>
@@ -155,16 +159,6 @@
      </a>
  </li>
 
- <li>
-     <a href="{{ url('/buyer/report-supplier') }}">
-         <i class="fa fa-angle-double-right"></i> Add User
-     </a>
- </li>
- <li>
-     <a href="{{ url('/buyer/supplier-list') }}">
-         <i class="fa fa-angle-double-right"></i>  Supplier List
-     </a>
- </li>
 </ul>
 </li>
 
@@ -172,7 +166,7 @@
 <!-- Settings menu -->
                     <li>
                  <a href="#">
-                     <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                     <i class="livicon" data-name="user" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
                      <span class="title">Profile</span>
                      <span class="fa arrow"></span>
                  </a>
@@ -195,7 +189,7 @@
 <!-- All Settings end there -->
 <li>
 <a href="#">
- <i class="livicon" data-name="gears" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <i class="livicon" data-name="shopping-cart-in" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
  <span class="title">
 Purchase order
  </span>
