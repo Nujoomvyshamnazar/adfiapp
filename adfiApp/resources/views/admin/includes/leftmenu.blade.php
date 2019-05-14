@@ -226,6 +226,12 @@
                              <i class="fa fa-angle-double-right"></i> Password Change
                          </a>
                      </li>
+
+                     <li>
+                         <a href="{{ url('/admin/add-admin') }}">
+                             <i class="fa fa-angle-double-right"></i>Add Admin User
+                         </a>
+                     </li>
                      <li>
                          <a href="{{ url('/admin/admin-users') }}">
                              <i class="fa fa-angle-double-right"></i>Admin User

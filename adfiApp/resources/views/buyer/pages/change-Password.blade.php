@@ -1,8 +1,8 @@
-@extends('investor.layouts.adminlayout')
+@extends('buyer.layouts.adminlayout')
 
-@section('title', 'Update Password')
+@section('title', 'Change Password')
 
-@section('maintitle', 'Update Password')
+@section('maintitle', 'Change Password')
 
 @section('content')
 <section class="content">
@@ -57,5 +57,4 @@
                  </div>
              </div>
          </section>
-
 @endsection

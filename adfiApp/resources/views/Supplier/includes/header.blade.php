@@ -166,14 +166,14 @@
                         </li>
                         <!-- Menu Body -->
                         <li>
-                            <a href="{{ url('/admin/user-profile') }}">
+                            <a href="{{ url('/supplier/user-profile') }}">
                                 <i class="livicon" data-name="user" data-s="18"></i> My Profile
                             </a>
                         </li>
 
                         <!-- Menu Footer-->
                         <li class="user-footer">
-                      
+
                             <div class="pull-right">
                                 <a href="login.html">
                                     <i class="livicon" data-name="sign-out" data-s="18"></i> Logout
