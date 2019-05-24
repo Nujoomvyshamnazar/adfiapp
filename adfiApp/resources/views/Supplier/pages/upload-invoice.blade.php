@@ -1,128 +1,11 @@
 @extends('supplier.layouts.adminlayout')
 
-@section('title', 'Dashboard')
-@section('maintitle', 'Welcome to Supplier Dashboard')
-
-@section('signin-alert  ')
-<div class="alert alert-success alert-dismissable margin5">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-    <strong>Success:</strong> You have successfully logged in.
-</div>
-
-@endsection
+@section('title', 'Upload Invoice')
+@section('maintitle', 'Upload Invoice')
 
 
 
-@section('widget')
-<section class="content">
-    <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInLeftBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="lightbluebg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 text-right">
-                                <span>Views Today</span>
-                                <div class="number" id="myTargetElement1"></div>
-                            </div>
-                            <i class="livicon  pull-right" data-name="eye-open" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement1.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement1.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInUpBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="redbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Today's Sales</span>
-                                <div class="number" id="myTargetElement2"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="piggybank" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement2.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement2.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-md-6 margin_10 animated fadeInDownBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="goldbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Subscribers</span>
-                                <div class="number" id="myTargetElement3"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="archive-add" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement3.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement3.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInRightBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="palebluecolorbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Registered Users</span>
-                                <div class="number" id="myTargetElement4"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="users" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement4.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement4.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/row-->
-@endsection
+
 
 
 @section('content')
@@ -134,58 +17,91 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Invoices Pending For Admin Approvals
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Invoices Upload
+
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
-                                <table class="table table-bordered table-striped table-condensed flip-content">
-                                    <thead class="flip-content">
-                                        <tr>
-                                            <th>Invoice No</th>
-                                            <th>Transaction ID</th>
-                                            <th class="numeric">PO reference</th>
-                                            <th class="numeric">Buyer</th>
-                                            <th class="numeric">supplier</th>
-                                            <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due Date</th>
-                                            <th class="numeric">Action</th>
-                                            <th class="numeric">Remark</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td>
-<button type="button" class="btn btn-primary btn_sizes">Approve</button>
-<button type="button" class="btn btn-danger btn_sizes">Reject</button>
+                              <div class="row">
 
-                                            </td>
-                                            <td class="numeric">test</td>
-                                        </tr>
+  <div class="col-md-6 display-no" style="display: block;">
+      <div class="form-group ui-draggable-handle" style="position: static;">
+          <label for="input-text-1">From Supplier</label>
+          <div class="form-group">
 
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td>
-<button type="button" class="btn btn-primary btn_sizes">Approve</button>
-<button type="button" class="btn btn-danger btn_sizes">Reject</button>
+                                    <select id="select21" class="form-control select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                        <option value="">Select value...</option>
 
-                                            </td>
-                                            <td class="numeric">test</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
+                                        </optgroup>
+                                    </select>
+                                    <textarea class="form-control resize_vertical" id="message" name="message" placeholder="" rows="5"></textarea>
+                                </div>
+
+                                <div class="panel panel-primary">
+                                                    <div class="panel-heading">
+                                                  Invoice Particular
+                                                        <span class="pull-right">
+
+                                                </span>
+                                                    </div>
+                                                    <div class="panel-body">
+
+
+                                                        <form class="form-horizontal">
+                                                            <fieldset >
+                                                                <div class="form-group">
+                                                                    <label for="createEmail" class="control-label col-xs-2">Invoice Date</label>
+                                                                    <div class="col-xs-10">
+                                                                      <div class="input-group">
+                                            <div class="input-group-addon">
+                                                <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
+                                            </div>
+                                            <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <label for="createPassword" class="control-label col-xs-2">Password</label>
+                                                                    <div class="col-xs-10">
+                                                                        <input type="password" class="form-control" id="createPassword" placeholder="Password">
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="col-xs-offset-2 col-xs-10">
+                                                                        <div class="checkbox">
+                                                                            <label>
+                                                                                <div class="icheckbox_minimal-blue disabled" style="position: relative;"><input type="checkbox" class="square-blue" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> Remember me</label>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="form-group">
+                                                                    <div class="col-xs-offset-2 col-xs-10">
+                                                                        <button type="submit" class="btn btn-primary">Login</button>
+                                                                    </div>
+                                                                </div>
+                                                            </fieldset>
+                                                        </form>
+                                                    </div>
+                                                </div>
+
+      </div>
+  </div>
+  <div class="col-md-6 display-no" style="display: block;">
+    <div class="form-group ui-draggable-handle" style="position: static;">
+        <label for="input-text-1">To Buyer</label>
+        <div class="form-group">
+
+                                  <select id="select21" class="form-control select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                      <option value="">Select value...</option>
+
+                                      </optgroup>
+                                  </select>
+                                  <textarea class="form-control resize_vertical" id="message" name="message" placeholder="" rows="5"></textarea>
+                              </div>
+
+    </div>
+  </div>
+</div>
                             </div>
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
@@ -195,3 +111,21 @@
 </div>
 
 @endsection
+
+@section('addheader')
+<link href="{{asset('assets/vendors/pickadate/css/default.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('assets/vendors/pickadate/css/default.date.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('assets/vendors/pickadate/css/default.time.css')}}" rel="stylesheet" type="text/css">
+<link href="{{asset('assets/vendors/flatpickr-calendar/css/flatpickr.min.css')}}" rel="stylesheet" type="text/css" />
+<link href="{{asset('assets/vendors/air-datepicker/css/datepicker.min.css')}}" rel="stylesheet" type="text/css" />
+@endsection
+
+@section('addfooter')
+<script src="{{asset('assets/vendors/pickadate/js/picker.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/pickadate/js/picker.date.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/pickadate/js/picker.time.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/air-datepicker/js/datepicker.min.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/air-datepicker/js/datepicker.en.js')}}" type="text/javascript"></script>
+   <script type="text/javascript" src="{{asset('assets/vendors/flatpickr-calendar/js/flatpickr.min.js')}}"></script>
+   <script src="{{asset('assets/js/pages/custom_datepicker.js')}}" type="text/javascript"></script>
+   @endsection
