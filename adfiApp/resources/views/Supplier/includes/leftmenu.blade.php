@@ -157,7 +157,7 @@
                  </ul>
              </li>
 <!-- All Settings end there -->
-
+<!--
 <li>
 <a href="#">
  <i class="livicon" data-name="users-add" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
@@ -184,7 +184,7 @@
 
 </ul>
 </li>
-
+-->
 
                 </ul>
 
