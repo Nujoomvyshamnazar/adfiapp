@@ -25,9 +25,9 @@
                     <div id="wrapper">
                         <div id="login" class="animate form">
                             <form action="index.html" id="authentication" autocomplete="on" method="post">
-                                <h3 class="black_bg1">
-                                    <img src="{{asset('assets/img/logo2.png')}}" alt="ADFI">
-                                  </h3>
+                                <h3 class="black_bg" style="font-size:14px;">
+                                    <img src="{{asset('assets/img/logo3.png')}}" alt="ADFI">
+                              <br>  Login  </h3>
                                 <div class="form-group ">
                                     <label style="margin-bottom:0;" for="email1" class="uname control-label"> <i class="livicon" data-name="mail" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i> E-mail
                                     </label>
@@ -60,8 +60,8 @@
                         </div>
                         <div id="register" class="animate form">
                             <form action="index.html" id="register_here" autocomplete="on" method="post">
-                                <h3 class="black_bg">
-                                    <img src="{{asset('assets/img/logo2.png')}}" alt="josh logo">
+                                <h3 class="black_bg" style="font-size:14px;">
+                                    <img src="{{asset('assets/img/logo3.png')}}" alt="josh logo">
                                     <br>Sign Up</h3>
                                 <div class="form-group">
                                     <label style="margin-bottom:0;" for="first_name" class="youmail">
@@ -87,18 +87,22 @@
                                     </label>
                                     <input id="email_confirm" name="email_confirm" placeholder="mysupermail@mail.com" />
                                 </div>
+
+
+
+
                                 <div class="form-group">
-                                    <label style="margin-bottom:0;" for="password" class="youpasswd">
-                                        <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i> Password
-                                    </label>
-                                    <input id="password1" name="password" required type="password" placeholder="Password" />
-                                </div>
-                                <div class="form-group">
-                                    <label style="margin-bottom:0;" for="password_confirm" class="youpasswd">
-                                        <i class="livicon" data-name="key" data-size="16" data-loop="true" data-c="#3c8dbc" data-hc="#3c8dbc"></i> Confirm Password
-                                    </label>
-                                    <input id="password_confirm" name="password_confirm" required type="password" placeholder="Confirm password" />
-                                </div>
+                          <label>User Type</label>
+                          <select class="form-control">
+                              <option>Buyer</option>
+                              <option>Supplier</option>
+                              <option>Investor</option>
+
+                          </select>
+                      </div>
+
+
+
                                 <p class="signin button">
                                     <input type="submit" class="btn btn-success" value="Sign Up" />
                                 </p>
@@ -110,8 +114,8 @@
                         </div>
                         <div id="forgot" class="animate form">
                             <form action="index.html" id="reset_pw" autocomplete="on" method="post">
-                                <h3 class="black_bg">
-                                    <img src="{{asset('assets/img/logo2.png')}}" alt="josh logo">
+                                <h3 class="black_bg" style="font-size:14px;">
+                                    <img src="{{asset('assets/img/logo3.png')}}" alt="josh logo">
                                     <br>FORGOT PASSWORD</h3>
                                 <p>
                                     Enter your email address below and we'll send a special reset password link to your inbox.
