@@ -56,7 +56,7 @@
 
                                                                 <div class="col-md-6">
 
-                                                                    <div class="form-group">
+                                                                    <div class="form-group required">
                                                                         <label class="control-label col-md-3" for="first_Name">Entity Name:</label>
                                                                         <div class="col-md-9">
                                                                             <input type="text" class="form-control required" id="Entity_Name" placeholder="First Name" >
@@ -248,6 +248,9 @@
                                 </div>
                                                                             </div>
                                                                         </div>
+
+<!-- Shareholders Information-->
+
                                                                         <div class="col-md-6">
                                                                             <div class="panel panel-primary">
                                                                                 <div class="panel-heading">
@@ -276,24 +279,188 @@
                                                                                       </div>
 
                                                                                       <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Country of residence</label>
+                                                                                          <label class="col-md-3 control-label" for="name">Date of Birth</label>
                                                                                           <div class="col-md-9">
                                                                                         <input id="name" name="country" type="text" placeholder="title" class="form-control">
                                                                                       </div>
-                                          </div>
+                                                                                    </div>
+
+
+
 
                                           <div class="form-group">
-                                              <label class="col-md-3 control-label" for="name">Years with the establishment</label>
+                                              <label class="col-md-3 control-label" for="name">Country of birth</label>
                                               <div class="col-md-9">
                                             <input id="name" name="country" type="text" placeholder="title" class="form-control">
                                           </div>
                                           </div>
 
+
+
+
+
+                                          <div class="form-group">
+                                              <label class="col-md-3 control-label" for="name"> Passport Number </label>
+                                              <div class="col-md-9">
+                                            <input id="name" name="country" type="text" placeholder="title" class="form-control">
+                                          </div>
+                                          </div>
+
+                                          <div class="form-group">
+                                              <label class="col-md-3 control-label" for="name">Physical address </label>
+                                              <div class="col-md-9">
+                                            <input id="name" name="country" type="text" placeholder="title" class="form-control">
+                                          </div>
+                                          </div>
+
+
                                                                                   </fieldset>
                                                                                 </div>
                                                                             </div>
                                                                         </div>
-                                                                    </div>
+
+
+<!-- Shareholders Information ends-->
+
+<!-- Beneficial Owner start -->
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="panel panel-primary">
+                                                                                <div class="panel-heading">
+                                                                                    <h4 class="panel-title">Beneficial Owner: </h4>
+
+                                                                                </div>
+                                                                                <div class="panel-body">
+                                                                                  <fieldset>
+                                                                                      <!-- Name input-->
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Shareholding %</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Physical Address</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+
+                                                                                  </fieldset>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+<!-- Beneficial Owner ends -->
+
+
+<!-- major Clients start -->
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="panel panel-primary">
+                                                                                <div class="panel-heading">
+                                                                                    <h4 class="panel-title">Details of major Clients : </h4>
+
+                                                                                </div>
+                                                                                <div class="panel-body">
+                                                                                  <fieldset>
+                                                                                      <!-- Name input-->
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Addresss </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name"> Location </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name"> Yearly Turnover  </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                  </fieldset>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+<!-- major Clients ends -->
+
+
+<!-- major Suppliers start -->
+
+                                                                        <div class="col-md-6">
+                                                                            <div class="panel panel-primary">
+                                                                                <div class="panel-heading">
+                                                                                    <h4 class="panel-title">Details of major Suppliers : </h4>
+
+                                                                                </div>
+                                                                                <div class="panel-body">
+                                                                                  <fieldset>
+                                                                                      <!-- Name input-->
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name">Addresss </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name"> Location </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+                                                                                      <div class="form-group">
+                                                                                          <label class="col-md-3 control-label" for="name"> Yearly Turnover  </label>
+                                                                                          <div class="col-md-9">
+                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                      </div>
+
+                                                                                  </fieldset>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+<!-- major Suppliers ends -->
+                                                        </div>
                                           </div>
 
 
@@ -302,142 +469,90 @@
 
                                           <div class="tab-pane" id="tab2">
                                               <h2 class="hidden">&nbsp;</h2>
-                                              <div class="form-group required">
-                                                  <label for="dob" class="col-sm-2 control-label">Date of Birth</label>
-                                                  <div class="col-sm-10">
-                                                      <input id="dob" name="dob" type="text" class="form-control" data-date-format="YYYY-MM-DD" placeholder="yyyy-mm-dd" />
-                                                  </div>
-                                              </div>
-                                              <div class="form-group">
-                                                  <label for="pic" class="col-sm-2 control-label">Profile picture</label>
-                                                  <div class="col-sm-10">
-                                                      <div class="fileinput fileinput-new" data-provides="fileinput">
-                                                          <div class="fileinput-new thumbnail" style="width: 200px; height: 200px;">
-                                                              <img src="http://placehold.it/200x200" alt="profile pic">
-                                                          </div>
-                                                          <div class="fileinput-preview fileinput-exists thumbnail" style="max-width: 200px; max-height: 200px;"></div>
-                                                          <div>
-                                                              <span class="btn btn-default btn-file">
-                                  <span class="fileinput-new">Select image</span>
-                                                              <span class="fileinput-exists">Change</span>
-                                                              <input id="pic" name="pic_file" type="file" class="form-control" />
-                                                              </span>
-                                                              <a href="#" class="btn btn-danger fileinput-exists" data-dismiss="fileinput">Remove</a>
-                                                          </div>
-                                                      </div>
-                                                  </div>
-                                              </div>
-                                              <div class="form-group required">
-                                                  <label for="bio" class="col-sm-2 control-label">Bio <small>(brief intro) *</small></label>
-                                                  <div class="col-sm-10">
-                                                      <textarea name="bio" id="bio" class="form-control resize_vertical" rows="4"></textarea>
-                                                  </div>
-                                              </div>
+
+
+
+
+                                              <!-- major Suppliers start -->
+
+                                                                                                                      <div class="col-md-12">
+                                                                                                                          <div class="panel panel-primary">
+                                                                                                                              <div class="panel-heading">
+                                                                                                                                  <h4 class="panel-title">Anticipated Monthly activity:</h4>
+
+                                                                                                                              </div>
+                                                                                                                              <div class="panel-body">
+                                                                                                                                <fieldset>
+                                                                                                                                    <!-- Name input-->
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <label class="col-md-3 control-label" for="name">Invoices /Buyer</label>
+                                                                                                                                        <div class="col-md-9">
+                                                                                                                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                                                                    </div>
+
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <label class="col-md-3 control-label" for="name">Invoices Generated/Month</label>
+                                                                                                                                        <div class="col-md-9">
+                                                                                                                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                                                                    </div>
+
+
+
+
+
+                                                                                                                                </fieldset>
+                                                                                                                              </div>
+                                                                                                                          </div>
+                                                                                                                      </div>
+
+                                              <!-- major Suppliers ends -->
+
+
+
+
+
+
+
                                           </div>
                                           <div class="tab-pane" id="tab3">
-                                              <div class="form-group">
-                                                  <label for="gender" class="col-sm-2 control-label">Gender *</label>
-                                                  <div class="col-sm-10">
-                                                      <select class="form-control select21" id="gender" title="Select Gender..." name="gender">
-                                                          <option disabled selected>Select Gender</option>
-                                                          <option value="male">MALE</option>
-                                                          <option value="female">FEMALE </option>
-                                                          <option value="other">OTHER </option>
-                                                      </select>
-                                                  </div>
-                                              </div>
-                                              <div class="form-group">
-                                                  <label for="country" class="col-sm-2 control-label">Country</label>
-                                                  <div class="col-md-10">
-                                                      <select class="select21 form-control" name="country" id="country">
-                                                          <optgroup label="Alaskan/Hawaiian Time Zone">
-                                                              <option>Select Country</option>
-                                                              <option value="AK">Alaska</option>
-                                                              <option value="HI">Hawaii</option>
-                                                          </optgroup>
-                                                          <optgroup label="Pacific Time Zone">
-                                                              <option value="CA">California</option>
-                                                              <option value="NV">Nevada</option>
-                                                              <option value="OR">Oregon</option>
-                                                              <option value="WA">Washington</option>
-                                                          </optgroup>
-                                                          <optgroup label="Mountain Time Zone">
-                                                              <option value="AZ">Arizona</option>
-                                                              <option value="CO">Colorado</option>
-                                                              <option value="ID">Idaho</option>
-                                                              <option value="MT">Montana</option>
-                                                              <option value="NE">Nebraska</option>
-                                                              <option value="NM">New Mexico</option>
-                                                              <option value="ND">North Dakota</option>
-                                                              <option value="UT">Utah</option>
-                                                              <option value="WY">Wyoming</option>
-                                                          </optgroup>
-                                                          <optgroup label="Central Time Zone">
-                                                              <option value="AL">Alabama</option>
-                                                              <option value="AR">Arkansas</option>
-                                                              <option value="IL">Illinois</option>
-                                                              <option value="IA">Iowa</option>
-                                                              <option value="KS">Kansas</option>
-                                                              <option value="KY">Kentucky</option>
-                                                              <option value="LA">Louisiana</option>
-                                                              <option value="MN">Minnesota</option>
-                                                              <option value="MS">Mississippi</option>
-                                                              <option value="MO">Missouri</option>
-                                                              <option value="OK">Oklahoma</option>
-                                                              <option value="SD">South Dakota</option>
-                                                              <option value="TX">Texas</option>
-                                                              <option value="TN">Tennessee</option>
-                                                              <option value="WI">Wisconsin</option>
-                                                          </optgroup>
-                                                          <optgroup label="Eastern Time Zone">
-                                                              <option value="CT">Connecticut</option>
-                                                              <option value="DE">Delaware</option>
-                                                              <option value="FL">Florida</option>
-                                                              <option value="GA">Georgia</option>
-                                                              <option value="IN">Indiana</option>
-                                                              <option value="ME">Maine</option>
-                                                              <option value="MD">Maryland</option>
-                                                              <option value="MA">Massachusetts</option>
-                                                              <option value="MI">Michigan</option>
-                                                              <option value="NH">New Hampshire</option>
-                                                              <option value="NJ">New Jersey</option>
-                                                              <option value="NY">New York</option>
-                                                              <option value="NC">North Carolina</option>
-                                                              <option value="OH">Ohio</option>
-                                                              <option value="PA">Pennsylvania</option>
-                                                              <option value="RI">Rhode Island</option>
-                                                              <option value="SC">South Carolina</option>
-                                                              <option value="VT">Vermont</option>
-                                                              <option value="VA">Virginia</option>
-                                                              <option value="WV">West Virginia</option>
-                                                          </optgroup>
-                                                      </select>
-                                                  </div>
-                                              </div>
-                                              <div class="form-group ">
-                                                  <label for="state" class="col-sm-2 control-label">State </label>
-                                                  <div class="col-sm-10">
-                                                      <input id="state" name="state" type="text" class="form-control" />
-                                                  </div>
-                                              </div>
-                                              <div class="form-group required">
-                                                  <label for="city" class="col-sm-2 control-label">City </label>
-                                                  <div class="col-sm-10">
-                                                      <input id="city" name="city" type="text" class="form-control" />
-                                                  </div>
-                                              </div>
-                                              <div class="form-group required">
-                                                  <label for="address" class="col-sm-2 control-label">Address </label>
-                                                  <div class="col-sm-10">
-                                                      <input id="address" name="address" type="text" class="form-control" />
-                                                  </div>
-                                              </div>
-                                              <div class="form-group required">
-                                                  <label for="postal" class="col-sm-2 control-label">Postal/zip</label>
-                                                  <div class="col-sm-10">
-                                                      <input id="postal" name="postal" type="text" class="form-control" />
-                                                  </div>
-                                              </div>
+
+
+                                            <div class="form-group ">
+                                            <label class="col-md-4 control-label" for="example-file-input">Valid Trade License/ Chamber of commerce </label>
+                                            <div class="col-md-6 mar-top">
+                                            <input type="file" id="example-file-input" name="example-file-input">
+                                            </div>
+                                            </div>
+
+
+                                            <div class="form-group ">
+                                            <label class="col-md-4 control-label" for="example-file-input">	MOA/AOA with amendments </label>
+                                            <div class="col-md-6 mar-top">
+                                            <input type="file" id="example-file-input" name="example-file-input">
+                                            </div>
+                                            </div>
+
+
+                                            <div class="form-group ">
+                                            <label class="col-md-4 control-label" for="example-file-input">Passport Copies of the Promoters/ Signatories </label>
+                                            <div class="col-md-6 mar-top">
+                                            <input type="file" id="example-file-input" name="example-file-input">
+                                            </div>
+                                            </div>
+
+
+                                            <div class="form-group ">
+                                            <label class="col-md-4 control-label" for="example-file-input">Cancelled Cheque image to validate the bank details for each of the banks </label>
+                                            <div class="col-md-6 mar-top">
+                                            <input type="file" id="example-file-input" name="example-file-input">
+                                            </div>
+                                            </div>
+
+                                    
+
+
+                                                            </div>
+
                                           </div>
 
                                           <ul class="pager wizard">

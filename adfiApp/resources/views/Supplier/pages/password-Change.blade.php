@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout')
+@extends('supplier.layouts.adminlayout')
 
 @section('title', 'Password Change')
 

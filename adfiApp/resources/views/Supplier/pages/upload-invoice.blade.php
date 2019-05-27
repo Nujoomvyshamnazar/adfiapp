@@ -36,7 +36,7 @@
                                     </select>
                                     <textarea class="form-control resize_vertical" id="message" name="message" placeholder="" rows="5"></textarea>
                                 </div>
-
+<!--Invoice Particular -->
                                 <div class="panel panel-primary">
                                                     <div class="panel-heading">
                                                   Invoice Particular
@@ -49,9 +49,11 @@
 
                                                         <form class="form-horizontal">
                                                             <fieldset >
+
+
                                                                 <div class="form-group">
-                                                                    <label for="createEmail" class="control-label col-xs-2">Invoice Date</label>
-                                                                    <div class="col-xs-10">
+                                                                    <label for="createEmail" class="control-label col-xs-4">Invoice Date</label>
+                                                                    <div class="col-xs-6">
                                                                       <div class="input-group">
                                             <div class="input-group-addon">
                                                 <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
@@ -60,29 +62,50 @@
                                         </div>
                                                                     </div>
                                                                 </div>
+
                                                                 <div class="form-group">
-                                                                    <label for="createPassword" class="control-label col-xs-2">Password</label>
-                                                                    <div class="col-xs-10">
-                                                                        <input type="password" class="form-control" id="createPassword" placeholder="Password">
+                                                                <label class="col-md-4 control-label" for="name">Invoice Number</label>
+                                                                  <div class="col-md-6">
+                                                                  <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                  </div>
+
+                                                                  <div class="form-group">
+                                                                  <label class="col-md-4 control-label" for="name">P.O Reference</label>
+                                                                    <div class="col-md-6">
+                                                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <div class="col-xs-offset-2 col-xs-10">
-                                                                        <div class="checkbox">
-                                                                            <label>
-                                                                                <div class="icheckbox_minimal-blue disabled" style="position: relative;"><input type="checkbox" class="square-blue" disabled="" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"><ins class="iCheck-helper" style="position: absolute; top: -20%; left: -20%; display: block; width: 140%; height: 140%; margin: 0px; padding: 0px; background: rgb(255, 255, 255); border: 0px; opacity: 0;"></ins></div> Remember me</label>
+
+                                                                    <div class="form-group">
+                                                                        <label for="createEmail" class="control-label col-xs-4">Invoice Due Date</label>
+                                                                        <div class="col-xs-6">
+                                                                          <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
+                                                </div>
+                                                <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                                            </div>
                                                                         </div>
                                                                     </div>
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <div class="col-xs-offset-2 col-xs-10">
-                                                                        <button type="submit" class="btn btn-primary">Login</button>
+
+
+                                                                    <div class="form-group">
+                                                                        <label for="createEmail" class="control-label col-xs-4">Delivery  Due Date</label>
+                                                                        <div class="col-xs-6">
+                                                                          <div class="input-group">
+                                                <div class="input-group-addon">
+                                                    <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
+                                                </div>
+                                                <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                                            </div>
+                                                                        </div>
                                                                     </div>
-                                                                </div>
+
                                                             </fieldset>
                                                         </form>
                                                     </div>
                                                 </div>
+
+        <!--Invoice Particular end-->
 
       </div>
   </div>
@@ -99,12 +122,131 @@
                                   <textarea class="form-control resize_vertical" id="message" name="message" placeholder="" rows="5"></textarea>
                               </div>
 
+                              <div class="panel panel-primary">
+                                                  <div class="panel-heading">
+                                                Item Description
+                                                      <span class="pull-right">
+
+                                              </span>
+                                                  </div>
+                                                  <div class="panel-body">
+
+
+                                                      <form class="form-horizontal">
+                                                          <fieldset >
+
+
+
+
+                                                              <div class="form-group">
+                                                              <label class="col-md-4 control-label" for="name">Item ID</label>
+                                                                <div class="col-md-6">
+                                                                <input id="name" name="name" type="text" placeholder="Item ID" class="form-control"></div>
+                                                                </div>
+
+                                                                <div class="form-group">
+                                                                <label class="col-md-4 control-label" for="name">Item Description</label>
+                                                                  <div class="col-md-6">
+                                                                    <textarea class="form-control resize_vertical" id="message" name="message" placeholder="" rows="3"></textarea></div>
+                                                                  </div>
+
+                                                                  <div class="form-group">
+                                                                  <label class="col-md-4 control-label" for="name">Item Quantity</label>
+                                                                    <div class="col-md-6">
+                                                                    <input id="name" name="name" type="text" placeholder="Item ID" class="form-control"></div>
+                                                                    </div>
+                                                                    <div class="form-group">
+                                                                    <label class="col-md-4 control-label" for="name">Invoice Value</label>
+                                                                      <div class="col-md-6">
+                                                                      <input id="name" name="name" type="text" placeholder="Item ID" class="form-control"></div>
+                                                                      </div>
+
+
+
+
+                                                          </fieldset>
+
+
+
+
+                                                      </form>
+                                                  </div>
+
+
+
+
+                                              </div>
+
     </div>
   </div>
 </div>
+
+<div class="panel panel-primary">
+                    <div class="panel-heading">
+                  Invoice Upload
+                        <span class="pull-right">
+
+                </span>
+                    </div>
+                    <div class="panel-body">
+
+
+
+
+
+
+
+
+                                <div class="form-group">
+                                <label class="col-md-4 control-label" for="name">Upload Invoice</label>
+                                  <div class="col-md-6">
+                                   <input type="file" id="input-file-1">
+                                  </div>
+
+
+                                  <div class="col-md-12 text-right">
+                                                                
+                                                                  <button type="submit" class="btn btn-primary">Submit</button>
+                                                                  &nbsp;
+                                                                  <button type="button" class="btn btn-danger">Cancel</button>
+                                                                  &nbsp;
+                                                                  <input type="reset" class="btn btn-default hidden-xs" value="Reset">
+                                                              </div>
+
+                                                              <div class="col-md-offset-3 col-md-9">
+
+                                                                                                                      </div>
+
+
+
+                    </div>
+
+
+
+
+                </div>
+
+
+
+
                             </div>
+
+
+
                         </div>
                         <!-- END SAMPLE TABLE PORTLET-->
+
+
+
+
+
+
+
+
+
+
+
+
 
 </div>
 </div>
