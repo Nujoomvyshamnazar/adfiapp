@@ -3,8 +3,8 @@
 @section('title', 'Upload Invoice')
 @section('maintitle', 'Upload Invoice')
 
-
-
+@section('addheader')
+@endsection
 
 
 
@@ -58,10 +58,12 @@
                                             <div class="input-group-addon">
                                                 <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
                                             </div>
-                                            <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                                            <input type="text" class="form-control" id="rangepicker4" />
                                         </div>
                                                                     </div>
                                                                 </div>
+
+
 
                                                                 <div class="form-group">
                                                                 <label class="col-md-4 control-label" for="name">Invoice Number</label>
@@ -82,7 +84,7 @@
                                                 <div class="input-group-addon">
                                                     <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
                                                 </div>
-                                                <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                                              <input type="text" class="form-control" id="daterange3" />
                                             </div>
                                                                         </div>
                                                                     </div>
@@ -95,7 +97,7 @@
                                                 <div class="input-group-addon">
                                                     <i class="livicon" data-name="calendar" data-size="14" data-loop="true"></i>
                                                 </div>
-                                                <input class="form-control flatpickr" data-dateFormat="l, F j, Y">
+                            <input type="text" class="form-control" id="daterange1" />
                                             </div>
                                                                         </div>
                                                                     </div>
@@ -205,7 +207,7 @@
 
 
                                   <div class="col-md-12 text-right">
-                                                                
+
                                                                   <button type="submit" class="btn btn-primary">Submit</button>
                                                                   &nbsp;
                                                                   <button type="button" class="btn btn-danger">Cancel</button>
@@ -255,19 +257,25 @@
 @endsection
 
 @section('addheader')
-<link href="{{asset('assets/vendors/pickadate/css/default.css')}}" rel="stylesheet" type="text/css">
-<link href="{{asset('assets/vendors/pickadate/css/default.date.css')}}" rel="stylesheet" type="text/css">
-<link href="{{asset('assets/vendors/pickadate/css/default.time.css')}}" rel="stylesheet" type="text/css">
-<link href="{{asset('assets/vendors/flatpickr-calendar/css/flatpickr.min.css')}}" rel="stylesheet" type="text/css" />
-<link href="{{asset('assets/vendors/air-datepicker/css/datepicker.min.css')}}" rel="stylesheet" type="text/css" />
+<link href="{{asset('assets/css/app.css')}}" rel="stylesheet" type="text/css" />
+   <!-- end of global css -->
+   <!--page level css -->
+   <!-- daterange picker -->
+   <link href="{{asset('assets/vendors/daterangepicker/css/daterangepicker.css')}}" rel="stylesheet" type="text/css" />
+   <link href="{{asset('assets/vendors/datetimepicker/css/bootstrap-datetimepicker.min.css')}}" rel="stylesheet" type="text/css" />
+   <link href="{{asset('assets/vendors/clockface/css/clockface.css')}}" rel="stylesheet" type="text/css" />
+   <link href="{{asset('assets/vendors/jasny-bootstrap/css/jasny-bootstrap.cs')}}s" rel="stylesheet" type="text/css" />
 @endsection
 
 @section('addfooter')
-<script src="{{asset('assets/vendors/pickadate/js/picker.js')}}" type="text/javascript"></script>
-   <script src="{{asset('assets/vendors/pickadate/js/picker.date.js')}}" type="text/javascript"></script>
-   <script src="{{asset('assets/vendors/pickadate/js/picker.time.js')}}" type="text/javascript"></script>
-   <script src="{{asset('assets/vendors/air-datepicker/js/datepicker.min.js')}}" type="text/javascript"></script>
-   <script src="{{asset('assets/vendors/air-datepicker/js/datepicker.en.js')}}" type="text/javascript"></script>
-   <script type="text/javascript" src="{{asset('assets/vendors/flatpickr-calendar/js/flatpickr.min.js')}}"></script>
-   <script src="{{asset('assets/js/pages/custom_datepicker.js')}}" type="text/javascript"></script>
+
+   <script src="{{asset('assets/js/app.js')}}" type="text/javascript"></script>
+   <!-- end of global js -->
+   <!-- begining of page level js -->
+   <script src="{{asset('assets/vendors/moment/js/moment.min.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/daterangepicker/js/daterangepicker.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/datetimepicker/js/bootstrap-datetimepicker.min.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/clockface/js/clockface.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/jasny-bootstrap/js/jasny-bootstrap.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/js/pages/datepicker.js')}}" type="text/javascript"></script>
    @endsection

@@ -1,7 +1,6 @@
 $("#daterange1").daterangepicker({
-    locale: {
-        format: 'MM/DD/YYYY'
-    }
+  singleDatePicker: true,
+  showDropdowns: true
 });
 $("#daterange2").daterangepicker({
     timePicker: true,
