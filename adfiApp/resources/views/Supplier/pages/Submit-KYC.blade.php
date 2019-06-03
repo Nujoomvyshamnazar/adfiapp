@@ -16,6 +16,7 @@
 @section('content')
 
 <section class="content">
+
               <div class="row">
                   <div class="col-md-12">
                       <div class="panel panel-primary">
@@ -23,11 +24,13 @@
                               <h3 class="panel-title">
                                   <i class="livicon" data-name="user-add" data-size="18" data-c="#fff" data-hc="#fff" data-loop="true"></i> Edit User Profile
                               </h3>
+
                               <span class="pull-right clickable">
                                   <i class="glyphicon glyphicon-chevron-up"></i>
                               </span>
                           </div>
                           <div class="panel-body">
+                          
                               <!-- errors -->
                               <!--main content-->
                               <form id="commentForm" method="POST" enctype="multipart/form-data" class="form-horizontal">
@@ -80,7 +83,10 @@
                                                                     <div class="form-group">
                                                                         <label class="control-label col-md-3" for="first_Name">Country of Head office:</label>
                                                                         <div class="col-md-9">
-                                                                            <input type="text" class="form-control required" id="Incorporation_date:" placeholder="First Name" >
+                                                                          <select class="form-control">
+                                          @include('supplier.includes.countrylist')
+
+                                        </select>
                                                                         </div>
                                                                     </div>
 
@@ -141,7 +147,10 @@
                                                                     <div class="form-group">
                                                                         <label class="control-label col-md-3" for="last_Name">Country of Operations:</label>
                                                                         <div class="col-md-9">
-                                                                            <input type="text" class="form-control" id="last_Name" placeholder="Last Name">
+                                                                          <select class="form-control">
+                                          @include('supplier.includes.countrylist')
+
+                                        </select>
                                                                         </div>
                                                                     </div>
 
@@ -200,267 +209,361 @@
 
 
                                                     </div>
-                                                    <div class="row">
-                                                                        <div class="col-md-6">
-                                                                            <div class="panel panel-primary">
-                                                                                <div class="panel-heading">
-                                                                                    <h4 class="panel-title">Board of Directors and Senior Management :</h4>
+<!-- This is sample-->
 
-                                                                                </div>
-                                                                                <div class="panel-body">
 
-                                        <fieldset>
-                                            <!-- Name input-->
-                                            <div class="form-group">
-                                                <label class="col-md-3 control-label" for="name">Name</label>
-                                                <div class="col-md-9">
-                                                    <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                            </div>
+<div class="row">
+          <div class="col-lg-12">
+              <div class="panel panel-primary">
+                  <div class="panel-heading clearfix">
+                      <h3 class="panel-title pull-left add_remove_title">
+                          <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Board of Directors and Senior Management :
+                      </h3>
+                      <div class="pull-right">
+                          <button type="button" class="btn btn-success  btn-sm" id="addButton">Add row</button>
+                          <button type="button" class="btn btn-danger btn-sm" id="delButton">Delete row</button>
+                      </div>
+                      <div class="tools pull-right"></div>
+                  </div>
+                  <div class="panel-body table-responsive">
+                                   <table class="table table-striped table-bordered" id="table2">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Name</th>
+                                  <th>Age</th>
+                                  <th>Title</th>
+                                  <th>
+                                    Country of residence
+                                  </th>
+                                  <th>
+                              Years with the establishment
+                                  </th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1.</td>
+                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+                                  <td>
 
-                                            <div class="form-group">
-                                                <label class="col-md-3 control-label" for="name"> Age </label>
-                                                <div class="col-md-9">
-                                                    <input id="name" name="age" type="text" placeholder="age" class="form-control"></div>
-                                            </div>
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
 
-                                            <div class="form-group">
-                                                <label class="col-md-3 control-label" for="name">Title</label>
-                                                <div class="col-md-9">
-                                                    <input id="name" name="title" type="text" placeholder="title" class="form-control"></div>
-                                            </div>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                                  <td>
+                                    <select class="form-control">
+    @include('supplier.includes.countrylist')
 
-                                            <div class="form-group">
-                                                <label class="col-md-3 control-label" for="name">Country of residence</label>
-                                                <div class="col-md-9">
-                                              <input id="name" name="country" type="text" placeholder="title" class="form-control">
-                                            </div>
-</div>
+  </select>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                              </tr>
 
-<div class="form-group">
-    <label class="col-md-3 control-label" for="name">Years with the establishment</label>
-    <div class="col-md-9">
-  <input id="name" name="country" type="text" placeholder="title" class="form-control">
-</div>
-</div>
 
-                                        </fieldset>
-
-                                </div>
-                                                                            </div>
-                                                                        </div>
-
-<!-- Shareholders Information-->
-
-                                                                        <div class="col-md-6">
-                                                                            <div class="panel panel-primary">
-                                                                                <div class="panel-heading">
-                                                                                    <h4 class="panel-title">Shareholders Information: </h4>
-
-                                                                                </div>
-                                                                                <div class="panel-body">
-                                                                                  <fieldset>
-                                                                                      <!-- Name input-->
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name"> Nationality </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="country" type="text" placeholder="Country" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Shareholding % </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="title" type="text" placeholder="Shareholding % " class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Date of Birth</label>
-                                                                                          <div class="col-md-9">
-                                                                                        <input id="name" name="country" type="text" placeholder="title" class="form-control">
-                                                                                      </div>
-                                                                                    </div>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
 
-                                          <div class="form-group">
-                                              <label class="col-md-3 control-label" for="name">Country of birth</label>
-                                              <div class="col-md-9">
-                                            <input id="name" name="country" type="text" placeholder="title" class="form-control">
-                                          </div>
-                                          </div>
+<!-- this is another-->
+
+<!-- This is sample-->
+
+
+<div class="row">
+          <div class="col-lg-12">
+              <div class="panel panel-primary">
+                  <div class="panel-heading clearfix">
+                      <h3 class="panel-title pull-left add_remove_title">
+                          <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Shareholders Information :
+                      </h3>
+                      <div class="pull-right">
+                          <button type="button" class="btn btn-success  btn-sm" id="addButton">Add row</button>
+                          <button type="button" class="btn btn-danger btn-sm" id="delButton">Delete row</button>
+                      </div>
+                      <div class="tools pull-right"></div>
+                  </div>
+                  <div class="panel-body table-responsive">
+                                   <table class="table table-striped table-bordered" id="table2">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Name</th>
+                                  <th>Nationality</th>
+                                  <th>Shareholding %</th>
+                                  <th>
+                                  Date of Birth
+                                  </th>
+                                  <th>
+                              Country of birth
+                                  </th>
+                                  <th>
+                              Passport Number
+                                  </th>
+                                  <th>
+                              Physical address
+                                  </th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1.</td>
+                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+                                  <td>
+
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
+
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                                  <td>
+                                    <select class="form-control">
+    @include('supplier.includes.countrylist')
+
+  </select>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+                              </tr>
+
+
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
 
 
 
 
-
-                                          <div class="form-group">
-                                              <label class="col-md-3 control-label" for="name"> Passport Number </label>
-                                              <div class="col-md-9">
-                                            <input id="name" name="country" type="text" placeholder="title" class="form-control">
-                                          </div>
-                                          </div>
-
-                                          <div class="form-group">
-                                              <label class="col-md-3 control-label" for="name">Physical address </label>
-                                              <div class="col-md-9">
-                                            <input id="name" name="country" type="text" placeholder="title" class="form-control">
-                                          </div>
-                                          </div>
+<!-- this is another-->
 
 
-                                                                                  </fieldset>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
+<!-- This is sample-->
 
 
-<!-- Shareholders Information ends-->
+<div class="row">
+          <div class="col-lg-12">
+              <div class="panel panel-primary">
+                  <div class="panel-heading clearfix">
+                      <h3 class="panel-title pull-left add_remove_title">
+                          <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Beneficial Owner:
+                      </h3>
+                      <div class="pull-right">
+                          <button type="button" class="btn btn-success  btn-sm" id="addButton">Add row</button>
+                          <button type="button" class="btn btn-danger btn-sm" id="delButton">Delete row</button>
+                      </div>
+                      <div class="tools pull-right"></div>
+                  </div>
+                  <div class="panel-body table-responsive">
+                                   <table class="table table-striped table-bordered" id="table2">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Name</th>
+                                  <th>Country</th>
+                                  <th>Shareholding %</th>
+                                  <th>
+                                  Physical Address
+                                  </th>
 
-<!-- Beneficial Owner start -->
+                              </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1.</td>
+                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+                                  <td>
 
-                                                                        <div class="col-md-6">
-                                                                            <div class="panel panel-primary">
-                                                                                <div class="panel-heading">
-                                                                                    <h4 class="panel-title">Beneficial Owner: </h4>
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
 
-                                                                                </div>
-                                                                                <div class="panel-body">
-                                                                                  <fieldset>
-                                                                                      <!-- Name input-->
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
+                                  </td>
+                                  <td>
+                                    <select class="form-control">
+    @include('supplier.includes.countrylist')
 
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Shareholding %</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Physical Address</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-
-                                                                                  </fieldset>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-<!-- Beneficial Owner ends -->
-
-
-<!-- major Clients start -->
-
-                                                                        <div class="col-md-6">
-                                                                            <div class="panel panel-primary">
-                                                                                <div class="panel-heading">
-                                                                                    <h4 class="panel-title">Details of major Clients : </h4>
-
-                                                                                </div>
-                                                                                <div class="panel-body">
-                                                                                  <fieldset>
-                                                                                      <!-- Name input-->
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Addresss </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name"> Location </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name"> Yearly Turnover  </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-
-                                                                                  </fieldset>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
-
-<!-- major Clients ends -->
+  </select>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
 
 
-<!-- major Suppliers start -->
 
-                                                                        <div class="col-md-6">
-                                                                            <div class="panel panel-primary">
-                                                                                <div class="panel-heading">
-                                                                                    <h4 class="panel-title">Details of major Suppliers : </h4>
+                              </tr>
 
-                                                                                </div>
-                                                                                <div class="panel-body">
-                                                                                  <fieldset>
-                                                                                      <!-- Name input-->
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Name</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
 
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Country</label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
 
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name">Addresss </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
 
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name"> Location </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
-                                                                                      <div class="form-group">
-                                                                                          <label class="col-md-3 control-label" for="name"> Yearly Turnover  </label>
-                                                                                          <div class="col-md-9">
-                                                                                              <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
-                                                                                      </div>
 
-                                                                                  </fieldset>
-                                                                                </div>
-                                                                            </div>
-                                                                        </div>
 
-<!-- major Suppliers ends -->
-                                                        </div>
+<!-- this is another-->
+
+
+<!-- This is sample-->
+
+
+<div class="row">
+          <div class="col-lg-12">
+              <div class="panel panel-primary">
+                  <div class="panel-heading clearfix">
+                      <h3 class="panel-title pull-left add_remove_title">
+                          <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Details of major Clients :
+                      </h3>
+                      <div class="pull-right">
+                          <button type="button" class="btn btn-success  btn-sm" id="addButton">Add row</button>
+                          <button type="button" class="btn btn-danger btn-sm" id="delButton">Delete row</button>
+                      </div>
+                      <div class="tools pull-right"></div>
+                  </div>
+                  <div class="panel-body table-responsive">
+                                   <table class="table table-striped table-bordered" id="table2">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Name</th>
+                                  <th>Country</th>
+                                  <th>Addresss</th>
+                                  <th>
+                                Location
+                                  </th>
+                                  <th>
+Yearly Turnover
+            </th>                </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1.</td>
+                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+                                  <td>
+
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
+
+                                  </td>
+                                  <td>
+                                    <select class="form-control">
+    @include('supplier.includes.countrylist')
+
+  </select>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+
+
+                              </tr>
+
+
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+<!-- this is another-->
+
+<!-- This is sample-->
+
+
+<div class="row">
+          <div class="col-lg-12">
+              <div class="panel panel-primary">
+                  <div class="panel-heading clearfix">
+                      <h3 class="panel-title pull-left add_remove_title">
+                          <i class="livicon" data-name="gift" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Details of major Suppliers :
+                      </h3>
+                      <div class="pull-right">
+                          <button type="button" class="btn btn-success  btn-sm" id="addButton">Add row</button>
+                          <button type="button" class="btn btn-danger btn-sm" id="delButton">Delete row</button>
+                      </div>
+                      <div class="tools pull-right"></div>
+                  </div>
+                  <div class="panel-body table-responsive">
+                                   <table class="table table-striped table-bordered" id="table2">
+                          <thead>
+                              <tr>
+                                  <th>#</th>
+                                  <th>Name</th>
+                                  <th>Country</th>
+                                  <th>Addresss</th>
+                                  <th>
+                                Location
+                                  </th>
+                                  <th>
+Yearly Turnover
+            </th>                </tr>
+                          </thead>
+                          <tbody>
+                              <tr>
+                                  <td>1.</td>
+                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+                                  <td>
+
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
+
+                                  </td>
+                                  <td>
+                                    <select class="form-control">
+    @include('supplier.includes.countrylist')
+
+  </select>
+                                  </td>
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+
+                                  <td>
+                                      <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                  </td>
+
+
+                              </tr>
+
+
+                          </tbody>
+                      </table>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+
+
+
+<!-- this is another-->
                                           </div>
 
 
@@ -496,7 +599,17 @@
                                                                                                                                             <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                                                                                                                     </div>
 
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <label class="col-md-3 control-label" for="name">Average Credit Period / Buyer</label>
+                                                                                                                                        <div class="col-md-9">
+                                                                                                                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                                                                    </div>
 
+                                                                                                                                    <div class="form-group">
+                                                                                                                                        <label class="col-md-3 control-label" for="name">Current Banks / Sources of Finance </label>
+                                                                                                                                        <div class="col-md-9">
+                                                                                                                                            <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
+                                                                                                                                    </div>
 
 
 
@@ -548,7 +661,7 @@
                                             </div>
                                             </div>
 
-                                    
+
 
 
                                                             </div>

@@ -29,7 +29,7 @@
           <label for="input-text-1">From Supplier</label>
           <div class="form-group">
 
-                                    <select id="select21" class="form-control select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true">
+                                    <select id="select21" class="form-control select2 select2-hidden-accessible" tabindex="-1" aria-hidden="true" disabled>
                                         <option value="">Select value...</option>
 
                                         </optgroup>
