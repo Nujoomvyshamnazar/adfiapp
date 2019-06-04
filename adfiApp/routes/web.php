@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/activate', function () {
+    return view('common.activate');
+});
+
 // admin Dashboard Route
 Route::get('/admin/', function()
 {
