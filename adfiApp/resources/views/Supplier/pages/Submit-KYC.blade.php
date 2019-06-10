@@ -1,8 +1,8 @@
 @extends('supplier.layouts.adminlayout')
 
-@section('title', 'User Profile')
+@section('title', 'KYC Form')
 
-@section('maintitle', 'User Profile')
+@section('maintitle', 'KYC Form')
 @section('addheader')
 <link href="{{asset('assets/vendors/jasny-bootstrap/css/jasny-bootstrap.css')}}" type="text/css" rel="stylesheet">
 <link href="{{asset('assets/vendors/select2/css/select2.min.css')}}" type="text/css" rel="stylesheet">
@@ -22,7 +22,7 @@
                       <div class="panel panel-primary">
                           <div class="panel-heading">
                               <h3 class="panel-title">
-                                  <i class="livicon" data-name="user-add" data-size="18" data-c="#fff" data-hc="#fff" data-loop="true"></i> Edit User Profile
+                                  <i class="livicon" data-name="user-add" data-size="18" data-c="#fff" data-hc="#fff" data-loop="true"></i> KYC Entry Form
                               </h3>
 
                               <span class="pull-right clickable">
@@ -30,7 +30,7 @@
                               </span>
                           </div>
                           <div class="panel-body">
-                          
+
                               <!-- errors -->
                               <!--main content-->
                               <form id="commentForm" method="POST" enctype="multipart/form-data" class="form-horizontal">
@@ -62,21 +62,21 @@
                                                                     <div class="form-group required">
                                                                         <label class="control-label col-md-3" for="first_Name">Entity Name:</label>
                                                                         <div class="col-md-9">
-                                                                            <input type="text" class="form-control required" id="Entity_Name" placeholder="First Name" >
+                                                                            <input type="text" class="form-control required" id="Entity_Name" placeholder="Enter Entity Name" >
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="form-group">
                                                                         <label class="control-label col-md-3" for="first_Name">Nature of Business:</label>
                                                                         <div class="col-md-9">
-                                                                            <input type="text" class="form-control required" id="Nature_of_Business" placeholder="First Name" >
+                                                                            <input type="text" class="form-control required" id="Nature_of_Business" placeholder="Enter Nature Of Business" >
                                                                         </div>
                                                                     </div>
 
                                                                     <div class="form-group">
                                                                         <label class="control-label col-md-3" for="first_Name">Incorporation date:</label>
                                                                         <div class="col-md-9">
-                                                                            <input type="text" class="form-control required" id="Incorporation_date:" placeholder="First Name" >
+                                                                        <input type="text" class="form-control" id="rangepicker4" />
                                                                         </div>
                                                                     </div>
 
@@ -318,7 +318,17 @@
                           <tbody>
                               <tr>
                                   <td>1.</td>
-                                  <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+
+
+                                    <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+
+                                    <td>
+                                      <select class="form-control">
+                                  @include('supplier.includes.countrylist')
+
+                                  </select>
+                                    </td>
+
                                   <td>
 
                                     <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
@@ -327,12 +337,7 @@
                                   <td>
                                       <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                   </td>
-                                  <td>
-                                    <select class="form-control">
-    @include('supplier.includes.countrylist')
 
-  </select>
-                                  </td>
                                   <td>
                                       <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                   </td>
@@ -393,16 +398,17 @@
                                   <td>1.</td>
                                   <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
                                   <td>
-
-                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
-
-                                  </td>
-                                  <td>
                                     <select class="form-control">
     @include('supplier.includes.countrylist')
 
   </select>
                                   </td>
+                                  <td>
+
+                                    <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
+
+                                  </td>
+
                                   <td>
                                       <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                   </td>
@@ -460,17 +466,21 @@ Yearly Turnover
                               <tr>
                                   <td>1.</td>
                                   <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
+
+                                  <td>
+                                    <select class="form-control">
+                                @include('supplier.includes.countrylist')
+
+                                </select>
+                                  </td>
+
+
                                   <td>
 
                                     <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
 
                                   </td>
-                                  <td>
-                                    <select class="form-control">
-    @include('supplier.includes.countrylist')
 
-  </select>
-                                  </td>
                                   <td>
                                       <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                   </td>
@@ -531,16 +541,19 @@ Yearly Turnover
                                   <td>1.</td>
                                   <td><input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div></td>
                                   <td>
+                                    <select class="form-control">
+                              @include('supplier.includes.countrylist')
+
+                              </select>
+                                  </td>
+
+
+                                  <td>
 
                                     <input id="name" name="name" type="text" placeholder="Your name" class="col-md-3 form-control"></div>
 
                                   </td>
-                                  <td>
-                                    <select class="form-control">
-    @include('supplier.includes.countrylist')
 
-  </select>
-                                  </td>
                                   <td>
                                       <input id="name" name="name" type="text" placeholder="Your name" class="form-control"></div>
                                   </td>

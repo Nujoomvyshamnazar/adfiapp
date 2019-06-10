@@ -396,9 +396,15 @@ Route::get('/investor/change-view-settings', function()
     return View::make('investor.pages.change-view-settings');
 });
 
+Route::get('/investor/edit-individual-KYC', function()
+{
+    return View::make('investor.pages.');
+});
 
-
-
+Route::get('/investor/submit-individual-KYC', function()
+{
+    return View::make('investor.pages.');
+});
 //supplier MENU
 
 Route::get('/supplier', function()
