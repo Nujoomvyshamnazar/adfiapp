@@ -11,6 +11,40 @@
 |
 */
 
+// Notifications
+Route::get('/notification1', function () {
+    return view('notifications.account_creation');
+});
+
+Route::get('/notification2', function () {
+    return view('notifications.account_activation');
+});
+
+Route::get('/notification3', function () {
+    return view('notifications.password_reset');
+});
+
+Route::get('/notification4', function () {
+    return view('notifications.Invoice_Submitted_for_buyer');
+});
+
+Route::get('/notification5', function () {
+    return view('notifications.kyc_approval');
+});
+
+Route::get('/notification6', function () {
+    return view('notifications.offer_pending');
+});
+Route::get('/notification7', function () {
+    return view('notifications.offer_acceptance');
+});
+Route::get('/notification8', function () {
+    return view('notifications.invoice_rejected_buyer');
+});
+
+Route::get('/notification9', function () {
+    return view('notifications.invoice_approved');
+});
 
 
 Route::get('/', function () {
