@@ -67,6 +67,11 @@
                              <i class="fa fa-angle-double-right"></i> Investor Enquiry
                          </a>
                      </li>
+                     <li>
+                         <a href="{{ url('/admin/archived-enquiry') }}">
+                             <i class="fa fa-angle-double-right"></i> Archived Enquiry
+                         </a>
+                     </li>
                  </ul>
              </li>
 <!-- All Enquirys menu end there -->
@@ -178,7 +183,34 @@
              </li>
 <!-- All Early payment end there -->
 
+<!-- kyc updations menu -->
+                    <li>
+                 <a href="#">
+                     <i class="livicon" data-name="inbox-out" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                     <span class="title">Client KYC</span>
+                     <span class="fa arrow"></span>
+                 </a>
+                 <ul class="sub-menu">
+                     <li>
+                         <a href="{{ url('/admin/buyer-kyc-list') }}">
+                             <i class="fa fa-angle-double-right"></i> Buyer KYC List
+                         </a>
+                     </li>
+                     <li>
+                         <a href="{{ url('/admin/supplier-KYC-list') }}">
+                             <i class="fa fa-angle-double-right"></i> Supplier KYC List
+                         </a>
+                     </li>
 
+                     <li>
+                         <a href="{{ url('/admin/investor-KYC-list') }}">
+                             <i class="fa fa-angle-double-right"></i> Investor KYC List
+                         </a>
+                     </li>
+
+                 </ul>
+             </li>
+<!-- All kyc updations end there -->
 
 
 <!-- kyc updations menu -->
