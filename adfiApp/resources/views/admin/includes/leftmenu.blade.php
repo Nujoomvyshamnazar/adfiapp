@@ -67,6 +67,11 @@
                              <i class="fa fa-angle-double-right"></i> Investor Enquiry
                          </a>
                      </li>
+                     <li>
+                         <a href="{{ url('/admin/archived-enquiry') }}">
+                             <i class="fa fa-angle-double-right"></i> Archived Enquiry
+                         </a>
+                     </li>
                  </ul>
              </li>
 <!-- All Enquirys menu end there -->
