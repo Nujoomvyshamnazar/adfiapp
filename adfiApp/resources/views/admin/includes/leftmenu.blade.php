@@ -192,7 +192,7 @@
                  </a>
                  <ul class="sub-menu">
                      <li>
-                         <a href="{{ url('/admin/buyer-kyc-list') }}">
+                         <a href="{{ url('/admin/buyer-KYC-list') }}">
                              <i class="fa fa-angle-double-right"></i> Buyer KYC List
                          </a>
                      </li>

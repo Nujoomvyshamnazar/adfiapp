@@ -11,6 +11,24 @@
 |
 */
 
+
+//KYC list
+Route::get('/admin/buyer-KYC-list', function()
+{
+    return View::make('admin.pages.buyer-kyc-list');
+});
+
+Route::get('/admin/supplier-KYC-list', function()
+{
+    return View::make('admin.pages.supplier-KYC-list');
+});
+
+Route::get('/admin/investor-KYC-list', function()
+{
+    return View::make('admin.pages.investor-KYC-list');
+});
+
+
 // Notifications
 Route::get('/notification1', function () {
     return view('notifications.account_creation');
@@ -437,7 +455,12 @@ Route::get('/investor/change-view-settings', function()
 
 Route::get('/investor/edit-individual-KYC', function()
 {
-    return View::make('investor.pages.');
+    return View::make('investor.pages.edit-individual-KYC');
+});
+
+Route::get('/investor/Submit-individual-KYC', function()
+{
+    return View::make('investor.pages.submit-individual-KYC');
 });
 
 Route::get('/investor/submit-individual-KYC', function()
