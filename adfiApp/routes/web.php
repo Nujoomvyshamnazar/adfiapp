@@ -77,6 +77,11 @@ Route::get('/admin/supplier-enquiry', function()
     return View::make('admin.pages.supplier-enquiry');
 });
 
+Route::get('/admin/archived-enquiry', function()
+{
+    return View::make('admin.pages.archived-enquiry');
+});
+
 
 Route::get('/admin/buyer-enquiry', function()
 {
