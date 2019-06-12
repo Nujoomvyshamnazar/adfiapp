@@ -115,7 +115,7 @@
                                     <li>
                                  <a href="#">
                                      <i class="livicon" data-name="user" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
-                                     <span class="title">Profile</span>
+                                     <span class="title">Individual Profile</span>
                                      <span class="fa arrow"></span>
                                  </a>
                                  <ul class="sub-menu">
@@ -134,6 +134,29 @@
 
                                  </ul>
                              </li>
+
+                             <li>
+                          <a href="#">
+                              <i class="livicon" data-name="user" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                              <span class="title">Institutional Profile</span>
+                              <span class="fa arrow"></span>
+                          </a>
+                          <ul class="sub-menu">
+                              <li>
+                                  <a href="{{ url('/investor/edit-Institutional-KYC') }}">
+                                      <i class="fa fa-angle-double-right"></i> Edit KYC
+                                  </a>
+                              </li>
+                              <li>
+                                  <a href="{{ url('/investor/Submit-Institutional-KYC') }}">
+                                      <i class="fa fa-angle-double-right"></i> Submit KYC
+                                  </a>
+                              </li>
+
+
+
+                          </ul>
+                      </li>
 
 
 

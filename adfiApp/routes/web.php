@@ -458,14 +458,19 @@ Route::get('/investor/edit-individual-KYC', function()
     return View::make('investor.pages.edit-individual-KYC');
 });
 
+
 Route::get('/investor/Submit-individual-KYC', function()
 {
     return View::make('investor.pages.submit-individual-KYC');
 });
-
-Route::get('/investor/submit-individual-KYC', function()
+Route::get('/investor/edit-Institutional-KYC', function()
 {
-    return View::make('investor.pages.');
+    return View::make('investor.pages.edit-Institutional-KYC');
+});
+
+Route::get('/investor/Submit-Institutional-KYC', function()
+{
+    return View::make('investor.pages.submit-Institutional-KYC');
 });
 //supplier MENU
 
