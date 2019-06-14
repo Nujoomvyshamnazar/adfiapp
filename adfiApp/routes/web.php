@@ -11,7 +11,19 @@
 |
 */
 
-
+// KYC view
+Route::get('/admin/investor-kyc-iview', function()
+{
+    return View::make('admin.pages.investor_kyc_iview');
+});
+Route::get('/investor/investor-kyc-iview', function()
+{
+    return View::make('investor.pages.investor_kyc_iview');
+});
+Route::get('/admin/investor-kyc-pview', function()
+{
+    return View::make('admin.pages.investor_kyc_pview');
+});
 //KYC list
 Route::get('/admin/buyer-KYC-list', function()
 {
