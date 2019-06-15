@@ -12,6 +12,44 @@
 */
 
 // KYC view
+
+Route::get('/admin/supplier-kyc-view', function()
+{
+    return View::make('admin.pages.supplier_kyc_view');
+});
+
+
+Route::get('/supplier/supplier-kyc-view', function()
+{
+    return View::make('supplier.pages.supplier_kyc_view');
+});
+
+
+
+
+Route::get('/admin/buyer-kyc-view', function()
+{
+    return View::make('admin.pages.buyer_kyc_view');
+});
+
+Route::get('/buyer/buyer-kyc-view', function()
+{
+    return View::make('buyer.pages.buyer_kyc_view');
+});
+
+
+Route::get('/admin/supplier-kyc-view', function()
+{
+    return View::make('admin.pages.supplier_kyc_view');
+});
+
+Route::get('/supplier/supplier-kyc-view', function()
+{
+    return View::make('supplier.pages.supplier_kyc_view');
+});
+
+
+
 Route::get('/admin/investor-kyc-iview', function()
 {
     return View::make('admin.pages.investor_kyc_iview');
@@ -20,6 +58,13 @@ Route::get('/investor/investor-kyc-iview', function()
 {
     return View::make('investor.pages.investor_kyc_iview');
 });
+
+Route::get('/investor/investor-kyc-pview', function()
+{
+    return View::make('investor.pages.investor_kyc_pview');
+});
+
+
 Route::get('/admin/investor-kyc-pview', function()
 {
     return View::make('admin.pages.investor_kyc_pview');
