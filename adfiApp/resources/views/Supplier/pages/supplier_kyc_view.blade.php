@@ -1,8 +1,8 @@
-@extends('investor.layouts.adminlayout')
+@extends('supplier.layouts.adminlayout')
 
-@section('title', 'Admin / View investor KYC Details')
+@section('title', 'Admin / View Supplier KYC Details')
 
-@section('maintitle', 'View investor KYC Details')
+@section('maintitle', 'View Supplier KYC Details')
 
 @section('content')
 
@@ -13,7 +13,7 @@
 
                  <div class="panel-body" style="border:1px solid #ccc;padding:0;margin:0;">
                  <div class="panel-heading" style="border-bottom: 1px solid #000;">
-           <h3 class="panel-title"><i class="livicon" data-name="money" data-size="14" data-loop="true" data-c="#fff" data-hc="#fff"></i> InvestorName <b>KYC Details</b></h3>
+           <h3 class="panel-title"><i class="livicon" data-name="money" data-size="14" data-loop="true" data-c="#fff" data-hc="#fff"></i> SupplierName <b>KYC Details</b></h3>
                             <!--                    <div class="pull-right pan_colors">
                                                   <ul class="list-inline colors">
                                                       <li class="bg-default"></li>
@@ -351,69 +351,76 @@ Value
 <div class="row" style="padding: 5px;">
 <div class="col-md-12 col-xs-12" style="margin-top:5px;">
 <div class="form-group">
-<label class="col-sm-5 control-label">Buyer Invoices preferred:   </label>
-Value
+<label class="col-sm-5 control-label"><h5><b>Anticipated Monthly activity:</b></h5>  </label>
 </div>
 </div>
-
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Preferred Investment tenure:  </label>Value
-</div>
-</div>
-
-
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Maximum investment /invoice: </label>Value
-</div>
-</div>
-
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Maximum Investment/ month/Half yearly/Annually: </label>Value
-</div>
-</div>
-
 
 <div class="row" style="padding: 5px;">
 <div class="col-md-6 col-xs-6" style="margin-top:5px;">
 <div class="form-group">
-<h3>Bank Details:</h3>
-</div>
-</div>
-</div>
-
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">	Bank IBAN Number :</label>
+<label class="col-sm-5 control-label">Invoices /Buyer:</label>
 Value
 </div>
 </div>
 <div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Bank Name :  </label>
+<label  class="col-sm-5 control-label"> Invoices Generated/Month:  </label>
 Value
 </div>
 </div>
 
 <div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
+<div class="col-md-12 col-xs-12" style="margin-top:5px;">
 <div class="form-group">
-<label class="col-sm-4 control-label">	Branch :</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Type of account :  </label>
+<label class="col-sm-5 control-label">Average Credit Period/Supplier:  </label>
 Value
 </div>
 </div>
 
+</div>
+<div class="row" style="padding: 5px;">
+<div class="col-md-12 col-xs-12" style="margin-top:5px;">
+<div class="form-group">
+<label class="col-sm-5 control-label">Current Banks/ Sources of Finance:</label>
+Value
+</div>
+</div>
+
+</div>
+
+<div class="row" style="padding: 5px;">
+<div class="col-md-12 col-xs-12" style="margin-top:5px;">
+<div class="form-group">
+<label class="col-sm-5 control-label">Bank Particulars with IBAN No:</label>
+Value
+</div>
+</div>
+
+</div>
+
+<div class="row" style="padding: 5px;">
+<div class="col-md-12 col-xs-12" style="margin-top:5px;">
+<div class="form-group">
+<label class="col-sm-5 control-label">Bank Name:</label>
+Value
+</div>
+</div>
+
+</div>
 
 
-                                         <div class="row" style="padding: 5px;">
+<div class="row" style="padding: 5px;">
+<div class="col-md-12 col-xs-12" style="margin-top:5px;">
+<div class="form-group">
+<label class="col-sm-5 control-label">Branch:</label>
+Value
+</div>
+</div>
+
+</div>
+
+
+
+                                                          <div class="row" style="padding: 5px;">
                                                             <div class="col-md-6 col-xs-6" style="margin-top:5px;">
                                                             <div class="form-group">
                                                             <h3>Attachments:</h3>
@@ -444,7 +451,12 @@ Value
                                                   </div>
                                                   </div>
 
-
+                                                  <div class="col-md-12 col-xs-12" style="margin-top:5px;">
+                                                  <div class="form-group">
+                                                  <label class="col-sm-5 control-label">Cancelled Cheque image to validate the bank details for each of the banks :</label>
+                                                    <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
+                                                </div>
+                                                </div>
                                                       </div>
 
                  <div style="background-color: #eee;padding:15px;margin-top:20px;" id="footer-bg">
