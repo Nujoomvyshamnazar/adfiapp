@@ -75,7 +75,11 @@
                              <i class="fa fa-angle-double-right"></i> Upload Invoice
                          </a>
                      </li>
-
+                     <li>
+                         <a href="{{ url('/supplier/Submitted-invoices') }}">
+                             <i class="fa fa-angle-double-right"></i> Submitted Invoices
+                         </a>
+                     </li>
 
                  </ul>
              </li>

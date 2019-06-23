@@ -17,14 +17,20 @@ Route::get('/admin/supplier-kyc-view', function()
 {
     return View::make('admin.pages.supplier_kyc_view');
 });
+Route::get('/supplier/view-invoices', function()
+{
+    return View::make('supplier.pages.view-invoice');
+});
 
+Route::get('/supplier/Submitted-invoices', function()
+{
+    return View::make('supplier.pages.Submitted-invoices');
+});
 
 Route::get('/supplier/supplier-kyc-view', function()
 {
     return View::make('supplier.pages.supplier_kyc_view');
 });
-
-
 
 
 Route::get('/admin/buyer-kyc-view', function()
