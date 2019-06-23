@@ -1,7 +1,7 @@
 @extends('supplier.layouts.adminlayout')
 
 @section('title', 'Upload Invoice')
-@section('maintitle', 'Upload Invoice')
+@section('maintitle', 'Transaction ID: 44444')
 
 @section('addheader')
 @endsection
