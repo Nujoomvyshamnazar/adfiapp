@@ -168,7 +168,11 @@
                                                     </div>
                                                 </div>
 
-
+                                                <div class="form-group">
+                                                <label class="col-md-4 control-label" for="name">Invoice Total Price:</label>
+                                                  <div class="col-md-6">
+                                                  <input id="name" name="name" type="text" placeholder="" class="form-control"></div>
+                                                  </div>
 
                                           </fieldset>
 
@@ -269,7 +273,7 @@
 
 
                               <div class="form-group">
-                              <label class="col-md-4 control-label" for="name">Upload Invoice</label>
+                              <label class="col-md-4 control-label" for="name">Upload Invoice (PDF/JPG Only)</label>
                                 <div class="col-md-6">
                                  <input type="file" id="input-file-1">
                                 </div>

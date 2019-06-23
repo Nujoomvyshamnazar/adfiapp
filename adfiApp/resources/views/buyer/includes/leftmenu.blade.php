@@ -52,7 +52,13 @@
 
  <li>
      <a href="{{ url('/buyer/offer-pending') }}">
-         <i class="fa fa-angle-double-right"></i>Offer Pending
+         <i class="fa fa-angle-double-right"></i>Offer Received
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/Third-Party-payments') }}">
+         <i class="fa fa-angle-double-right"></i>Third Party payments
      </a>
  </li>
 
@@ -63,7 +69,7 @@
  </li>
  <li>
      <a href="{{ url('/buyer/returned-offer') }}">
-         <i class="fa fa-angle-double-right"></i> Returned Offer
+         <i class="fa fa-angle-double-right"></i> Archived Offer
      </a>
  </li>
 </ul>
@@ -81,14 +87,20 @@
 
  <li>
      <a href="{{ url('/buyer/Approval-pending') }}">
-         <i class="fa fa-angle-double-right"></i>Approval Pending
+         <i class="fa fa-angle-double-right"></i>Approval pending
+     </a>
+ </li>
+ <li>
+     <a href="{{ url('/buyer/invoices-Approved') }}">
+         <i class="fa fa-angle-double-right"></i>invoices Approved
      </a>
  </li>
  <li>
      <a href="{{ url('/buyer/Rejected-invoices') }}">
-         <i class="fa fa-angle-double-right"></i>Rejected invoices
+         <i class="fa fa-angle-double-right"></i>invoices Rejected
      </a>
  </li>
+
 
 </ul>
 </li>
