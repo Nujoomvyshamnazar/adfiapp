@@ -84,7 +84,11 @@
          <i class="fa fa-angle-double-right"></i>Approval Pending
      </a>
  </li>
-
+ <li>
+     <a href="{{ url('/buyer/Rejected-invoices') }}">
+         <i class="fa fa-angle-double-right"></i>Rejected invoices
+     </a>
+ </li>
 
 </ul>
 </li>
@@ -212,6 +216,33 @@ Purchase order
 </ul>
 </li>
 
+
+
+<!-- All Settings end there -->
+<li>
+<a href="#">
+ <i class="livicon" data-name="shopping-cart-in" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+ <span class="title">
+ADFI Invoices
+ </span>
+ <span class="fa arrow"></span>
+</a>
+<ul class="sub-menu">
+
+ <li>
+     <a href="{{ url('/buyer/due-invoices') }}">
+         <i class="fa fa-angle-double-right"></i>Due Invoices
+     </a>
+ </li>
+
+ <li>
+     <a href="{{ url('/buyer/Over-due-invoices') }}">
+         <i class="fa fa-angle-double-right"></i> Over due Invoices
+     </a>
+ </li>
+
+</ul>
+</li>
 
                 </ul>
 

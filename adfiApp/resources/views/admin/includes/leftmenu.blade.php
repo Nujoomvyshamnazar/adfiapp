@@ -244,6 +244,43 @@
 
 
 
+<!-- kyc updations menu -->
+                    <li>
+                 <a href="#">
+                     <i class="livicon" data-name="inbox-out" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
+                     <span class="title">User Profiles</span>
+                     <span class="fa arrow"></span>
+                 </a>
+                 <ul class="sub-menu">
+                     <li>
+                         <a href="{{ url('/admin/Buyer-KYC-edits') }}">
+                             <i class="fa fa-angle-double-right"></i> Suppliers
+                         </a>
+                     </li>
+                     <li>
+                         <a href="{{ url('/admin/supplier-KYC-edits') }}">
+                             <i class="fa fa-angle-double-right"></i> Buyers
+                         </a>
+                     </li>
+
+                     <li>
+                         <a href="{{ url('/admin/supplier-alerts') }}">
+                             <i class="fa fa-angle-double-right"></i> Investor - Institutional
+
+                         </a>
+                     </li>
+
+                     <li>
+                         <a href="{{ url('/admin/supplier-alerts') }}">
+                             <i class="fa fa-angle-double-right"></i> Investor - Individual
+
+                         </a>
+                     </li>
+
+                 </ul>
+             </li>
+<!-- All kyc updations end there -->
+
 
 <!-- Settings menu -->
                     <li>
