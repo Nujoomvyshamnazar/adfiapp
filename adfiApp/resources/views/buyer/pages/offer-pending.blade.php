@@ -45,7 +45,7 @@
 </td>
 <td>
 <button type="button" class="btn btn-primary btn_sizes">Approve</button>
-<button type="button" class="btn btn-danger btn_sizes">Return</button>
+<button type="button" class="btn btn-danger btn_sizes">Reject</button>
 
                                             </td>
                                             <td class="numeric">Followup</td>

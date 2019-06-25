@@ -35,6 +35,7 @@
                                             <th class="numeric">Due Date</th>
                                             <th class="numeric">Status</th>
                                             <th class="numeric">view invoice</th>
+                                              <th class="numeric">Remark</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -52,6 +53,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
                                         <tr>
                                             <td>INV20002 </td>
@@ -67,6 +69,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
                                         <tr>
                                             <td>INV20002 </td>
@@ -82,6 +85,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
                                         <tr>
                                             <td>INV20002 </td>
@@ -97,6 +101,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
                                         <tr>
                                             <td>INV20002 </td>
@@ -112,6 +117,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
 
                                         <tr>
@@ -128,6 +134,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
 
                                         <tr>
@@ -144,6 +151,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
+<td>No Remarks</td>
                                         </tr>
 
                                         <tr>
@@ -160,7 +168,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
-                                        </tr>
+                                <td>No Remarks</td>        </tr>
 
                                         <tr>
                                             <td>INV20002 </td>
@@ -176,7 +184,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
-                                        </tr>
+                                        <td>No Remarks</td></tr>
                                         <tr>
                                             <td>INV20002 </td>
                                             <td>235612</td>
@@ -191,7 +199,7 @@
 
                                             </td>
                                             <td class="numeric"><button type="button" class="btn btn-primary btn_sizes">View</button></td>
-                                        </tr>
+                                      <td>No Remarks</td>  </tr>
                                     </tbody>
                                 </table>
                             </div>

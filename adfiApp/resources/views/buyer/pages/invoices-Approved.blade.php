@@ -1,7 +1,7 @@
 @extends('buyer.layouts.adminlayout')
 
-@section('title', 'Approval Pending')
-@section('maintitle', 'Approval Pending')
+@section('title', 'Invoices Approved')
+@section('maintitle', 'Invoices Approved')
 
 
 
@@ -15,7 +15,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Approval Pending
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Invoices Approved
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -29,7 +29,7 @@
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
-                                  <th class="numeric" width="30%">Action</th>
+                                  <th class="numeric">Action</th>
                                             <th class="numeric">Remark</th>
                                         </tr>
                                     </thead>
@@ -47,8 +47,7 @@
 
 </td>
 <td>
-<button type="button" data-toggle="modal" data-href="#stack1" href="#stack1" class="btn btn-success btn_sizes">Approve</button>
-<button type="button" data-toggle="modal" data-href="#stack2" href="#stack2" class="btn btn-danger btn_sizes">Reject</button>
+
 <button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button>
                                             </td>
                                             <td class="numeric">Followup</td>
@@ -64,57 +63,7 @@
 </div>
 </div>
 </div>
-<!--- stack1 model -->
-                   <div class="modal fade bs-example-modal-sm in" id="stack1" tabindex="-1" role="dialog" aria-hidden="false">
-                       <div class="modal-dialog modal-lg">
-                           <div class="modal-content">
-                               <div class="modal-header">
-                                   <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                   <h4 class="modal-title">Reason For Approval</h4>
-                               </div>
-                               <div class="modal-body">
 
-                                   <div class="form-group label-floating">
-                                       <label class="control-label">Approval Reason: </label>
-                                         <textarea placeholder="Write something here..." class="auto2 form-control pd-45 resize_vertical " data-autogrow="" rows="3" cols="80"></textarea>
-                                   </div>
-
-
-                               </div>
-                               <div class="modal-footer">
-                                   <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
-                                   <button type="button" class="btn btn-primary">Submit</button>
-                               </div>
-                           </div>
-                       </div>
-                   </div>
-                   <!-- stack2 modal-->
-
-                   <!--- stack1 model -->
-                                      <div class="modal fade bs-example-modal-sm in" id="stack2" tabindex="-1" role="dialog" aria-hidden="false">
-                                          <div class="modal-dialog modal-lg">
-                                              <div class="modal-content">
-                                                  <div class="modal-header">
-                                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                                                      <h4 class="modal-title">Reason For Reject</h4>
-                                                  </div>
-                                                  <div class="modal-body">
-
-                                                      <div class="form-group label-floating">
-                                                          <label class="control-label">Reject Reason: </label>
-                                                            <textarea placeholder="Write something here..." class="auto2 form-control pd-45 resize_vertical " data-autogrow="" rows="3" cols="80"></textarea>
-                                                      </div>
-
-
-                                                  </div>
-                                                  <div class="modal-footer">
-                                                      <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
-                                                      <button type="button" class="btn btn-primary">Submit</button>
-                                                  </div>
-                                              </div>
-                                          </div>
-                                      </div>
-                                      <!-- stack2 modal-->
 
                                       <!--- stack1 model -->
                                                          <div class="modal fade bs-example-modal-sm in" id="stack3" tabindex="-1" role="dialog" aria-hidden="false">
