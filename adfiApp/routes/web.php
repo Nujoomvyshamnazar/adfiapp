@@ -12,7 +12,10 @@
 */
 
 // KYC view
-
+Route::get('/admin/offer-Overdue-with-investor', function()
+{
+return View::make('admin.pages.offer-Overdue-with-investor');
+});
 Route::get('/admin/supplier-kyc-view', function()
 {
     return View::make('admin.pages.supplier_kyc_view');
@@ -43,6 +46,16 @@ Route::get('/buyer/buyer-kyc-view', function()
     return View::make('buyer.pages.buyer_kyc_view');
 });
 
+
+Route::get('/buyer/invoices-Approved', function()
+{
+    return View::make('buyer.pages.invoices-Approved');
+});
+
+Route::get('/buyer/Rejected-invoices', function()
+{
+    return View::make('buyer.pages.Rejected-invoices');
+});
 
 Route::get('/admin/supplier-kyc-view', function()
 {

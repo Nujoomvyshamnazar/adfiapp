@@ -136,7 +136,11 @@
                              <i class="fa fa-angle-double-right"></i> Offer Pending with Investor
                          </a>
                      </li>
-
+                     <li>
+                         <a href="{{ url('/admin/offer-Overdue-with-investor') }}">
+                             <i class="fa fa-angle-double-right"></i> Offer Overdue With Investor
+                         </a>
+                     </li>
 
                  </ul>
              </li>
@@ -173,7 +177,7 @@
 
                      <li>
                          <a href="{{ url('/admin/invoices-pending-admin-Approval') }}">
-                             <i class="fa fa-angle-double-right"></i> Invoices Pending Admin Approval
+                             <i class="fa fa-angle-double-right"></i>  Pending For Admin Approval
                          </a>
                      </li>
 

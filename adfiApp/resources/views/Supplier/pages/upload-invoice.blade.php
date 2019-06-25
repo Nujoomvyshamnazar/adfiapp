@@ -279,14 +279,7 @@
                                 </div>
 
 
-                                <div class="col-md-12 text-right">
 
-                                                                <button type="submit" class="btn btn-primary">Submit</button>
-                                                                &nbsp;
-                                                                <button type="button" class="btn btn-danger">Cancel</button>
-                                                                &nbsp;
-                                                                <input type="reset" class="btn btn-default hidden-xs" value="Reset">
-                                                            </div>
 
                                                             <div class="col-md-offset-3 col-md-9">
 
@@ -306,7 +299,14 @@
 
                           </div>
 
+                          <div class="col-md-12 text-right">
 
+                                                          <button type="submit" class="btn btn-primary">Submit</button>
+                                                          &nbsp;
+                                                          <button type="button" class="btn btn-danger">Cancel</button>
+                                                          &nbsp;
+                                                          <input type="reset" class="btn btn-default hidden-xs" value="Reset">
+                                                      </div>
     </div>
 
          </div> <!-- Table -->
