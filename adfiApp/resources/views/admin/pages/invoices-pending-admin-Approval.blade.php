@@ -28,7 +28,7 @@
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th style="width:100%;">Action</th>
-<th class="numeric">Invoice</th>
+
 
                                         </tr>
                                     </thead>
@@ -45,9 +45,9 @@
 
 <button type="button" class="btn btn-primary btn_sizes" >Approve</button>
 <button type="button" class="btn btn-danger btn_sizes">Reject</button>
+<button type="button" class="btn btn-success btn_sizes">view</button>
 
 
-<td><button type="button" class="btn btn-success btn_sizes">view Invoice</button></td>
 
                                         </tr>
 
@@ -66,7 +66,7 @@
                                 <button type="button" class="btn btn-danger btn_sizes">Reject</button>
 
 
-                                <td><button type="button" class="btn btn-success btn_sizes">view Invoice</button></td>
+                                <button type="button" class="btn btn-success btn_sizes">view</button></td>
 
                                         </tr>
 
@@ -84,7 +84,7 @@
                                 <button type="button" class="btn btn-danger btn_sizes">Reject</button>
 
 
-                                <td><button type="button" class="btn btn-success btn_sizes">view Invoice</button></td>
+                              <button type="button" class="btn btn-success btn_sizes">view</button></td>
 
                                         </tr>
 
