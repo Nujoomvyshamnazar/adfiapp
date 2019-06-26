@@ -30,7 +30,7 @@
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
                                   <th class="numeric">Action</th>
-                                            <th class="numeric">Remark</th>
+                                            <th class="numeric">Justification</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -162,7 +162,17 @@
                                                                                    </div>
                                                                                    <div class="col-md-6">
                                                                                        <div class="pull-right">
+                                                                                         <strong>TERMS</strong><br>
+                                                                                         <ul>
+                                                                                         <li>Please pay invoice by 02/06/2019</li>
 
+                                                                                         <li>Payment to be made as a
+                                                                                           <ul>
+                                                                                          <li>  Cheque drawn in favour of Accelerated Drawdowns Limited</li>
+                                                                                            <li>Bank Transfer to bank account # 234534552432 of  Accelerated Drawdowns Limited  with First Abu Dhabi Bank</li>
+                                                                                          </ul>
+                                      </li>
+                                      </ul>
                                                                                        </div>
                                                                                    </div>
                                                                                </div>

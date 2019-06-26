@@ -257,25 +257,25 @@
                  </a>
                  <ul class="sub-menu">
                      <li>
-                         <a href="{{ url('/admin/Buyer-KYC-edits') }}">
+                         <a href="{{ url('/admin/supplier-list') }}">
                              <i class="fa fa-angle-double-right"></i> Suppliers
                          </a>
                      </li>
                      <li>
-                         <a href="{{ url('/admin/supplier-KYC-edits') }}">
+                         <a href="{{ url('/admin/buyer-list') }}">
                              <i class="fa fa-angle-double-right"></i> Buyers
                          </a>
                      </li>
 
                      <li>
-                         <a href="{{ url('/admin/supplier-alerts') }}">
+                         <a href="{{ url('/admin/investor-institutional-list') }}">
                              <i class="fa fa-angle-double-right"></i> Investor - Institutional
 
                          </a>
                      </li>
 
                      <li>
-                         <a href="{{ url('/admin/supplier-alerts') }}">
+                         <a href="{{ url('/admin/investor-individual-list') }}">
                              <i class="fa fa-angle-double-right"></i> Investor - Individual
 
                          </a>

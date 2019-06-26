@@ -28,9 +28,9 @@
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
-                                            <th class="numeric">View</th>
-                                            <th class="numeric">Action</th>
 
+                                            <th class="numeric" width="30%">Action</th>
+  <th class="numeric">Justification</th>
 
                                         </tr>
                                     </thead>
@@ -47,23 +47,22 @@
 <span class="label label-sm label-danger">Buyer Rejected</span>
                                                 </td>
 
-<td>
 
-<a class="btn btn-raised btn-success btn-large" data-toggle="modal" data-href="#responsive" href="#responsive">View Invoice</a>
-
-
-</td>
 
 
 
                                             <td>
 
-
-<button type="button" class="btn btn-primary btn_sizes">Contact supplier</button>
+<a class="btn btn-raised btn-success btn-large" data-toggle="modal" data-href="#responsive" href="#responsive">View</a>
+<button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#stack2" href="#stack2">Contact supplier</button>
 
 </td>
 
+<td>
 
+Reason for Rejection
+
+</td>
                                         </tr>
 
 
@@ -180,7 +179,17 @@
                                        </div>
                                        <div class="col-md-6">
                                            <div class="pull-right">
+                                             <strong>TERMS</strong><br>
+                                             <ul>
+                                             <li>Please pay invoice by 02/06/2019</li>
 
+                                             <li>Payment to be made as a
+                                               <ul>
+                                              <li>  Cheque drawn in favour of Accelerated Drawdowns Limited</li>
+                                                <li>Bank Transfer to bank account # 234534552432 of  Accelerated Drawdowns Limited  with First Abu Dhabi Bank</li>
+                                              </ul>
+                                        </li>
+                                        </ul>
                                            </div>
                                        </div>
                                    </div>
@@ -207,4 +216,30 @@
                  </div>
              </div>
            </div>
+
+
+
+           <div class="modal fade bs-example-modal-sm in" id="stack2" tabindex="-1" role="dialog" aria-hidden="false">
+                                          <div class="modal-dialog modal-lg">
+                                              <div class="modal-content">
+                                                  <div class="modal-header">
+                                                      <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                      <h4 class="modal-title">Contact Supplier</h4>
+                                                  </div>
+                                                  <div class="modal-body">
+
+                                                      <div class="form-group label-floating">
+                                                          <label class="control-label">Reject Reason: </label>
+                                                            <textarea placeholder="Write something here..." class="auto2 form-control pd-45 resize_vertical " data-autogrow="" rows="3" cols="80"></textarea>
+                                                      </div>
+
+
+                                                  </div>
+                                                  <div class="modal-footer">
+                                                      <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                                                      <button type="button" class="btn btn-primary">Submit</button>
+                                                  </div>
+                                              </div>
+                                          </div>
+                                      </div>
 @endsection

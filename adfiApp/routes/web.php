@@ -12,6 +12,28 @@
 */
 
 // KYC view
+Route::get('/admin/investor-individual-list', function()
+{
+return View::make('admin.pages.investor-individual-list');
+});
+
+Route::get('/admin/investor-institutional-list', function()
+{
+return View::make('admin.pages.investor-institutional-list');
+});
+
+Route::get('/admin/buyer-list', function()
+{
+return View::make('admin.pages.buyer-list');
+});
+
+
+Route::get('/admin/supplier-list', function()
+{
+return View::make('admin.pages.supplier-list');
+});
+
+
 Route::get('/admin/offer-Overdue-with-investor', function()
 {
 return View::make('admin.pages.offer-Overdue-with-investor');
