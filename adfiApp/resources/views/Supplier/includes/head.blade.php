@@ -20,10 +20,24 @@
     <link rel="stylesheet" media="all" href="{{asset('assets/vendors/bower-jvectormap/css/jquery-jvectormap-1.2.2.css')}}" />
     <link rel="stylesheet" href="{{asset('assets/vendors/animate/animate.min.css')}}">
     <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datetimepicker/css/bootstrap-datetimepicker.min.css')}}">
-    
+
     <!--end of page level css-->
     <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datatables/css/dataTables.bootstrap.css')}}" />
    <link href="{{asset('assets/css/pages/tables.css')}}" rel="stylesheet" type="text/css" />
+   <style>
+   .table-bordered {
+    border: 4px solid #458bca;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #458bca;
+}
+
+th {
+    background: #458bca;
+    color: #fff;
+}
+   </style>
 @yield('addheader')
 </head>
 
