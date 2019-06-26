@@ -15,7 +15,20 @@
     <link href="{{asset('assets/css/app.css')}}" rel="stylesheet" type="text/css" />
     <!-- end of global css -->
     <!--page level css -->
+    <style>
+    .table-bordered {
+     border: 4px solid #458bca;
+   }
 
+   .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+     border: 1px solid #458bca;
+   }
+
+   th {
+     background: #458bca;
+     color: #fff;
+   }
+    </style>
 @yield('addheader')
 </head>
 
