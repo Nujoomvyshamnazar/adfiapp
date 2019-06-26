@@ -30,7 +30,7 @@
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
                                   <th class="numeric">Action</th>
-                                            <th class="numeric">Remark</th>
+                                            <th class="numeric">Justification</th>
                                         </tr>
                                     </thead>
                                     <tbody>

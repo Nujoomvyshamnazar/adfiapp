@@ -30,7 +30,7 @@
                                             <th class="numeric">Status</th>
                                             <th class="numeric">View</th>
                                             <th class="numeric">Action</th>
-
+  <th class="numeric">Justification</th>
 
                                         </tr>
                                     </thead>
@@ -63,7 +63,11 @@
 
 </td>
 
+<td>
 
+Reason for Rejection
+
+</td>
                                         </tr>
 
 

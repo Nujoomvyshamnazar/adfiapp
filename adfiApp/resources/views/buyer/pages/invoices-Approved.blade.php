@@ -30,7 +30,7 @@
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
                                   <th class="numeric">Action</th>
-                                            <th class="numeric">Remark</th>
+                                            <th class="numeric">Justification</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -50,7 +50,7 @@
 
 <button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button>
                                             </td>
-                                            <td class="numeric">Followup</td>
+                                            <td class="numeric">Justification</td>
                                         </tr>
 
 
