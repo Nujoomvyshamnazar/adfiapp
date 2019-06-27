@@ -1,5 +1,13 @@
 $(document).ready(function() {
+
+
+
     $('#table1').DataTable( {
+
+      dom: 'Bfrtip',
+      buttons: [
+          'copy', 'csv', 'excel', 'pdf', 'print'
+      ],
         "responsive":true,
         initComplete: function () {
             this.api().columns().every( function () {

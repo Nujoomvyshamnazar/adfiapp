@@ -12,6 +12,15 @@
 */
 
 // KYC view
+
+// all-transactions
+
+Route::get('/admin/all-transactions', function()
+{
+return View::make('admin.pages.all-transactions');
+});
+
+
 Route::get('/admin/investor-individual-list', function()
 {
 return View::make('admin.pages.investor-individual-list');
@@ -327,6 +336,10 @@ Route::get('/admin/investor-wise', function()
 Route::get('/admin/user-profile', function()
 {
     return View::make('admin.pages.userprofile');
+});
+Route::get('/investor/user-profile', function()
+{
+    return View::make('investor.pages.userprofile');
 });
 // admin menu ends
 
