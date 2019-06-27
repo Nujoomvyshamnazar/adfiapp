@@ -55,26 +55,16 @@
                     <li>
                   <a href="#">
                      <i class="livicon" data-name="clip" data-size="18" data-c="#00bc8c" data-hc="#00bc8c" data-loop="true"></i>
-                     <span class="title">All Transactions</span>
+                     <span class="title">Transactions</span>
                      <span class="fa arrow"></span>
                   </a>
                   <ul class="sub-menu">
                      <li>
-                         <a href="{{ url('/investor/date-range') }}">
-                             <i class="fa fa-angle-double-right"></i> Date Range
+                         <a href="{{ url('/investor/all-transactions') }}">
+                             <i class="fa fa-angle-double-right"></i> All Transactions
                          </a>
                      </li>
-                     <li>
-                         <a href="{{ url('/investor/buyer-wise') }}">
-                             <i class="fa fa-angle-double-right"></i> Buyer Wise
-                         </a>
-                     </li>
-
-                     <li>
-                         <a href="{{ url('/investor/supplier-wise') }}">
-                             <i class="fa fa-angle-double-right"></i> Supplier Wise
-                         </a>
-                     </li>
+                
 
                   </ul>
                   </li>
