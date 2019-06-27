@@ -335,10 +335,11 @@
                  </a>
                  <ul class="sub-menu">
                      <li>
-                         <a href="{{ url('/admin/date-range') }}">
-                             <i class="fa fa-angle-double-right"></i> Date Range
+                         <a href="{{ url('/admin/all-transactions') }}">
+                             <i class="fa fa-angle-double-right"></i> All Transactions
                          </a>
                      </li>
+                     <!--
                      <li>
                          <a href="{{ url('/admin/buyer-wise') }}">
                              <i class="fa fa-angle-double-right"></i> Buyer Wise
@@ -349,7 +350,7 @@
                          <a href="{{ url('/admin/investor-wise') }}">
                              <i class="fa fa-angle-double-right"></i> Investor Wise
                          </a>
-                     </li>
+                     </li>-->
 
                  </ul>
              </li>
