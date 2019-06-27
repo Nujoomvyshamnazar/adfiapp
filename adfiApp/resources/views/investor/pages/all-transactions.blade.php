@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout2')
+@extends('investor.layouts.adminlayout2')
 
 @section('title', 'Admin/All Transactions')
 

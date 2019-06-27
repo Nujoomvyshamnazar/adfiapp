@@ -19,9 +19,21 @@ Route::get('/admin/all-transactions', function()
 {
 return View::make('admin.pages.all-transactions');
 });
+Route::get('/buyer/all-transactions', function()
+{
+return View::make('buyer.pages.all-transactions');
+});
+Route::get('/supplier/all-transactions', function()
+{
+return View::make('supplier.pages.all-transactions');
+});
 
+Route::get('/investor/all-transactions', function()
+{
+return View::make('investor.pages.all-transactions');
+});
 
-Route::get('/admin/investor-individual-list', function()
+Route::get('/supplier/investor-individual-list', function()
 {
 return View::make('admin.pages.investor-individual-list');
 });

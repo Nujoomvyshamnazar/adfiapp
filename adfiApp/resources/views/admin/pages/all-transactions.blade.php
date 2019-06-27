@@ -43,12 +43,12 @@
 
                       <div class="table-scrollable">
 
-                              <table class="table table-striped table-bordered" id="table1">
+                              <table class="table table-striped table-bordered table-hover" id="table1">
                               <thead>
 
 
                                   <tr>
-                                    <th scope="col" style="width:450px !important">Invoice No</th>
+                                    <th >Invoice No</th>
                                     <th>Transaction ID</th>
                                     <th class="numeric">PO reference</th>
                                     <th class="numeric">Buyer</th>
@@ -60,7 +60,7 @@
                                     <th class="numeric">Due Date</th>
                                     <th class="numeric">Status</th>
                                     <th class="numeric">Remark</th>
-
+  <th class="numeric">Action</th>
                                   </tr>
                               </thead>
                               <tbody>
@@ -77,6 +77,7 @@
                                   <td>20-06-2019</td>
                                 <td>Buyer Approved</td>
                                   <td>No Remarks</td>
+                                  <td><button type="button" class="btn btn-info btn_sizes">View Invoice</button></td>
 
                                 </tr>
 
