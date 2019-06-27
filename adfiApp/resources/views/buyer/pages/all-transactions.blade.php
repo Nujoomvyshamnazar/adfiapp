@@ -53,7 +53,8 @@
                                     <th class="numeric">PO reference</th>
 
                                     <th class="numeric">Supplier</th>
-
+                                    <th class="numeric">investor-individual</th>
+                                    <th class="numeric">investor-institutional</th>
                                     <th class="numeric">Invoice Amount</th>
 
                                     <th class="numeric">Due Date</th>
@@ -68,7 +69,7 @@
                                   <td>4vfvc55vf</td>
                                   <td>7785474</td>
                                 <td>Dell</td>
-
+<td>Nil</td><td>Nil</td>
                                   <td>100000 AED</td>
 
                                   <td>20-06-2019</td>
@@ -85,7 +86,7 @@
                               <th class="numeric">PO reference</th>
 
                               <th class="numeric">Supplier</th>
-
+  <th class="numeric">Invstor</th>  <th class="numeric">Investor</th>
                               <th class="numeric">Invoice Amount</th>
 
                               <th class="numeric">Due Date</th>
@@ -123,7 +124,7 @@
 <!-- end of global js -->
 <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/jquery.dataTables.js')}}"></script>
 <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.bootstrap.js')}}"></script>
-<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.responsive.js')}}"></script>
+
 
 <script type="text/javascript" src="{{asset('assets/vendors/select2/js/select2.js')}}"></script>
 
