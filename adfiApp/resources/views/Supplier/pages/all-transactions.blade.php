@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout2')
+@extends('supplier.layouts.adminlayout2')
 
 @section('title', 'Admin/All Transactions')
 
@@ -43,20 +43,18 @@
 
                       <div class="table-scrollable">
 
-                              <table class="table table-striped table-bordered table-hover" id="table1">
+                              <table class="table table-striped table-bordered" id="table1">
                               <thead>
 
 
                                   <tr>
-                                    <th >Invoice No</th>
+                                    <th scope="col" style="width:450px !important">Invoice No</th>
                                     <th>Transaction ID</th>
                                     <th class="numeric">PO reference</th>
                                     <th class="numeric">Buyer</th>
-                                    <th class="numeric">Supplier</th>
-                                    <th class="numeric">investor-individual</th>
-                                    <th class="numeric">investor-institutional</th>
+
                                     <th class="numeric">Invoice Amount</th>
-                                    <th class="numeric">Discount Amount</th>
+
                                     <th class="numeric">Due Date</th>
                                     <th class="numeric">Status</th>
                                     <th class="numeric">Remark</th>
@@ -69,33 +67,29 @@
                                   <td>4vfvc55vf</td>
                                   <td>7785474</td>
                                 <td>Dell</td>
-                                  <td>Intel</td>
-                                  <td>Mashrik Bank</td>
-                                  <td>Nil</td>
-                                  <td>100000 AED</td>
-                                  <td>900000 AED</td>
+
+<td>100000 AED</td>
+
+
                                   <td>20-06-2019</td>
                                 <td>Buyer Approved</td>
                                   <td>No Remarks</td>
-                                  <td><button type="button" class="btn btn-info btn_sizes">View Invoice</button></td>
-
+<td><button type="button" class="btn btn-info btn_sizes">View Invoice</button></td>
                                 </tr>
 
                               </tbody>
                               <tfoot>
                             <tr>
-                              <th>Invoice No</th>
                               <th>Transaction ID</th>
                               <th class="numeric">PO reference</th>
                               <th class="numeric">Buyer</th>
-                              <th class="numeric">Supplier</th>
-                              <th class="numeric">investor-individual</th>
-                              <th class="numeric">investor-institutional</th>
+
                               <th class="numeric">Invoice Amount</th>
-                              <th class="numeric">Discount Amount</th>
+
                               <th class="numeric">Due Date</th>
                               <th class="numeric">Status</th>
                               <th class="numeric">Remark</th>
+<th class="numeric">Remark</th>
                             </tr>
                         </tfoot>
                           </table>
