@@ -47,25 +47,9 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Submitted">
 
-<span class="label label-sm label-info">Submitted To Admin</span>
-
-                                            </td>
-                                            <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
-<td>No Remarks</td>
-                                        </tr>
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td>
-
-                            <span class="label label-sm label-danger">Admin Rejected</span>
+Submitted To Admin
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -79,25 +63,9 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Rejected">
 
-<span class="label label-sm label-info">Submitted To Buyer</span>
-
-                                            </td>
-                                            <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
-<td>No Remarks</td>
-                                        </tr>
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td>
-
-                                  <span class="label label-sm label-danger">Buyer Rejected</span>
+                       Admin Rejected
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -111,15 +79,14 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Submitted">
 
-                                  <span class="label label-sm label-success">Buyer Approved</span>
+Submitted To Buyer
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
 <td>No Remarks</td>
                                         </tr>
-
                                         <tr>
                                             <td>INV20002 </td>
                                             <td>235612</td>
@@ -128,9 +95,25 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Rejected">
 
-                                  <span class="label label-sm label-warning">Offer Pending</span>
+                                  Buyer Rejected
+
+                                            </td>
+                                            <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
+<td>No Remarks</td>
+                                        </tr>
+                                        <tr>
+                                            <td>INV20002 </td>
+                                            <td>235612</td>
+                                            <td>PO 1321</td>
+                                            <td>DELL</td>
+                                            <td class="numeric">INTEL</td>
+                                            <td class="numeric">$10000</td>
+                                            <td class="numeric">30/11/2019</td>
+                                            <td class="Approved">
+
+                                  Buyer Approved
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -145,9 +128,9 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Pending">
 
-                                  <span class="label label-sm label-info">Offer Submitted</span>
+                                  Offer Pending
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -162,9 +145,26 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Submitted">
 
-                                  <span class="label label-sm label-success">Paid</span>
+                                  Offer Submitted
+
+                                            </td>
+                                            <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
+<td>No Remarks</td>
+                                        </tr>
+
+                                        <tr>
+                                            <td>INV20002 </td>
+                                            <td>235612</td>
+                                            <td>PO 1321</td>
+                                            <td>DELL</td>
+                                            <td class="numeric">INTEL</td>
+                                            <td class="numeric">$10000</td>
+                                            <td class="numeric">30/11/2019</td>
+                                            <td class="Paid">
+
+                                  Paid
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -178,9 +178,9 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Returned">
 
-                                  <span class="label label-sm label-danger">Buyer Returned</span>
+                                Buyer Returned
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>
@@ -193,9 +193,9 @@
                                             <td class="numeric">INTEL</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
+                                            <td class="Paid">
 
-                                  <span class="label label-sm label-success">Investor Paid</span>
+                            Investor Paid
 
                                             </td>
                                             <td class="numeric"><button type="button" data-toggle="modal" data-href="#stack3" href="#stack3" class="btn btn-info btn_sizes">View</button></td>

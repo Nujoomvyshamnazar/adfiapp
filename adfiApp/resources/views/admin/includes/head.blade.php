@@ -25,6 +25,43 @@
     <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datatables/css/dataTables.bootstrap.css')}}" />
    <link href="{{asset('assets/css/pages/tables.css')}}" rel="stylesheet" type="text/css" />
    <style>
+   .Submitted {
+    background:#67C5DF;
+    color:#fff;
+    font-weight: bold;
+   }
+   .Pending {
+    background:#F89A14;
+    color:#fff;
+    font-weight: bold;
+   }
+
+   .Paid {
+
+     background:#418BCa;
+     color:#fff;
+     font-weight: bold;
+   }
+   .Approved {
+    background:#01BC8C;
+    color:#fff;
+    font-weight: bold;
+   }
+
+   .Rejected{
+
+    background:#EF6F6C;
+    color:#fff;
+    font-weight: bold;
+   }
+
+   .Returned{
+
+    background:#EF6F6C;
+    color:#fff;
+    font-weight: bold;
+   }
+
    .table-bordered {
     border: 4px solid #458bca;
 }
