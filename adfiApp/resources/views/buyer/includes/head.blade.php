@@ -28,7 +28,42 @@
    .table-bordered {
     border: 4px solid #458bca;
 }
+.Submitted {
+ background:#67C5DF;
+ color:#fff;
+ font-weight: bold;
+}
+.Pending {
+ background:#F89A14;
+ color:#fff;
+ font-weight: bold;
+}
 
+.Paid {
+
+  background:#418BCa;
+  color:#fff;
+  font-weight: bold;
+}
+.Approved {
+ background:#01BC8C;
+ color:#fff;
+ font-weight: bold;
+}
+
+.Rejected{
+
+ background:#EF6F6C;
+ color:#fff;
+ font-weight: bold;
+}
+
+.Returned{
+
+ background:#EF6F6C;
+ color:#fff;
+ font-weight: bold;
+}
 .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
     border: 1px solid #458bca;
 }
