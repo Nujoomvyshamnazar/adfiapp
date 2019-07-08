@@ -19,6 +19,17 @@ Route::get('/admin/all-transactions', function()
 {
 return View::make('admin.pages.all-transactions');
 });
+
+Route::get('/supplier/invoice-print-pdf', function()
+{
+return View::make('supplier.pages.view-invoice-pdf');
+});
+
+Route::get('/supplier/kyc-print-pdf', function()
+{
+return View::make('supplier.pages.supplier_kyc_view_pdf');
+});
+
 Route::get('/buyer/all-transactions', function()
 {
 return View::make('buyer.pages.all-transactions');
