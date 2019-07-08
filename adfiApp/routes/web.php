@@ -15,6 +15,13 @@
 
 // all-transactions
 
+
+
+Route::get('/buyer/buyer-kyc-view-pdf', function()
+{
+return View::make('buyer.pages.buyer_kyc_view_pdf');
+});
+
 Route::get('/admin/all-transactions', function()
 {
 return View::make('admin.pages.all-transactions');
