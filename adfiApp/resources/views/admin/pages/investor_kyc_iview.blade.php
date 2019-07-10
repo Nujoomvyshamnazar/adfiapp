@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout')
+@extends('investor.layouts.adminlayout2')
 
 @section('title', 'Admin / View Investor KYC Details')
 
@@ -6,386 +6,378 @@
 
 @section('content')
 
-<section class="content paddingleft_right15">
-     <div class="row">
-         <div class="col-md-12">
-             <div class="panel panel-success">
 
-                 <div class="panel-body" style="border:1px solid #ccc;padding:0;margin:0;">
-                 <div class="panel-heading" style="border-bottom: 1px solid #000;">
-           <h3 class="panel-title"><i class="livicon" data-name="money" data-size="14" data-loop="true" data-c="#fff" data-hc="#fff"></i> InvestorName <b>KYC Details</b></h3>
-                            <!--                    <div class="pull-right pan_colors">
-                                                  <ul class="list-inline colors">
-                                                      <li class="bg-default"></li>
-                                                      <li class="bg-primary"></li>
-                                                      <li class="bg-success"></li>
-                                                      <li class="bg-warning"></li>
-                                                      <li class="bg-danger"> </li>
-                                                      <li class="bg-info"></li>
-                                                  </ul>
-                                              </div>-->
-                                          </div>
 
-<div class="row" style="padding: 5px;">
-      <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-        <div class="form-group">
-<h3>Personal Details:</h3>
-</div>
-</div>
-</div>
-
-                       <div class="row" style="padding: 5px;">
-
-                                                                        <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                          <div class="form-group">
-                                                                              <label class="col-sm-4 control-label">First Name:</label>
-
-                                                                              Value
-
-                                                                          </div>
-                                                                        </div>
-                                                                        <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                                              <label  class="col-sm-4 control-label">Last Name: </label>
-
-                                                                              Value
-
-
-                                                                        </div>
-
-
-
-                                                                    </div>
-
-                          <div class="row" style="padding: 5px;">
-
-                                                        <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                          <div class="form-group">
-                                                              <label class="col-sm-4 control-label">Date of Birth:</label>
-
-                                                              Value
-
-                                                          </div>
-                                                        </div>
-                                                        <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                              <label  class="col-sm-4 control-label">Gender: </label>
-
-                                                              Value
-
-
-                                                        </div>
-
-
-
-                                                    </div>
-
-
-                                                    <div class="row" style="padding: 5px;">
-
-                                                                                  <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                    <div class="form-group">
-                                                                                        <label class="col-sm-4 control-label"> Nationality:</label>
-
-                                                                                        Value
-
-                                                                                    </div>
-                                                                                  </div>
-                                                                                  <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                                                        <label  class="col-sm-4 control-label">Residency Status: </label>
-
-                                                                                        Value
-
-
-                                                                                  </div>
-
-
-
-                                                                              </div>
-
-
-
-                                                                              <div class="row" style="padding: 5px;">
-                                                                                    <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                      <div class="form-group">
-                                                                              <h3>      Identity Details:  </h3>
-                                                                                        </div>
-                                                                                        </div>
-                                                                                        </div>
-
-
-
-                                                                                        <div class="row" style="padding: 5px;">
-
-                                                                                                                      <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                        <div class="form-group">
-                                                                                                                            <label class="col-sm-4 control-label">ID Type: </label>
-
-                                                                                                                            Value
-
-                                                                                                                        </div>
-                                                                                                                      </div>
-                                                                                                                      <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                                                                                            <label  class="col-sm-4 control-label">ID No: </label>
-
-                                                                                                                            Value
-
-
-                                                                                                                      </div>
-
-
-
-                                                                                                                  </div>
-
-                                                                                                                  <div class="row" style="padding: 5px;">
-
-                                                                                                                  <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                  <div class="form-group">
-                                                                                                                  <label class="col-sm-4 control-label">Date of Issuance: </label>
-
-                                                                                                                    Value
-
-                                                                                                                  </div>
-                                                                                                                  </div>
-                                                                                                                  <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                                                                                    <label  class="col-sm-4 control-label">Date of Expiry: </label>
-
-                                                                                                                    Value
-
-
-                                                                                                                    </div>
-                                                                                                                    </div>
-
-                                                                                                                                            <div class="row" style="padding: 5px;">
-
-                                                                                                                                                                          <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                                                                            <div class="form-group">
-                                                                                                                                                                                <label class="col-sm-4 control-label">Issuing Authority: </label>
-
-                                                                                                                                                                                Value
-
-                                                                                                                                                                            </div>
-                                                                                                                                                                          </div>
-
-
-
-
-                                                                                                                                                                      </div>
-
-                                                                                                                        <div class="row" style="padding: 5px;">
-                                                                                                                        <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                        <div class="form-group">
-                                                                                                                        <h3>Source of Wealth:</h3>
-                                                                                                                        </div>
-                                                                                                                        </div>
-                                                                                                                        </div>
-
-
-                                                                                                                        <div class="row" style="padding: 5px;">
-
-                                                                                                                                                      <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                                                        <div class="form-group">
-                                                                                                                                                            <label class="col-sm-4 control-label">Annual Income:  </label>
-
-                                                                                                                                                            Value
-
-                                                                                                                                                        </div>
-                                                                                                                                                      </div>
-                                                                                                                                                      <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                                                                                                                                            <label  class="col-sm-4 control-label">Income Source: </label>
-
-                                                                                                                                                            Value
-
-
-                                                                                                                                                      </div>
-
-
-
-                                                                                                                                                  </div>
-
-
-                                                                                                                                                  <div class="row" style="padding: 5px;">
-
-                                                                                                                                                                                <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                                                                                                                                                  <div class="form-group">
-                                                                                                                                                                                      <label class="col-sm-5 control-label">Estimated investment corpus or ADFI:  </label>
-
-                                                                                                                                                                                      Value
-
-                                                                                                                                                                                  </div>
-                                                                                                                                                                                </div>
-
-
-
-
-                                                                                                                                                                            </div>
-
-
-                                                                                                                                                                            <div class="row" style="padding: 5px;">
-                                                                                                                                                                            <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                                                                                                                            <div class="form-group">
-                                                                                                                                                                            <h3>Activity Profile:</h3>
-                                                                                                                                                                            </div>
-                                                                                                                                                                            </div>
-                                                                                                                                                                            </div>
-
-                                                                                                                                                                            <div class="row" style="padding: 5px;">
-
-                                                                                                                                                                              <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                                                                                                                                                <div class="form-group">
-                                                                                                                                                                                <label class="col-sm-5 control-label">Buyer Invoices preferred:  </label>
-
-                                                                                                                                                                                Value
-
-                                                                                                                                                                              </div>
-
-
-                                                                                                                                                                            <div class="form-group">
-                                                                                                                                                                            <label class="col-sm-5 control-label">Preferred Investment tenure:  </label>
-
-                                                                                                                                                                            Value
-
-                                                                                                                                                                            </div>
-
-
-                                                                                                                                                                            <div class="form-group">
-                                                                                                                                                                            <label class="col-sm-5 control-label">Maximum investment /invoice:  </label>
-
-                                                                                                                                                                              Value
-
-                                                                                                                                                                              </div>
-
-
-                                                                                                                                                                                                              <div class="form-group">
-                                                                                                                                                                                                                  <label class="col-sm-5 control-label">Maximum Investment/ month/Half yearly/Annually:  </label>
-
-                                                                                                                                                                                                                  Value
-
-                                                                                                                                                                                                              </div>
-
-                                                                                                                                                                                                      </div></div>
-
-        <div class="row" style="padding: 5px;">
-          <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-          <div class="form-group">
-          <h3>Bank Details:</h3>
-          </div>
-          </div>
-      </div>
-      <div class="row" style="padding: 5px;">
-
-                                    <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                      <div class="form-group">
-                                          <label class="col-sm-5 control-label">Bank IBAN Number:  </label>
-
-                                          Value
-
-                                      </div>
-                                    </div>
-                                    <div class="col-md-6 col-xs-6" style="padding-right:0">
-
-                                          <label  class="col-sm-5 control-label">Bank Name : </label>
-
-                                          Value
-
-
-                                    </div>
-
-
-
+<section class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- BEGIN SAMPLE TABLE PORTLET-->
+                        <div class="portlet box primary">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> InvestorName KYC Details
                                 </div>
-
-
-                                <div class="row" style="padding: 5px;">
-
-                                                              <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                <div class="form-group">
-                                                                    <label class="col-sm-5 control-label">Branch:  </label>
-
-                                                                    Value
-
-                                                                </div>
-                                                              </div>
-
-
-                                                              <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                                <div class="form-group">
-                                                                    <label class="col-sm-5 control-label">Type of account:  </label>
-
-                                                                    Value
-
-                                                                </div>
-                                                              </div>
-
-                                                          </div>
+                            </div>
+                            <div class="portlet-body flip-scroll">
 
 
 
-                                                          <div class="row" style="padding: 5px;">
-                                                            <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                            <div class="form-group">
-                                                            <h3>Attachments:</h3>
-                                                            </div>
-                                                            </div>
-                                                        </div>
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
+<h3>Entity Profiling:</h3>
+</tr>
+<tr>
+<td><label class="control-label">Entity Name:</label></td>
+<td>Value</td>
+<td><label class="control-label">Entity Type:</label></td>
+<td>Value</td>
+</tr>
 
-                                                        <div class="row" style="padding: 5px;">
-
-                                                        <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                        <div class="form-group">
-                                                        <label class="col-sm-5 control-label">Passport Copies with Visas:</label>
-                                                    <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                      </div>
-                                                      </div>
-
-                                                      <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                      <div class="form-group">
-                                                      <label class="col-sm-5 control-label">Local ID copy:</label>
-                                                        <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                    </div>
-                                                    </div>
-
-                                                    <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                    <div class="form-group">
-                                                    <label class="col-sm-5 control-label">Cancelled bank account cheque copy for validating the bank account details :</label>
-                                                      <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                  </div>
-                                                  </div>
-                                                      </div>
-
-                     <div style="background-color: #eee;padding:15px;margin-top:20px;" id="footer-bg">
+<tr>
+<td><label class="control-label">Nature of Business:</label></td>
+<td>Value</td>
+<td><label class="control-label">Industry:</label></td>
+<td>Value</td>
+</tr>
 
 
-                         <hr>
-
-                         <div style="margin:10px 20px;text-align:center;" class="btn-section">
-                             <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
-                                 <span style="color:#fff;" onclick="javascript:window.print();">
-                                 <i class="livicon" data-name="printer" data-size="16" data-loop="true"
-                                    data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
-                                 Print
-                             </span>
-                             </button>
+<tr>
+<td><label class="control-label">Incorporation date:</label></td>
+<td>Value</td>
+<td><label class="control-label">Country of Operations:</label></td>
+<td>Value</td>
+</tr>
 
 
-                             <button type="button" class="btn btn-primary btn_sizes">       <i class="livicon" data-name="check" data-size="16" data-loop="true"
-                                       data-c="#fff" data-hc="#fff" style="position:relative;top:3px;"></i>Approve</button>
-<button type="button" class="btn btn-danger btn_sizes"> <i class="livicon" data-name="remove" data-size="16" data-loop="true"
-          data-c="#fff" data-hc="#fff" style="position:relative;top:3px;"></i>Reject</button>
+<tr>
+<td><label class="control-label">Country of Head office:</label></td>
+<td>Value</td>
+<td><label class="control-label">Company ID Type:</label></td>
+<td>Value</td>
+</tr>
 
-                         </div>
-                     </div>
-                 </div>
-             </div>
+<tr>
+<td><label class="control-label">Company ID Number:</label></td>
+<td>Value</td>
+<td><label class="control-label">Company ID Date of First Issuance:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Company ID Date of Expiry:</label></td>
+<td>Value</td>
+<td><label class="control-label">Name of the Auditor:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Registered Addresss:</label></td>
+<td>Value</td>
+<td><label class="control-label">Mailing Adresss:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Contact Numbers:</label></td>
+<td>Value</td>
+<td><label class="control-label">Sources of Income / Other businesses:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Annual Turnover:</label></td>
+<td>Value</td>
+<td><label class="control-label">Sources of Income /Other businesses:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Group Company Details:</label></td>
+<td>Value</td>
+
+</tr>
+</table>
 
 
-         </div>
-     </div>
- </section>
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
+<h3>Board of Directors and Senior Management :</h3>
+</tr>
+<thead>
+ <tr>
+     <th>Name </th>
+     <th>Age</th>
+     <th>Title</th>
+     <th>Country of residence</th>
+       <th>Years with the establishment</th>
+ </tr>
+</thead>
+<tbody>
+ <tr>
+     <td>value</td>
+       <td>value</td>
+       <td>value</td>
+     <td>value</td>
+     <td>value</td>
+ </tr>
+
+
+</tbody>
+
+ </table>
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Shareholders Information:</h3>
+ </tr>
+ <thead>
+   <tr>
+       <th> Name </th>
+       <th>Nationality</th>
+       <th>Shareholding % </th>
+       <th>Date of Birth</th>
+         <th>Country of birth </th>
+           <th>Passport Number </th>
+           <th>Physical address </th>
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>value</td>
+           <td>value</td>
+           <td>value</td>
+         <td>value</td>
+         <td>value</td>
+         <td>value</td>
+         <td>value</td>
+     </tr>
+
+
+ </tbody>
+
+     </table>
+
+
+     <table class="table table-striped table-bordered" id="inline_edit">
+       <tr>
+       <h3>Beneficial Owner:</h3>
+     </tr>
+     <thead>
+       <tr>
+           <th> Name </th>
+           <th>Nationality</th>
+           <th>Shareholding % </th>
+           <th>Date of Birth</th>
+             <th>Country of birth </th>
+               <th>Passport Number </th>
+               <th>Physical address </th>
+       </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td>value</td>
+               <td>value</td>
+               <td>value</td>
+             <td>value</td>
+             <td>value</td>
+             <td>value</td>
+             <td>value</td>
+         </tr>
+
+
+     </tbody>
+
+         </table>
+
+
+         <table class="table table-striped table-bordered" id="inline_edit">
+           <tr>
+           <h3>Details of major Clients:</h3>
+         </tr>
+         <thead>
+
+             <tr>
+                 <th> Name </th>
+                 <th>Country </th>
+                 <th>Address</th>
+                 <th>Location</th>
+                   <th>Yearly Turnover</th>
+
+
+           </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>value</td>
+                   <td>value</td>
+                   <td>value</td>
+                 <td>value</td>
+                 <td>value</td>
+
+             </tr>
+
+
+         </tbody>
+
+             </table>
+
+             <table class="table table-striped table-bordered" id="inline_edit">
+               <tr>
+               <h3>Details of Major Suppliers:</h3>
+             </tr>
+             <thead>
+
+                 <tr>
+                     <th> Name </th>
+                     <th>Country </th>
+                     <th>Address</th>
+                     <th>Location</th>
+                       <th>Yearly Turnover</th>
+
+
+               </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>value</td>
+                       <td>value</td>
+                       <td>value</td>
+                     <td>value</td>
+                     <td>value</td>
+
+                 </tr>
+
+
+             </tbody>
+
+                 </table>
+
+
+
+
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
+<h3>Activity Profile:</h3>
+</tr>
+<thead>
+
+ <tr>
+     <th>  <h4>Anticipated Monthly activity:</h4></th>
+ <th>  </th>
+</tr>
+ </thead>
+<tr>
+    <td><label class="control-label">Average Value/invoice:</label></td>
+<td> Value</td>
+</tr>
+
+<tr>
+   <td><label class="control-label">Invoices Received/Month:</label></td>
+     <td>Value</td>
+
+</tr>
+<tr>
+  <td><label class="control-label">Average Credit Period/Supplier:</label></td>
+  <td>value</td>
+
+</tr>
+
+
+
+
+<tbody>
+
+
+
+</tbody>
+
+ </table>
+
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Current Banks/ Sources of Finance: </h3>
+ </tr>
+ <thead>
+
+     <tr>
+
+         <th>Bank Particulars with IBAN No:</th>
+         <th>Bank Name:</th>
+         <th>Branch:</th>
+
+
+
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+      
+           <td>value</td>
+           <td>value</td>
+         <td>value</td>
+
+
+     </tr>
+
+
+ </tbody>
+
+     </table>
+
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Attachments:</h3>
+ </tr>
+<tr>
+
+<td><label class="col-sm-5 control-label">Valid Trade License/ Chamber of commerce:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-5 control-label">MOA/AOA with amendments:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-5 control-label">Passport Copies of the Promoters/ Signatories:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-8 control-label">
+Supplier List with contact details:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+
+
+</table>
+
+</section>
+
+<div style="background-color: #eee;padding:15px;" id="footer-bg">
+
+                            <hr>
+
+                            <div style="margin:10px 20px;text-align:center;" class="btn-section">
+                                <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
+                                    <span style="color:#fff;" onclick="javascript:window.print();">
+                                    <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                       data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                    Print
+                                </span>
+                                </button>
+
+                            </div>
+                        </div>
+
+
 @endsection
 @section('addheader')
 <style>.panel-heading {
@@ -401,6 +393,11 @@ display: none;
 
 .dataTables_info{
 display: none;
+}
+
+div.table-responsive > div.dataTables_wrapper > div.row {
+    margin: 0;
+    padding: 0;
 }
 .dataTables_paginate {
 display: none;
