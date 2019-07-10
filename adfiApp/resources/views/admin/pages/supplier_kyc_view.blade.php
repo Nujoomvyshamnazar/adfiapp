@@ -1,4 +1,4 @@
-@extends('admin.layouts.adminlayout')
+@extends('supplier.layouts.adminlayout2')
 
 @section('title', 'Admin / View Supplier KYC Details')
 
@@ -6,488 +6,366 @@
 
 @section('content')
 
-<section class="content paddingleft_right15">
-     <div class="row">
-         <div class="col-md-12">
-             <div class="panel panel-success">
+<section class="content">
+                <div class="row">
+                    <div class="col-md-12">
+                        <!-- BEGIN SAMPLE TABLE PORTLET-->
+                        <div class="portlet box primary">
+                            <div class="portlet-title">
+                                <div class="caption">
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> SupplierName KYC Details
+                                </div>
+                            </div>
+                            <div class="portlet-body flip-scroll">
 
-                 <div class="panel-body" style="border:1px solid #ccc;padding:0;margin:0;">
-                 <div class="panel-heading" style="border-bottom: 1px solid #000;">
-           <h3 class="panel-title"><i class="livicon" data-name="money" data-size="14" data-loop="true" data-c="#fff" data-hc="#fff"></i> SupplierName <b>KYC Details</b></h3>
-                            <!--                    <div class="pull-right pan_colors">
-                                                  <ul class="list-inline colors">
-                                                      <li class="bg-default"></li>
-                                                      <li class="bg-primary"></li>
-                                                      <li class="bg-success"></li>
-                                                      <li class="bg-warning"></li>
-                                                      <li class="bg-danger"> </li>
-                                                      <li class="bg-info"></li>
-                                                  </ul>
-                                              </div>-->
-                                          </div>
 
-<div class="row" style="padding: 5px;">
-      <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-        <div class="form-group">
+
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
 <h3>Entity Profiling:</h3>
-</div>
-</div>
-</div>
+</tr>
+<tr>
+<td><label class="control-label">Entity Name:</label></td>
+<td>Value</td>
+<td><label class="control-label">Entity Type:</label></td>
+<td>Value</td>
+</tr>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Entity Name:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Entity Type: </label>
-Value
-</div>
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Nature of Business:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Industry: </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Nature of Business:</label></td>
+<td>Value</td>
+<td><label class="control-label">Industry:</label></td>
+<td>Value</td>
+</tr>
 
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Incorporation date:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Country of Operations:  </label>
-Value
-</div>
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Country of Head office:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">	Company ID Type: </label>
-Value
-</div>
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Company ID Number:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">	Company ID Date of First Issuance:  </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Incorporation date:</label></td>
+<td>Value</td>
+<td><label class="control-label">Country of Operations:</label></td>
+<td>Value</td>
+</tr>
 
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Company ID Date of Expiry:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Name of the Auditor:   </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Country of Head office:</label></td>
+<td>Value</td>
+<td><label class="control-label">Company ID Type:</label></td>
+<td>Value</td>
+</tr>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Registered Addresss:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Mailing Adresss:   </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Company ID Number:</label></td>
+<td>Value</td>
+<td><label class="control-label">Company ID Date of First Issuance:</label></td>
+<td>Value</td>
+</tr>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Contact Numbers:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Sources of Income / Other businesses:   </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Company ID Date of Expiry:</label></td>
+<td>Value</td>
+<td><label class="control-label">Name of the Auditor:</label></td>
+<td>Value</td>
+</tr>
 
+<tr>
+<td><label class="control-label">Registered Addresss:</label></td>
+<td>Value</td>
+<td><label class="control-label">Mailing Adresss:</label></td>
+<td>Value</td>
+</tr>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Annual Turnover:</label>
-Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-4 control-label">Sources of Income /Other businesses:  </label>
-Value
-</div>
-</div>
+<tr>
+<td><label class="control-label">Contact Numbers:</label></td>
+<td>Value</td>
+<td><label class="control-label">Sources of Income / Other businesses:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Annual Turnover:</label></td>
+<td>Value</td>
+<td><label class="control-label">Sources of Income /Other businesses:</label></td>
+<td>Value</td>
+</tr>
+
+<tr>
+<td><label class="control-label">Group Company Details:</label></td>
+<td>Value</td>
+
+</tr>
+</table>
 
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-4 control-label">Group Company Details:</label>
-Value
-</div>
-</div>
-
-</div>
-
-
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
 <h3>Board of Directors and Senior Management :</h3>
-</div>
-</div>
-</div>
-
-<div class="table-responsive" style="padding-left:25px;padding-right:25px;">
-    <table class="table table-striped table-bordered" id="inline_edit">
-        <thead>
-            <tr>
-                <th>Name </th>
-                <th>Age</th>
-                <th>Title</th>
-                <th>Country of residence</th>
-                  <th>Years with the establishment</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>value</td>
-                  <td>value</td>
-                  <td>value</td>
-                <td>value</td>
-                <td>value</td>
-            </tr>
+</tr>
+<thead>
+ <tr>
+     <th>Name </th>
+     <th>Age</th>
+     <th>Title</th>
+     <th>Country of residence</th>
+       <th>Years with the establishment</th>
+ </tr>
+</thead>
+<tbody>
+ <tr>
+     <td>value</td>
+       <td>value</td>
+       <td>value</td>
+     <td>value</td>
+     <td>value</td>
+ </tr>
 
 
-        </tbody>
-    </table>
-</div>
+</tbody>
+
+ </table>
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Shareholders Information:</h3>
+ </tr>
+ <thead>
+   <tr>
+       <th> Name </th>
+       <th>Nationality</th>
+       <th>Shareholding % </th>
+       <th>Date of Birth</th>
+         <th>Country of birth </th>
+           <th>Passport Number </th>
+           <th>Physical address </th>
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>value</td>
+           <td>value</td>
+           <td>value</td>
+         <td>value</td>
+         <td>value</td>
+         <td>value</td>
+         <td>value</td>
+     </tr>
 
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<h3>Shareholders Information:</h3>
-</div>
-</div>
-</div>
+ </tbody>
 
-<div class="table-responsive" style="padding-left:25px;padding-right:25px;">
-    <table class="table table-striped table-bordered" id="inline_edit">
-        <thead>
-            <tr>
-                <th> Name </th>
-                <th>Nationality</th>
-                <th>Shareholding % </th>
-                <th>Date of Birth</th>
-                  <th>Country of birth </th>
-                    <th>Passport Number </th>
-                    <th>Physical address </th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>value</td>
-                  <td>value</td>
-                  <td>value</td>
-                <td>value</td>
-                <td>value</td>
-                <td>value</td>
-                <td>value</td>
-            </tr>
+     </table>
 
 
-        </tbody>
-    </table>
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<h3>Beneficial Owner:</h3>
-</div>
-</div>
-</div>
-
-
-<div class="table-responsive" style="padding-left:25px;padding-right:25px;">
-    <table class="table table-striped table-bordered" id="inline_edit">
-        <thead>
-            <tr>
-                <th> Name </th>
-                <th>Country </th>
-                <th>Shareholding % </th>
-                <th>Physical Address</th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>value</td>
-                  <td>value</td>
-                  <td>value</td>
-                <td>value</td>
-
-            </tr>
+     <table class="table table-striped table-bordered" id="inline_edit">
+       <tr>
+       <h3>Beneficial Owner:</h3>
+     </tr>
+     <thead>
+       <tr>
+           <th> Name </th>
+           <th>Nationality</th>
+           <th>Shareholding % </th>
+           <th>Date of Birth</th>
+             <th>Country of birth </th>
+               <th>Passport Number </th>
+               <th>Physical address </th>
+       </tr>
+     </thead>
+     <tbody>
+         <tr>
+             <td>value</td>
+               <td>value</td>
+               <td>value</td>
+             <td>value</td>
+             <td>value</td>
+             <td>value</td>
+             <td>value</td>
+         </tr>
 
 
-        </tbody>
-    </table>
-</div>
+     </tbody>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<h3>Details of major Clients:</h3>
-</div>
-</div>
-</div>
-<div class="table-responsive" style="padding-left:25px;padding-right:25px;">
-    <table class="table table-striped table-bordered" id="inline_edit">
-        <thead>
-            <tr>
-                <th> Name </th>
-                <th>Country </th>
-                <th>Address</th>
-                <th>Location</th>
-                  <th>Yearly Turnover</th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>value</td>
-                  <td>value</td>
-                  <td>value</td>
-                <td>value</td>
-  <td>value</td>
-            </tr>
+         </table>
 
 
-        </tbody>
-    </table>
-</div>
+         <table class="table table-striped table-bordered" id="inline_edit">
+           <tr>
+           <h3>Details of major Clients:</h3>
+         </tr>
+         <thead>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<h3>Details of Major Suppliers:</h3>
-</div>
-</div>
-</div>
-
-<div class="table-responsive" style="padding-left:25px;padding-right:25px;">
-    <table class="table table-striped table-bordered" id="inline_edit">
-        <thead>
-            <tr>
-                <th> Name </th>
-                <th>Country </th>
-                <th>Address</th>
-                <th>Location</th>
-                  <th>Yearly Turnover</th>
-
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>value</td>
-                  <td>value</td>
-                  <td>value</td>
-                <td>value</td>
-  <td>value</td>
-            </tr>
+             <tr>
+                 <th> Name </th>
+                 <th>Country </th>
+                 <th>Address</th>
+                 <th>Location</th>
+                   <th>Yearly Turnover</th>
 
 
-        </tbody>
-    </table>
-</div>
+           </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>value</td>
+                   <td>value</td>
+                   <td>value</td>
+                 <td>value</td>
+                 <td>value</td>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
+             </tr>
+
+
+         </tbody>
+
+             </table>
+
+             <table class="table table-striped table-bordered" id="inline_edit">
+               <tr>
+               <h3>Details of Major Suppliers:</h3>
+             </tr>
+             <thead>
+
+                 <tr>
+                     <th> Name </th>
+                     <th>Country </th>
+                     <th>Address</th>
+                     <th>Location</th>
+                       <th>Yearly Turnover</th>
+
+
+               </tr>
+             </thead>
+             <tbody>
+                 <tr>
+                     <td>value</td>
+                       <td>value</td>
+                       <td>value</td>
+                     <td>value</td>
+                     <td>value</td>
+
+                 </tr>
+
+
+             </tbody>
+
+                 </table>
+
+
+
+
+<table class="table table-striped table-bordered" id="inline_edit">
+<tr>
 <h3>Activity Profile:</h3>
-</div>
-</div>
-</div>
+</tr>
+<thead>
 
+ <tr>
+     <th>  <h4>Anticipated Monthly activity:</h4></th>
+ <th> </th>
+</tr>
+ </thead>
+<tr>
+   <td><label class="control-label">Invoices /Buyer   :</label></td>
+     <td>Value</td>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label"><h5><b>Anticipated Monthly activity:</b></h5>  </label>
-</div>
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-6 col-xs-6" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Invoices /Buyer:</label>
+</tr>
+<tr><td><label class="control-label">Invoices Generated/Month:</label></td>
+<td>value</td></tr>
+<tr>
+<td><label class="control-label">Average Credit Period / Buyer</label></td>
+<td>
 Value
-</div>
-</div>
-<div class="col-md-6 col-xs-6" style="padding-right:0">
-<label  class="col-sm-5 control-label"> Invoices Generated/Month:  </label>
-Value
-</div>
-</div>
+</td>
+</tr>
 
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Average Credit Period/Supplier:  </label>
-Value
-</div>
-</div>
-
-</div>
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Current Banks/ Sources of Finance:</label>
-Value
-</div>
-</div>
-
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Bank Particulars with IBAN No:</label>
-Value
-</div>
-</div>
-
-</div>
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Bank Name:</label>
-Value
-</div>
-</div>
-
-</div>
-
-
-<div class="row" style="padding: 5px;">
-<div class="col-md-12 col-xs-12" style="margin-top:5px;">
-<div class="form-group">
-<label class="col-sm-5 control-label">Branch:</label>
-Value
-</div>
-</div>
-
-</div>
+<tbody>
 
 
 
-                                                          <div class="row" style="padding: 5px;">
-                                                            <div class="col-md-6 col-xs-6" style="margin-top:5px;">
-                                                            <div class="form-group">
-                                                            <h3>Attachments:</h3>
-                                                            </div>
-                                                            </div>
-                                                        </div>
+</tbody>
 
-                                                        <div class="row" style="padding: 5px;">
-
-                                                        <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                        <div class="form-group">
-                                                        <label class="col-sm-5 control-label">Valid Trade License/ Chamber of commerce: </label>
-                                                    <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                      </div>
-                                                      </div>
-
-                                                      <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                      <div class="form-group">
-                                                      <label class="col-sm-5 control-label">MOA/AOA with amendments:</label>
-                                                        <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                    </div>
-                                                    </div>
-
-                                                    <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                    <div class="form-group">
-                                                    <label class="col-sm-5 control-label">Passport Copies of the Promoters/ Signatories:</label>
-                                                      <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                  </div>
-                                                  </div>
-
-                                                  <div class="col-md-12 col-xs-12" style="margin-top:5px;">
-                                                  <div class="form-group">
-                                                  <label class="col-sm-5 control-label">Cancelled Cheque image to validate the bank details for each of the banks :</label>
-                                                    <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i>
-                                                </div>
-                                                </div>
-                                                      </div>
-
-                 <div style="background-color: #eee;padding:15px;margin-top:20px;" id="footer-bg">
+ </table>
 
 
-                         <hr>
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Current Banks/ Sources of Finance:</h3>
+ </tr>
+ <thead>
 
-                         <div style="margin:10px 20px;text-align:center;" class="btn-section">
-                             <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
-                                 <span style="color:#fff;" onclick="javascript:window.print();">
-                                 <i class="livicon" data-name="printer" data-size="16" data-loop="true"
-                                    data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
-                                 Print
-                             </span>
-                             </button>
+     <tr>
 
-
-                             <button type="button" class="btn btn-primary btn_sizes">       <i class="livicon" data-name="check" data-size="16" data-loop="true"
-                                       data-c="#fff" data-hc="#fff" style="position:relative;top:3px;"></i>Approve</button>
-<button type="button" class="btn btn-danger btn_sizes"> <i class="livicon" data-name="remove" data-size="16" data-loop="true"
-          data-c="#fff" data-hc="#fff" style="position:relative;top:3px;"></i>Reject</button>
-
-                         </div>
-                     </div>
-                 </div>
-             </div>
+         <th>Bank Particulars with IBAN No: </th>
+         <th>Bank Name:</th>
+         <th>Branch:</th>
+<th>Type of account</th>
 
 
-         </div>
-     </div>
- </section>
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>value</td>
+           <td>value</td>
+           <td>value</td>
+         <td>value</td>
+
+
+     </tr>
+
+
+ </tbody>
+
+     </table>
+
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Attachments:</h3>
+ </tr>
+<tr>
+
+<td><label class="col-sm-5 control-label">Valid Trade License/ Chamber of commerce:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-5 control-label">MOA/AOA with amendments:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-5 control-label">Passport Copies of the Promoters/ Signatories:</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-8 control-label">Cancelled Cheque image to validate the bank details for each of the banks :</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+</table>
+
+</section>
+
+<div style="background-color: #eee;padding:15px;" id="footer-bg">
+
+                            <hr>
+
+                            <div style="margin:10px 20px;text-align:center;" class="btn-section">
+                                <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
+                                    <span style="color:#fff;" onclick="javascript:window.print();">
+                                    <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                       data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                    Print
+                                </span>
+                                </button>
+
+                            </div>
+                        </div>
 @endsection
 @section('addheader')
 <style>.panel-heading {

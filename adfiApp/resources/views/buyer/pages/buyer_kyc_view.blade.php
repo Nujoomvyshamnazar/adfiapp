@@ -300,16 +300,16 @@ Value
 
  <table class="table table-striped table-bordered" id="inline_edit">
    <tr>
-   <h3>Bank Details:</h3>
+   <h3>Current Banks/ Sources of Finance:</h3>
  </tr>
  <thead>
 
      <tr>
-         <th>Current Banks/ Sources of Finance: </th>
+
          <th>Bank Particulars with IBAN No:</th>
          <th>Bank Name:</th>
          <th>Branch:</th>
-
+<th>Type of account</th>
 
 
    </tr>
