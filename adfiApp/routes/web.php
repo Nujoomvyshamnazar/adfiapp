@@ -139,6 +139,12 @@ Route::get('/investor/investor-kyc-iview', function()
     return View::make('investor.pages.investor_kyc_iview');
 });
 
+Route::get('/investor/investor-kyc-iview-pdf', function()
+{
+    return View::make('investor.pages.investor_kyc_iview_pdf');
+});
+
+
 Route::get('/investor/investor-kyc-pview', function()
 {
     return View::make('investor.pages.investor_kyc_pview');
