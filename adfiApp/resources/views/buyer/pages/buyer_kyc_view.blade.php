@@ -288,33 +288,7 @@ Value
 </td>
 </tr>
 
-<tr>
-<td><label class="control-label">Current Banks/ Sources of Finance:</label></td>
-<td>
-Value
-</td>
-</tr>
 
-<tr>
-<td><label class="control-label">Bank Particulars with IBAN No:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Bank Name:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Branch:</label></td>
-<td>
-Value
-</td>
-</tr>
 <tbody>
 
 
@@ -322,6 +296,38 @@ Value
 </tbody>
 
  </table>
+
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+   <tr>
+   <h3>Bank Details:</h3>
+ </tr>
+ <thead>
+
+     <tr>
+         <th>Current Banks/ Sources of Finance: </th>
+         <th>Bank Particulars with IBAN No:</th>
+         <th>Bank Name:</th>
+         <th>Branch:</th>
+
+
+
+   </tr>
+ </thead>
+ <tbody>
+     <tr>
+         <td>value</td>
+           <td>value</td>
+           <td>value</td>
+         <td>value</td>
+
+
+     </tr>
+
+
+ </tbody>
+
+     </table>
 
 
  <table class="table table-striped table-bordered" id="inline_edit">
