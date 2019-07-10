@@ -73,357 +73,365 @@
 <body class="skin-josh">
   <div class="container">
      <div class="row">
-<section class="content">
-                <div class="row">
-                    <div class="col-md-12">
-                        <!-- BEGIN SAMPLE TABLE PORTLET-->
-                        <div class="portlet box primary">
-                            <div class="portlet-title">
-                                <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> BuyerName KYC Details
-                                </div>
-                            </div>
-                            <div class="portlet-body flip-scroll">
+
+       <section class="content">
+                       <div class="row">
+                           <div class="col-md-12">
+                               <!-- BEGIN SAMPLE TABLE PORTLET-->
+                               <div class="portlet box primary">
+                                   <div class="portlet-title">
+                                       <div class="caption">
+                                           <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> BuyerName KYC Details
+                                       </div>
+                                   </div>
+                                   <div class="portlet-body flip-scroll">
 
 
 
-<table class="table table-striped table-bordered" id="inline_edit">
-<tr>
-<h3>Entity Profiling:</h3>
-</tr>
-<tr>
-<td><label class="control-label">Entity Name:</label></td>
-<td>Value</td>
-<td><label class="control-label">Entity Type:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Nature of Business:</label></td>
-<td>Value</td>
-<td><label class="control-label">Industry:</label></td>
-<td>Value</td>
-</tr>
-
-
-<tr>
-<td><label class="control-label">Incorporation date:</label></td>
-<td>Value</td>
-<td><label class="control-label">Country of Operations:</label></td>
-<td>Value</td>
-</tr>
-
-
-<tr>
-<td><label class="control-label">Country of Head office:</label></td>
-<td>Value</td>
-<td><label class="control-label">Company ID Type:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Company ID Number:</label></td>
-<td>Value</td>
-<td><label class="control-label">Company ID Date of First Issuance:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Company ID Date of Expiry:</label></td>
-<td>Value</td>
-<td><label class="control-label">Name of the Auditor:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Registered Addresss:</label></td>
-<td>Value</td>
-<td><label class="control-label">Mailing Adresss:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Contact Numbers:</label></td>
-<td>Value</td>
-<td><label class="control-label">Sources of Income / Other businesses:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Annual Turnover:</label></td>
-<td>Value</td>
-<td><label class="control-label">Sources of Income /Other businesses:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Group Company Details:</label></td>
-<td>Value</td>
-
-</tr>
-</table>
-
-
-<table class="table table-striped table-bordered" id="inline_edit">
-<tr>
-<h3>Board of Directors and Senior Management :</h3>
-</tr>
-<thead>
- <tr>
-     <th>Name </th>
-     <th>Age</th>
-     <th>Title</th>
-     <th>Country of residence</th>
-       <th>Years with the establishment</th>
- </tr>
-</thead>
-<tbody>
- <tr>
-     <td>value</td>
-       <td>value</td>
-       <td>value</td>
-     <td>value</td>
-     <td>value</td>
- </tr>
-
-
-</tbody>
-
- </table>
-
- <table class="table table-striped table-bordered" id="inline_edit">
-   <tr>
-   <h3>Shareholders Information:</h3>
- </tr>
- <thead>
-   <tr>
-       <th> Name </th>
-       <th>Nationality</th>
-       <th>Shareholding % </th>
-       <th>Date of Birth</th>
-         <th>Country of birth </th>
-           <th>Passport Number </th>
-           <th>Physical address </th>
-   </tr>
- </thead>
- <tbody>
-     <tr>
-         <td>value</td>
-           <td>value</td>
-           <td>value</td>
-         <td>value</td>
-         <td>value</td>
-         <td>value</td>
-         <td>value</td>
-     </tr>
-
-
- </tbody>
-
-     </table>
-
-
-     <table class="table table-striped table-bordered" id="inline_edit">
+       <table class="table table-striped table-bordered" id="inline_edit">
        <tr>
-       <h3>Beneficial Owner:</h3>
-     </tr>
-     <thead>
-       <tr>
-           <th> Name </th>
-           <th>Nationality</th>
-           <th>Shareholding % </th>
-           <th>Date of Birth</th>
-             <th>Country of birth </th>
-               <th>Passport Number </th>
-               <th>Physical address </th>
+       <h3>Entity Profiling:</h3>
        </tr>
-     </thead>
-     <tbody>
-         <tr>
-             <td>value</td>
-               <td>value</td>
-               <td>value</td>
-             <td>value</td>
-             <td>value</td>
-             <td>value</td>
-             <td>value</td>
-         </tr>
+       <tr>
+       <td><label class="control-label">Entity Name:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Entity Type:</label></td>
+       <td>Value</td>
+       </tr>
+
+       <tr>
+       <td><label class="control-label">Nature of Business:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Industry:</label></td>
+       <td>Value</td>
+       </tr>
 
 
-     </tbody>
-
-         </table>
-
-
-         <table class="table table-striped table-bordered" id="inline_edit">
-           <tr>
-           <h3>Details of major Clients:</h3>
-         </tr>
-         <thead>
-
-             <tr>
-                 <th> Name </th>
-                 <th>Country </th>
-                 <th>Address</th>
-                 <th>Location</th>
-                   <th>Yearly Turnover</th>
+       <tr>
+       <td><label class="control-label">Incorporation date:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Country of Operations:</label></td>
+       <td>Value</td>
+       </tr>
 
 
-           </tr>
-         </thead>
-         <tbody>
-             <tr>
-                 <td>value</td>
-                   <td>value</td>
-                   <td>value</td>
-                 <td>value</td>
-                 <td>value</td>
+       <tr>
+       <td><label class="control-label">Country of Head office:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Company ID Type:</label></td>
+       <td>Value</td>
+       </tr>
 
-             </tr>
+       <tr>
+       <td><label class="control-label">Company ID Number:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Company ID Date of First Issuance:</label></td>
+       <td>Value</td>
+       </tr>
 
+       <tr>
+       <td><label class="control-label">Company ID Date of Expiry:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Name of the Auditor:</label></td>
+       <td>Value</td>
+       </tr>
 
-         </tbody>
+       <tr>
+       <td><label class="control-label">Registered Addresss:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Mailing Adresss:</label></td>
+       <td>Value</td>
+       </tr>
 
-             </table>
+       <tr>
+       <td><label class="control-label">Contact Numbers:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Sources of Income / Other businesses:</label></td>
+       <td>Value</td>
+       </tr>
 
-             <table class="table table-striped table-bordered" id="inline_edit">
-               <tr>
-               <h3>Details of Major Suppliers:</h3>
-             </tr>
-             <thead>
+       <tr>
+       <td><label class="control-label">Annual Turnover:</label></td>
+       <td>Value</td>
+       <td><label class="control-label">Sources of Income /Other businesses:</label></td>
+       <td>Value</td>
+       </tr>
 
-                 <tr>
-                     <th> Name </th>
-                     <th>Country </th>
-                     <th>Address</th>
-                     <th>Location</th>
-                       <th>Yearly Turnover</th>
+       <tr>
+       <td><label class="control-label">Group Company Details:</label></td>
+       <td>Value</td>
 
-
-               </tr>
-             </thead>
-             <tbody>
-                 <tr>
-                     <td>value</td>
-                       <td>value</td>
-                       <td>value</td>
-                     <td>value</td>
-                     <td>value</td>
-
-                 </tr>
-
-
-             </tbody>
-
-                 </table>
-
-
-
-
-<table class="table table-striped table-bordered" id="inline_edit">
-<tr>
-<h3>Activity Profile:</h3>
-</tr>
-<thead>
-
- <tr>
-     <th>  <h4>Anticipated Monthly activity:</h4></th>
- <th>  </th>
-</tr>
- </thead>
-<tr>
-    <td><label class="control-label"> Total Number of Suppliers</label></td>
-<td> Value</td>
-</tr>
-
-<tr>
-   <td><label class="control-label">Average Value/invoice:</label></td>
-     <td>Value</td>
-
-</tr>
-<tr>
-  <td><label class="control-label">Invoices Received/Month:</label></td>
-  <td>value</td>
-
-</tr>
-
-<tr>
-<td><label class="control-label">Average Credit Period/Supplier:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Current Banks/ Sources of Finance:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Bank Particulars with IBAN No:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Bank Name:</label></td>
-<td>
-Value
-</td>
-</tr>
-
-<tr>
-<td><label class="control-label">Branch:</label></td>
-<td>
-Value
-</td>
-</tr>
-<tbody>
+       </tr>
+       </table>
 
 
-
-</tbody>
-
- </table>
-
-
- <table class="table table-striped table-bordered" id="inline_edit">
-   <tr>
-   <h3>Attachments:</h3>
- </tr>
-<tr>
-
-<td><label class="col-sm-5 control-label">Valid Trade License/ Chamber of commerce:</label></td>
-<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
-</tr>
-
-<tr>
-
-<td><label class="col-sm-5 control-label">MOA/AOA with amendments:</label></td>
-<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
-</tr>
-
-<tr>
-
-<td><label class="col-sm-5 control-label">Passport Copies of the Promoters/ Signatories:</label></td>
-<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
-</tr>
-
-<tr>
-
-<td><label class="col-sm-8 control-label">
-Supplier List with contact details:</label></td>
-<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
-</tr>
+       <table class="table table-striped table-bordered" id="inline_edit">
+       <tr>
+       <h3>Board of Directors and Senior Management :</h3>
+       </tr>
+       <thead>
+        <tr>
+            <th>Name </th>
+            <th>Age</th>
+            <th>Title</th>
+            <th>Country of residence</th>
+              <th>Years with the establishment</th>
+        </tr>
+       </thead>
+       <tbody>
+        <tr>
+            <td>value</td>
+              <td>value</td>
+              <td>value</td>
+            <td>value</td>
+            <td>value</td>
+        </tr>
 
 
+       </tbody>
 
-</table>
+        </table>
 
-</section>
+        <table class="table table-striped table-bordered" id="inline_edit">
+          <tr>
+          <h3>Shareholders Information:</h3>
+        </tr>
+        <thead>
+          <tr>
+              <th> Name </th>
+              <th>Nationality</th>
+              <th>Shareholding % </th>
+              <th>Date of Birth</th>
+                <th>Country of birth </th>
+                  <th>Passport Number </th>
+                  <th>Physical address </th>
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>value</td>
+                  <td>value</td>
+                  <td>value</td>
+                <td>value</td>
+                <td>value</td>
+                <td>value</td>
+                <td>value</td>
+            </tr>
+
+
+        </tbody>
+
+            </table>
+
+
+            <table class="table table-striped table-bordered" id="inline_edit">
+              <tr>
+              <h3>Beneficial Owner:</h3>
+            </tr>
+            <thead>
+              <tr>
+                  <th> Name </th>
+                  <th>Nationality</th>
+                  <th>Shareholding % </th>
+                  <th>Date of Birth</th>
+                    <th>Country of birth </th>
+                      <th>Passport Number </th>
+                      <th>Physical address </th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>value</td>
+                      <td>value</td>
+                      <td>value</td>
+                    <td>value</td>
+                    <td>value</td>
+                    <td>value</td>
+                    <td>value</td>
+                </tr>
+
+
+            </tbody>
+
+                </table>
+
+
+                <table class="table table-striped table-bordered" id="inline_edit">
+                  <tr>
+                  <h3>Details of major Clients:</h3>
+                </tr>
+                <thead>
+
+                    <tr>
+                        <th> Name </th>
+                        <th>Country </th>
+                        <th>Address</th>
+                        <th>Location</th>
+                          <th>Yearly Turnover</th>
+
+
+                  </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>value</td>
+                          <td>value</td>
+                          <td>value</td>
+                        <td>value</td>
+                        <td>value</td>
+
+                    </tr>
+
+
+                </tbody>
+
+                    </table>
+
+                    <table class="table table-striped table-bordered" id="inline_edit">
+                      <tr>
+                      <h3>Details of Major Suppliers:</h3>
+                    </tr>
+                    <thead>
+
+                        <tr>
+                            <th> Name </th>
+                            <th>Country </th>
+                            <th>Address</th>
+                            <th>Location</th>
+                              <th>Yearly Turnover</th>
+
+
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>value</td>
+                              <td>value</td>
+                              <td>value</td>
+                            <td>value</td>
+                            <td>value</td>
+
+                        </tr>
+
+
+                    </tbody>
+
+                        </table>
+
+
+
+
+       <table class="table table-striped table-bordered" id="inline_edit">
+       <tr>
+       <h3>Activity Profile:</h3>
+       </tr>
+       <thead>
+
+        <tr>
+            <th>  <h4>Anticipated Monthly activity:</h4></th>
+        <th>  </th>
+       </tr>
+        </thead>
+       <tr>
+           <td><label class="control-label"> Total Number of Suppliers</label></td>
+       <td> Value</td>
+       </tr>
+
+       <tr>
+          <td><label class="control-label">Average Value/invoice:</label></td>
+            <td>Value</td>
+
+       </tr>
+       <tr>
+         <td><label class="control-label">Invoices Received/Month:</label></td>
+         <td>value</td>
+
+       </tr>
+
+       <tr>
+       <td><label class="control-label">Average Credit Period/Supplier:</label></td>
+       <td>
+       Value
+       </td>
+       </tr>
+
+
+       <tbody>
+
+
+
+       </tbody>
+
+        </table>
+
+
+        <table class="table table-striped table-bordered" id="inline_edit">
+          <tr>
+          <h3>Bank Details:</h3>
+        </tr>
+        <thead>
+
+            <tr>
+                <th>Current Banks/ Sources of Finance: </th>
+                <th>Bank Particulars with IBAN No:</th>
+                <th>Bank Name:</th>
+                <th>Branch:</th>
+
+
+
+          </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>value</td>
+                  <td>value</td>
+                  <td>value</td>
+                <td>value</td>
+
+
+            </tr>
+
+
+        </tbody>
+
+            </table>
+
+
+        <table class="table table-striped table-bordered" id="inline_edit">
+          <tr>
+          <h3>Attachments:</h3>
+        </tr>
+       <tr>
+
+       <td><label class="col-sm-5 control-label">Valid Trade License/ Chamber of commerce:</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+       <tr>
+
+       <td><label class="col-sm-5 control-label">MOA/AOA with amendments:</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+       <tr>
+
+       <td><label class="col-sm-5 control-label">Passport Copies of the Promoters/ Signatories:</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+       <tr>
+
+       <td><label class="col-sm-8 control-label">
+       Supplier List with contact details:</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+
+
+       </table>
+
+       </section>
+
 
 </div>
 </div>
