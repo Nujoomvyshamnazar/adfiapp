@@ -1,13 +1,78 @@
-@extends('investor.layouts.adminlayout2')
+<!DOCTYPE html>
+<html>
 
-@section('title', 'Admin / View Investor KYC Details')
+<head>
+    <meta charset="UTF-8">
+    <title>Adfi Admin Panel</title>
+    <meta content='width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no' name='viewport'>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <!-- global css -->
+    <link href="{{asset('assets/css/app.css')}}" rel="stylesheet" type="text/css" />
+    <!-- end of global css -->
+    <!--page level css -->
+    <link href="{{asset('assets/vendors/fullcalendar/css/fullcalendar.css')}}" rel="stylesheet" type="text/css" />
+    <link href="{{asset('assets/css/pages/calendar_custom.css')}}" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" media="all" href="{{asset('assets/vendors/bower-jvectormap/css/jquery-jvectormap-1.2.2.css')}}" />
+    <link rel="stylesheet" href="{{asset('assets/vendors/animate/animate.min.css')}}">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datetimepicker/css/bootstrap-datetimepicker.min.css')}}">
 
-@section('maintitle', 'View Investor KYC Details')
+    <!--end of page level css-->
+    <link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datatables/css/dataTables.bootstrap.css')}}" />
+   <link href="{{asset('assets/css/pages/tables.css')}}" rel="stylesheet" type="text/css" />
+   <style>
 
-@section('content')
+
+.Submitted {
+ background:#67C5DF;
+ color:#fff;
+ font-weight: bold;
+}
+.Pending {
+ background:#F89A14;
+ color:#fff;
+ font-weight: bold;
+}
+
+.Paid {
+
+  background:#418BCa;
+  color:#fff;
+  font-weight: bold;
+}
+.Approved {
+ background:#01BC8C;
+ color:#fff;
+ font-weight: bold;
+}
+
+.Rejected{
+
+ background:#EF6F6C;
+ color:#fff;
+ font-weight: bold;
+}
+
+.Returned{
+
+ background:#EF6F6C;
+ color:#fff;
+ font-weight: bold;
+}
 
 
 
+   </style>
+
+</head>
+
+<body class="skin-josh">
+  <div class="container">
+     <div class="row">
 <section class="content">
                 <div class="row">
                     <div class="col-md-12">
@@ -15,7 +80,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> InvestorName KYC Details
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>InvestorName KYC Details
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -361,56 +426,46 @@ Supplier List with contact details:</label></td>
 
 </section>
 
-<div style="background-color: #eee;padding:15px;" id="footer-bg">
-
-                            <hr>
-
-                            <div style="margin:10px 20px;text-align:center;" class="btn-section">
-                                <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
-                                    <span style="color:#fff;" onclick="javascript:window.print();">
-                                    <i class="livicon" data-name="printer" data-size="16" data-loop="true"
-                                       data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
-                                    Print
-                                </span>
-                                </button>
-
-                            </div>
-                        </div>
 
 
-@endsection
-@section('addheader')
-<style>.panel-heading {
-    background: #458bca;
-    color: #fff;
-}
-.dataTables_filter {
-display: none;
-}
-.dataTables_length{
-display: none;
-}
+</div>
+</div>
+<a id="back-to-top" href="#" class="btn btn-primary btn-lg back-to-top" role="button" title="Return to top" data-toggle="tooltip" data-placement="left">
+       <i class="livicon" data-name="plane-up" data-size="18" data-loop="true" data-c="#fff" data-hc="white"></i>
+   </a>
+   <!-- global js -->
+   <script src="{{asset('assets/js/app.js')}}" type="text/javascript"></script>
+   <!-- end of global js -->
+   <!-- begining of page level js -->
+   <!-- EASY PIE CHART JS -->
+   <script src="{{asset('assets/vendors/jquery.easy-pie-chart/js/easypiechart.min.js')}}"></script>
+   <script src="{{asset('assets/vendors/jquery.easy-pie-chart/js/jquery.easypiechart.min.js')}}"></script>
+   <script src="{{asset('assets/js/jquery.easingpie.js')}}"></script>
+   <!--end easy pie chart -->
+   <!--for calendar-->
+   <script src="{{asset('assets/vendors/moment/js/moment.min.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/fullcalendar/js/fullcalendar.min.js')}}" type="text/javascript"></script>
+   <!--   Realtime Server Load  -->
+   <script src="{{asset('assets/vendors/flotchart/js/jquery.flot.js')}}" type="text/javascript"></script>
+   <script src="{{asset('assets/vendors/flotchart/js/jquery.flot.resize.js')}}" type="text/javascript"></script>
+   <!--Sparkline Chart-->
+   <script src="{{asset('assets/vendors/sparklinecharts/jquery.sparkline.js')}}"></script>
+   <!-- Back to Top-->
+   <script type="{{asset('assets/text/javascript" src="vendors/countUp.js/js/countUp.js')}}"></script>
+   <!--   maps -->
+   <script src="{{asset('assets/vendors/bower-jvectormap/js/jquery-jvectormap-1.2.2.min.js')}}"></script>
+   <script src="{{asset('assets/vendors/bower-jvectormap/js/jquery-jvectormap-world-mill-en.js')}}"></script>
+   <script src="{{asset('assets/vendors/chartjs/Chart.js')}}"></script>
+   <script type="text/javascript" src="{{asset('assets/vendors/datetimepicker/js/bootstrap-datetimepicker.min.js')}}"></script>
+   <!--  todolist-->
+   <script src="{{asset('assets/js/pages/todolist.js')}}"></script>
 
-.dataTables_info{
-display: none;
-}
+<!-- end of global js -->
+<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/jquery.dataTables.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.bootstrap.js')}}"></script>
+<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.responsive.js')}}"></script>
+<script src="{{asset('assets/js/pages/table-responsive.js')}}"></script>
 
-div.table-responsive > div.dataTables_wrapper > div.row {
-    margin: 0;
-    padding: 0;
-}
-.dataTables_paginate {
-display: none;
-}
-</style>
-<link href="{{asset('assets/css/pages/invoice.css')}}" rel="stylesheet" type="text/css">
-@endsection
+</body>
 
-@section('addfooter')
-<script>
-$('#example').dataTable( {
-  "searching": false
-} );
-</script>
-<script src="{{asset('assets/js/pages/invoice.js')}}" type="text/javascript"></script>
-@endsection
+</html>
