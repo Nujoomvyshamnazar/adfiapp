@@ -1,4 +1,4 @@
-@extends('investor.layouts.adminlayout2')
+@extends('admin.layouts.adminlayout2')
 
 @section('title', 'Admin / View Investor KYC Details')
 
@@ -312,7 +312,7 @@
  </thead>
  <tbody>
      <tr>
-      
+
            <td>value</td>
            <td>value</td>
          <td>value</td>

@@ -52,7 +52,25 @@
                              <i class="fa fa-angle-double-right"></i> Offer Submitted
                          </a>
                      </li>
+                     <li>
+                         <a href="{{ url('/supplier/offer-buyer-Accepted') }}">
+                             <i class="fa fa-angle-double-right"></i> Buyer Accepted Offers
+                         </a>
+                     </li>
 
+                     <li>
+                         <a href="{{ url('/supplier/offer-investor-accepted') }}">
+                             <i class="fa fa-angle-double-right"></i> Investor Accepted Offers
+                         </a>
+                     </li>
+
+                     <li>
+                         <a href="{{ url('/supplier/offer-for-resubmission') }}">
+                             <i class="fa fa-angle-double-right"></i> Offers for resubmission
+                         </a>
+                     </li>
+
+                  
 
                  </ul>
              </li>
@@ -98,7 +116,7 @@
                              <i class="fa fa-angle-double-right"></i> All Transactions
                          </a>
                      </li>
-              
+
 
 
 

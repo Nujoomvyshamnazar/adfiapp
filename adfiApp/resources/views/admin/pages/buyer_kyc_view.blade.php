@@ -1,4 +1,4 @@
-@extends('buyer.layouts.adminlayout')
+@extends('admin.layouts.adminlayout2')
 
 @section('title', 'Admin / View Buyer KYC Details')
 

@@ -69,7 +69,7 @@
  </li>
  <li>
      <a href="{{ url('/buyer/returned-offer') }}">
-         <i class="fa fa-angle-double-right"></i> Archived Offer
+         <i class="fa fa-angle-double-right"></i> Returned Offers
      </a>
  </li>
 </ul>
