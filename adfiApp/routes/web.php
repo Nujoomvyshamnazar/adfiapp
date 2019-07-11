@@ -641,6 +641,23 @@ Route::get('/supplier/offer-submitted', function()
 });
 
 
+Route::get('/supplier/buyer-accepted-offers', function()
+{
+    return View::make('supplier.pages.buyer-accepted-offers');
+});
+
+
+Route::get('/supplier/investor-accepted-offers', function()
+{
+    return View::make('supplier.pages.investor-accepted-offers');
+});
+
+Route::get('/supplier/offer-for-resubmission', function()
+{
+    return View::make('supplier.pages.offer-for-resubmission');
+});
+
+
 //upload-invoice
 Route::get('/supplier/upload-invoice', function()
 {

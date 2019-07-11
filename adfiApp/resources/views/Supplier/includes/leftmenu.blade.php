@@ -53,24 +53,24 @@
                          </a>
                      </li>
                      <li>
-                         <a href="{{ url('/supplier/offer-buyer-Accepted') }}">
+                         <a href="{{ url('/supplier/buyer-accepted-offers') }}">
                              <i class="fa fa-angle-double-right"></i> Buyer Accepted Offers
                          </a>
                      </li>
 
                      <li>
-                         <a href="{{ url('/supplier/offer-investor-accepted') }}">
+                         <a href="{{ url('/supplier/investor-accepted-offers') }}">
                              <i class="fa fa-angle-double-right"></i> Investor Accepted Offers
                          </a>
                      </li>
 
                      <li>
                          <a href="{{ url('/supplier/offer-for-resubmission') }}">
-                             <i class="fa fa-angle-double-right"></i> Offers for resubmission
+                             <i class="fa fa-angle-double-right"></i> Offers For Resubmission
                          </a>
                      </li>
 
-                  
+
 
                  </ul>
              </li>
