@@ -305,18 +305,18 @@
          <th>Bank Particulars with IBAN No:</th>
          <th>Bank Name:</th>
          <th>Branch:</th>
-
+<th>Type of account</th>
 
 
    </tr>
  </thead>
  <tbody>
      <tr>
-      
+
            <td>value</td>
            <td>value</td>
          <td>value</td>
-
+ <td>value</td>
 
      </tr>
 

@@ -1,7 +1,7 @@
 @extends('supplier.layouts.adminlayout2')
 
-@section('title', 'Offer Submitted')
-@section('maintitle', 'Offer Submitted')
+@section('title', 'Offer Accepted By Investor')
+@section('maintitle', 'Offer Accepted By Investor')
 
 
 @section('content')
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Submitted
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Accepted By Investor
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -24,7 +24,7 @@
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
                                             <th class="numeric">Buyer</th>
-
+<th class="numeric">Investor</th>
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due Date</th>
                                             <th class="numeric">Status</th>
@@ -39,11 +39,11 @@
                                             <td>235612</td>
                                             <td>PO 1321</td>
                                             <td>DELL</td>
-
+<td>Mashreq</td>
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Submitted">
-Offer Submitted
+                                            <td class="Accepted">
+Offer Accepted
 
 
                                             </td>
@@ -80,7 +80,7 @@ Offer Submitted
                                                                   <th>Transaction ID</th>
                                                                   <th class="numeric">PO reference</th>
                                                                   <th class="numeric">Buyer</th>
-
+<th class="numeric">Investor</th>
                                                                   <th class="numeric">Invoice Amount</th>
                                                                   <th class="numeric">Due Date</th>
                                                                   <th class="numeric">Status</th>
@@ -103,7 +103,7 @@ Offer Submitted
         <div class="modal-content">
             <div class="modal-header bg-primary">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Submitted Early Payment Offer</h4>
+                <h4 class="modal-title">Investor Accepted Payment Offer</h4>
             </div>
             <div class="modal-body">
                 <div class="row">

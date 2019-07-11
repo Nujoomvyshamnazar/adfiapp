@@ -1,7 +1,7 @@
 @extends('supplier.layouts.adminlayout2')
 
-@section('title', 'Offer Submitted')
-@section('maintitle', 'Offer Submitted')
+@section('title', 'Buyer Accepted Offers')
+@section('maintitle', 'Buyer Accepted Offers')
 
 
 @section('content')
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Submitted
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Buyer Accepted Offers
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -42,8 +42,8 @@
 
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Submitted">
-Offer Submitted
+                                            <td class="Approved">
+Offer Accepted
 
 
                                             </td>
@@ -103,7 +103,7 @@ Offer Submitted
         <div class="modal-content">
             <div class="modal-header bg-primary">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-                <h4 class="modal-title">Submitted Early Payment Offer</h4>
+                <h4 class="modal-title">Buyer Accepted Payment Offer</h4>
             </div>
             <div class="modal-body">
                 <div class="row">
