@@ -1,7 +1,7 @@
-@extends('buyer.layouts.adminlayout')
+@extends('buyer.layouts.adminlayout2')
 
-@section('title', 'Archived Offer')
-@section('maintitle', 'Archived Offer')
+@section('title', 'Returned Offers')
+@section('maintitle', 'Returned Offers')
 
 
 @section('content')
@@ -12,7 +12,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Archived Offer
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Returned Offers
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -39,8 +39,8 @@
 
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
-<span class="label label-sm label-danger">Offer returned</span>
+                                            <td class="Returned">
+Offer returned
 
 </td>
 <td>

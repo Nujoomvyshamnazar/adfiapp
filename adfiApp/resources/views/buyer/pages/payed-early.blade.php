@@ -1,4 +1,4 @@
-@extends('buyer.layouts.adminlayout')
+@extends('buyer.layouts.adminlayout2')
 
 @section('title', 'Paid Early')
 @section('maintitle', 'Paid Early')
@@ -16,7 +16,7 @@
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
-                                <table class="table table-bordered table-striped table-condensed flip-content">
+                                <table class="table table-bordered table-striped table-condensed flip-content" id="table1">
                                     <thead class="flip-content">
                                         <tr>
                                             <th>Invoice No</th>
@@ -26,8 +26,9 @@
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due date</th>
                                             <th class="numeric">Status</th>
-                                  <th class="numeric">Action</th>
+
                                             <th class="numeric">Remark</th>
+                                              <th class="numeric">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -39,20 +40,41 @@
 
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td>
-<span class="label label-sm label-success">Payed Early</span>
+                                            <td class="Paid">
+Payed Early
 
 </td>
-<td>
-<button type="button" class="btn btn-primary btn_sizes">Payment Details</button>
 
-
-                                            </td>
                                             <td class="numeric">Followup</td>
+                                            <td>
+                                            <button type="button" class="btn btn-primary btn_sizes">Payment Details</button>
+
+
+                                                                                        </td>
                                         </tr>
 
 
                                     </tbody>
+                                    <tfoot>
+
+
+
+
+                                                                  <tr>
+                                                                    <th>Invoice No</th>
+                                                                    <th>Transaction ID</th>
+                                                                    <th class="numeric">PO reference</th>
+                                                                    <th class="numeric">Supplier</th>
+                                                                    <th class="numeric">Invoice Amount</th>
+                                                                    <th class="numeric">Due date</th>
+                                                                    <th class="numeric">Status</th>
+                                                                    <th class="numeric">Remark</th>
+
+
+
+                                                                  </tr>
+
+                                                            </tfoot>
                                 </table>
                             </div>
                         </div>
@@ -62,4 +84,20 @@
 </div>
 </div>
 
+@endsection
+@section('addheader')
+
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datatables/css/dataTables.bootstrap.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/select2/css/select2.min.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/select2/css/select2-bootstrap.css')}}" />
+
+@endsection
+
+@section('addfooter')
+
+<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/jquery.dataTables.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.bootstrap.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.responsive.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/select2/js/select2.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/js/pages/table-advanced2.js')}}"></script>
 @endsection

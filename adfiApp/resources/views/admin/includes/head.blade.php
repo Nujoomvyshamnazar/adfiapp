@@ -42,6 +42,11 @@
      color:#fff;
      font-weight: bold;
    }
+
+   label {
+    text-align: left !important;
+}
+
    .Approved {
     background:#01BC8C;
     color:#fff;
