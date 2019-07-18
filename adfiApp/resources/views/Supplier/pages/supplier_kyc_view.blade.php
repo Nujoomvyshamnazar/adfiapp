@@ -1,4 +1,4 @@
-@extends('Supplier.layouts.adminlayout2')
+@extends('supplier.layouts.adminlayout2')
 
 @section('title', 'Admin / View Supplier KYC Details')
 
