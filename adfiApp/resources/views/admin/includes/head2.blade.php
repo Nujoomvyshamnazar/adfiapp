@@ -29,7 +29,9 @@
     color:#fff;
     font-weight: bold;
    }
-
+   label {
+       text-align: left !important;
+   }
    .Paid {
 
      background:#418BCa;

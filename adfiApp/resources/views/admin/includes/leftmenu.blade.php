@@ -116,38 +116,32 @@
                      <span class="fa arrow"></span>
                  </a>
                  <ul class="sub-menu">
+
+          
                      <li>
                          <a href="{{ url('/admin/offer-pending-supplier') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Pending With Supplier
                          </a>
                      </li>
+
                      <li>
                          <a href="{{ url('/admin/offer-pending-buyer') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Pending With Buyer
                          </a>
                      </li>
+
+
+                     <li>
+                         <a href="{{ url('/admin/buyer-returned-offer') }}">
+                             <i class="fa fa-angle-double-right"></i> Buyer returned Offers
+                         </a>
+                     </li>
+
                      <li>
                          <a href="{{ url('/admin/offer-pending-investor') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Pending with Investor
                          </a>
                      </li>
-                     <li>
-                         <a href="{{ url('/admin/buyer-returned-offer') }}">
-                             <i class="fa fa-angle-double-right"></i> Buyer returned Offer
-                         </a>
-                     </li>
-
-                     <li>
-                         <a href="{{ url('/admin/offer-pending-investor') }}">
-                             <i class="fa fa-angle-double-right"></i> Buyer Accepted Offer
-                         </a>
-                     </li>
-                     <li>
-                         <a href="{{ url('/admin/offer-pending-investor') }}">
-                             <i class="fa fa-angle-double-right"></i> Investor Accepted Offer
-                         </a>
-                     </li>
-
                      <li>
                          <a href="{{ url('/admin/offer-Overdue-with-investor') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Overdue With Investor
@@ -157,9 +151,6 @@
                  </ul>
              </li>
 <!-- All Early payment end there -->
-
-
-
 
 <!-- All Early payment menu -->
                     <li>

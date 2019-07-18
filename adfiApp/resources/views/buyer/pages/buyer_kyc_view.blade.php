@@ -1,4 +1,4 @@
-@extends('buyer.layouts.adminlayout')
+@extends('admin.layouts.adminlayout2')
 
 @section('title', 'Admin / View Buyer KYC Details')
 
@@ -86,15 +86,10 @@
 <tr>
 <td><label class="control-label">Annual Turnover:</label></td>
 <td>Value</td>
-<td><label class="control-label">Sources of Income /Other businesses:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
 <td><label class="control-label">Group Company Details:</label></td>
 <td>Value</td>
-
 </tr>
+
 </table>
 
 
@@ -164,11 +159,9 @@
      <thead>
        <tr>
            <th> Name </th>
-           <th>Nationality</th>
+           <th>Country</th>
            <th>Shareholding % </th>
-           <th>Date of Birth</th>
-             <th>Country of birth </th>
-               <th>Passport Number </th>
+
                <th>Physical address </th>
        </tr>
      </thead>
@@ -178,9 +171,7 @@
                <td>value</td>
                <td>value</td>
              <td>value</td>
-             <td>value</td>
-             <td>value</td>
-             <td>value</td>
+
          </tr>
 
 
@@ -259,36 +250,99 @@
 <h3>Activity Profile:</h3>
 </tr>
 <thead>
-
+  <tr>
+      <td><label class="control-label"> Total Number of Suppliers</label></td>
+  <td> Value</td>
+  </tr>
  <tr>
+
      <th>  <h4>Anticipated Monthly activity:</h4></th>
  <th>  </th>
+  <th>  </th>
+   <th>  </th>
 </tr>
  </thead>
-<tr>
-    <td><label class="control-label"> Total Number of Suppliers</label></td>
-<td> Value</td>
-</tr>
+
 
 <tr>
    <td><label class="control-label">Average Value/invoice:</label></td>
      <td>Value</td>
-
+     <td><label class="control-label">Invoices Received/Month:</label></td>
+     <td>value</td>
 </tr>
-<tr>
-  <td><label class="control-label">Invoices Received/Month:</label></td>
-  <td>value</td>
 
-</tr>
 
 <tr>
 <td><label class="control-label">Average Credit Period/Supplier:</label></td>
 <td>
 Value
 </td>
+
+<td><label class="control-label">Monthly Turnover:</label></td>
+<td>
+Value
+</td>
+
+</tr>
+
+<tr>
+<td><label class="control-label">Highest Invoice Value:</label></td>
+<td>
+Value
+</td>
+
+<td><label class="control-label">Lowest Invoice Value:</label></td>
+<td>
+Value
+</td>
+
 </tr>
 
 
+<tr>
+<td><label class="control-label">Average Annual Sales/Client:</label></td>
+<td>
+Value
+</td>
+
+<td><label class="control-label">Number of Suppliers:</label></td>
+<td>
+Value
+</td>
+
+</tr>
+
+
+<tr>
+<td><label class="control-label">Number of Buyers:</label></td>
+<td>
+Value
+</td>
+
+<td><label class="control-label">Projected Growth in Turnover(Monthly):</label></td>
+<td>
+Value
+</td>
+
+</tr>
+
+
+
+<tr>
+<td><label class="control-label">Projected Growth in Turnover(Yearly):</label></td>
+<td>
+Value
+</td>
+
+<td><label class="control-label">Major markets:</label></td>
+<td>
+Value
+</td>
+
+</tr>
+<tr>
+  <td><label class="control-label">Any Sanctioned/Sensitive markets:</label></td><td>Value</td>
+</tr>
 <tbody>
 
 
@@ -306,10 +360,11 @@ Value
 
      <tr>
 
-         <th>Bank Particulars with IBAN No:</th>
-         <th>Bank Name:</th>
+
+         <th>Bank:</th>
+         <th>IBAN No:</th>
          <th>Branch:</th>
-<th>Type of account</th>
+
 
 
    </tr>
@@ -319,8 +374,6 @@ Value
          <td>value</td>
            <td>value</td>
            <td>value</td>
-         <td>value</td>
-
 
      </tr>
 
@@ -359,8 +412,27 @@ Supplier List with contact details:</label></td>
 <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
 </tr>
 
+<tr>
+
+<td><label class="col-sm-8 control-label">
+Audited Annual Reports :</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
 
 
+<tr>
+
+<td><label class="col-sm-8 control-label">
+Transaction Profile Declaration :</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
+
+<tr>
+
+<td><label class="col-sm-8 control-label">
+Confirmation of disclosures :</label></td>
+<td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+</tr>
 </table>
 
 </section>
@@ -377,7 +449,21 @@ Supplier List with contact details:</label></td>
                                     Print
                                 </span>
                                 </button>
+                                <button type="button" class="btn btn-responsive button-alignment btn-success" data-toggle="button">
+                                    <span style="color:#fff;" onclick="javascript:window.print();">
+                                    <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                       data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                  Approve
+                                </span>
+                                </button>
 
+                                <button type="button" class="btn btn-responsive button-alignment btn-danger" data-toggle="button">
+                                    <span style="color:#fff;" onclick="javascript:window.print();">
+                                    <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                       data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                  Reject
+                                </span>
+                                </button>
                             </div>
                         </div>
 

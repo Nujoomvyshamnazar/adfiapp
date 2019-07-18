@@ -1,128 +1,7 @@
-@extends('admin.layouts.adminlayout')
+@extends('admin.layouts.adminlayout2')
 
-@section('title', 'Dashboard')
-@section('maintitle', 'Welcome to Dashboard')
-
-@section('signin-alert  ')
-<div class="alert alert-success alert-dismissable margin5">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-    <strong>Success:</strong> You have successfully logged in.
-</div>
-
-@endsection
-
-
-
-@section('widget')
-<section class="content">
-    <div class="row">
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInLeftBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="lightbluebg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 text-right">
-                                <span>Views Today</span>
-                                <div class="number" id="myTargetElement1"></div>
-                            </div>
-                            <i class="livicon  pull-right" data-name="eye-open" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement1.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement1.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInUpBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="redbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Today's Sales</span>
-                                <div class="number" id="myTargetElement2"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="piggybank" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement2.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement2.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-sm-6 col-md-6 margin_10 animated fadeInDownBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="goldbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Subscribers</span>
-                                <div class="number" id="myTargetElement3"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="archive-add" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement3.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement3.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-6 margin_10 animated fadeInRightBig">
-            <!-- Trans label pie charts strats here-->
-            <div class="palebluecolorbg no-radius">
-                <div class="panel-body squarebox square_boxs">
-                    <div class="col-xs-12 pull-left nopadmar">
-                        <div class="row">
-                            <div class="square_box col-xs-7 pull-left">
-                                <span>Registered Users</span>
-                                <div class="number" id="myTargetElement4"></div>
-                            </div>
-                            <i class="livicon pull-right" data-name="users" data-l="true" data-c="#fff" data-hc="#fff" data-s="70"></i>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-6">
-                                <small class="stat-label">Last Week</small>
-                                <h4 id="myTargetElement4.1"></h4>
-                            </div>
-                            <div class="col-xs-6 text-right">
-                                <small class="stat-label">Last Month</small>
-                                <h4 id="myTargetElement4.2"></h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--/row-->
-@endsection
+@section('title', 'Offer Overdue with Investor')
+@section('maintitle', 'Offer Overdue with Investor')
 
 
 @section('content')
@@ -134,22 +13,25 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Invoices Pending For Admin Approvals
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>Offer Overdue with Investor
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
-                                <table class="table table-bordered table-striped table-condensed flip-content">
+                              <table class="table table-striped table-bordered" id="table1">
                                     <thead class="flip-content">
                                         <tr>
                                             <th>Invoice No</th>
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
                                             <th class="numeric">Buyer</th>
-                                            <th class="numeric">supplier</th>
+  <th class="numeric">Supplier</th>
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due Date</th>
-                                            <th class="numeric">Action</th>
+                                            <th class="numeric">Discount</th>
+                                            <th class="numeric">Days Pending After Offer</th>
+                                            <th class="numeric">Status</th>
                                             <th class="numeric">Remark</th>
+                                            <th class="numeric">Action</th>
+
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -158,33 +40,62 @@
                                             <td>235612</td>
                                             <td>PO 1321</td>
                                             <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
+<td>DELL</td>
                                             <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td>
-<button type="button" class="btn btn-primary btn_sizes">Approve</button>
-<button type="button" class="btn btn-danger btn_sizes">Reject</button>
+                                            <td class="numeric">5%</td>
+                                              <td class="numeric">10 days</td>
+                                            <td class="Pending">
+Offer Pending
+
 
                                             </td>
                                             <td class="numeric">test</td>
-                                        </tr>
-
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-                                            <td class="numeric">INTEL</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
                                             <td>
-<button type="button" class="btn btn-primary btn_sizes">Approve</button>
-<button type="button" class="btn btn-danger btn_sizes">Reject</button>
+                                                <div class="buttonwrap"style="width:240px;">
+                                              <div class="buttrap"style="padding:5px;float:left;">
+  <button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
+</div>
+  <div class="buttrap"style="padding:5px;float:right;">
+<button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#stack2" href="#stack2">Send Reminder</button>
+</div>
+        </div>                                    </td>
 
-                                            </td>
-                                            <td class="numeric">test</td>
                                         </tr>
+
+
+
                                     </tbody>
+                                    <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+  <td></td>
+                                    </tr>
+                                    <tfoot>
+
+
+
+                                                                <tr>
+                                                                  <th>Invoice No</th>
+                                                                  <th>Transaction ID</th>
+                                                                  <th class="numeric">PO reference</th>
+                                                                  <th class="numeric">Buyer</th>
+                        <th class="numeric">Supplier</th>
+                                                                  <th class="numeric">Invoice Amount</th>
+                                                                  <th class="numeric">Discount</th>
+                                                                  <th class="numeric">Days Pending After Offer</th>
+                                                                  <th class="numeric">Status</th>
+                                                                  <th class="numeric">Remark</th>
+
+                                                                </tr>
+                                                            </tfoot>
                                 </table>
                             </div>
                         </div>
@@ -194,4 +105,179 @@
 </div>
 </div>
 
+
+<div class="modal fade in" id="responsive" tabindex="-1" role="dialog" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-primary">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Submitted Early Payment Offer</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                  <div class="panel-body">
+                                    <form class="form-horizontal" action="#" method="post">
+                                        <fieldset>
+                                            <!-- Name input-->
+
+                                              <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Invoice Number : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+                                            <!-- Email input-->
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Transaction ID : </label>
+                                                <div class="col-md-4">
+                                                  <input id="name" name="name" type="text"  class="form-control" disabled="" ></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Invoice Amount : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Due Date : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Early Payment Date : </label>
+                                                <div class="col-md-4">
+                                                  <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+</div>
+                                              <div class="col-md-6">
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Days Paid Early : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">ADFI Offer : </label>
+                                                <div class="col-md-4">
+                                                    <div class=" input-group">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""><span class="input-group-addon">%</span></div>
+                                          </div>  </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Supplier Offer : </label>
+                                                <div class="col-md-4">
+                                                  <div class="input-group">
+                                                  <input id="name" name="name" type="text"  class="form-control" disabled=""><span class="input-group-addon">%</span></div>
+                                        </div></div>
+
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+                                            </div>
+                                        </fieldset>
+
+                                        <div class="panel panel-primary" id="hidepanel1">
+                                            <div class="panel-heading">
+                                                <h3 class="panel-title">
+                                                    <i class="livicon" data-name="clock" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>
+                                                    Final Supplier Offer:
+                                                </h3>
+                                                <span class="pull-right">
+                                                    <i class="glyphicon glyphicon-chevron-up clickable"></i>
+
+                                                </span>
+                                            </div>
+                                            <div class="panel-body">
+                                                <form class="form-horizontal" action="#" method="post">
+                                                    <fieldset>
+                                                        <!-- Name input-->
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="name">Discount Percentage:</label>
+                                                            <div class="col-md-3">
+
+                                                              <div class="input-group">
+                                                              <input id="name" name="name" type="text" value="20" class="form-control" disabled=""><span class="input-group-addon">%</span></div></div>
+                                                        </div>
+                                                        <!-- Email input-->
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="email">Discount Value: </label>
+                                                            <div class="col-md-3">
+                                                                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
+                                                        </div>
+                                                        <!-- Message body -->
+
+
+                                                        <!-- Form actions -->
+                                                        <div class="form-group">
+                                                            <div class="col-md-12 text-right">
+
+                                                            </div>
+                                                        </div>
+                                                    </fieldset>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END modal-->
+
+<div class="modal fade bs-example-modal-sm in" id="stack2" tabindex="-1" role="dialog" aria-hidden="false">
+                               <div class="modal-dialog modal-lg">
+                                   <div class="modal-content">
+                                       <div class="modal-header bg-success">
+                                           <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                           <h4 class="modal-title">Send Reminder</h4>
+                                       </div>
+                                       <div class="modal-body">
+
+                                           <div class="form-group label-floating">
+                                               <label class="control-label">Remark: </label>
+                                                 <textarea placeholder="Write something here..." class="auto2 form-control pd-45 resize_vertical " data-autogrow="" rows="3" cols="80"></textarea>
+                                           </div>
+
+
+                                       </div>
+                                       <div class="modal-footer">
+                                           <button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+                                           <button type="button" class="btn btn-primary">Submit</button>
+                                       </div>
+                                   </div>
+                               </div>
+                           </div>
+@endsection
+@section('addheader')
+
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/datatables/css/dataTables.bootstrap.css')}}">
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/select2/css/select2.min.css')}}" />
+<link rel="stylesheet" type="text/css" href="{{asset('assets/vendors/select2/css/select2-bootstrap.css')}}" />
+
+@endsection
+
+@section('addfooter')
+
+<script type="text/javascript" src="{{asset('assets/vendors/datatables/js/jquery.dataTables.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.bootstrap.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/datatables/js/dataTables.responsive.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/vendors/select2/js/select2.js')}}"></script>
+ <script type="text/javascript" src="{{asset('assets/js/pages/table-advanced2.js')}}"></script>
 @endsection
