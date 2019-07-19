@@ -153,15 +153,10 @@
        <tr>
        <td><label class="control-label">Annual Turnover:</label></td>
        <td>Value</td>
-       <td><label class="control-label">Sources of Income /Other businesses:</label></td>
-       <td>Value</td>
-       </tr>
-
-       <tr>
        <td><label class="control-label">Group Company Details:</label></td>
        <td>Value</td>
-
        </tr>
+
        </table>
 
 
@@ -229,15 +224,15 @@
               <h3>Beneficial Owner:</h3>
             </tr>
             <thead>
-              <tr>
-                  <th> Name </th>
-                  <th>Nationality</th>
-                  <th>Shareholding % </th>
-                  <th>Date of Birth</th>
-                    <th>Country of birth </th>
-                      <th>Passport Number </th>
-                      <th>Physical address </th>
-              </tr>
+
+                <tr>
+                    <th> Name </th>
+                    <th>Country</th>
+                    <th>Shareholding % </th>
+
+                        <th>Physical address </th>
+                </tr>
+
             </thead>
             <tbody>
                 <tr>
@@ -245,9 +240,7 @@
                       <td>value</td>
                       <td>value</td>
                     <td>value</td>
-                    <td>value</td>
-                    <td>value</td>
-                    <td>value</td>
+
                 </tr>
 
 
@@ -330,20 +323,91 @@
         <tr>
             <th>  <h4>Anticipated Monthly activity:</h4></th>
         <th> </th>
+         <th> </th>
+           <th> </th>
        </tr>
         </thead>
        <tr>
           <td><label class="control-label">Invoices /Buyer   :</label></td>
             <td>Value</td>
-
+            <td><label class="control-label">Invoices Generated/Month:</label></td>
+            <td>value</td>
        </tr>
-       <tr><td><label class="control-label">Invoices Generated/Month:</label></td>
-       <td>value</td></tr>
+       <tr></tr>
        <tr>
        <td><label class="control-label">Average Credit Period / Buyer</label></td>
        <td>
        Value
        </td>
+
+       <td><label class="control-label">Monthly Turnover:</label></td>
+       <td>
+       Value
+       </td>
+
+       </tr>
+       <tr>
+       <td><label class="control-label">Highest Invoice Value:</label></td>
+       <td>
+       Value
+       </td>
+
+       <td><label class="control-label">Lowest Invoice Value:</label></td>
+       <td>
+       Value
+       </td>
+
+       </tr>
+
+       <tr>
+       <td><label class="control-label">Average Annual Sales/Client:</label></td>
+       <td>
+       Value
+       </td>
+
+       <td><label class="control-label">Number of Suppliers:</label></td>
+       <td>
+       Value
+       </td>
+
+       </tr>
+
+       <tr>
+       <td><label class="control-label">Number of Buyers:</label></td>
+       <td>
+       Value
+       </td>
+
+       <td><label class="control-label">Projected Growth in Turnover(Monthly):</label></td>
+       <td>
+       Value
+       </td>
+
+       </tr>
+
+       <tr>
+       <td><label class="control-label">Projected Growth in Turnover(Yearly):</label></td>
+       <td>
+       Value
+       </td>
+
+       <td><label class="control-label">Major markets:</label></td>
+       <td>
+       Value
+       </td>
+
+       </tr>
+
+
+
+       <tr>
+       <td><label class="control-label">Any Sanctioned/Sensitive markets::</label></td>
+       <td>
+       Value
+       </td>
+
+
+
        </tr>
 
        <tbody>
@@ -363,10 +427,9 @@
 
             <tr>
 
-                <th>Bank Particulars with IBAN No: </th>
-                <th>Bank Name:</th>
-                <th>Branch:</th>
-<th>Type of account</th>
+              <th>Bank:</th>
+              <th>IBAN No:</th>
+              <th>Branch:</th>
 
 
           </tr>
@@ -376,7 +439,7 @@
                 <td>value</td>
                   <td>value</td>
                   <td>value</td>
-                <td>value</td>
+
 
 
             </tr>
@@ -415,9 +478,59 @@
        <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
        </tr>
 
+       <tr>
+
+       <td><label class="col-sm-8 control-label">Audited Annual Reports :</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+       <tr>
+
+       <td><label class="col-sm-8 control-label">Transaction Profile Declaration :</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
+
+       <tr>
+
+       <td><label class="col-sm-8 control-label">Confirmation of disclosures :</label></td>
+       <td>  <i class="livicon" data-name="download" data-size="25" data-loop="true" data-c="#000" data-hc="#000"></i></td>
+       </tr>
        </table>
 
        </section>
+
+       <div style="background-color: #eee;padding:15px;" id="footer-bg">
+
+                                   <hr>
+
+                                   <div style="margin:10px 20px;text-align:center;" class="btn-section">
+                                       <button type="button" class="btn btn-responsive button-alignment btn-info" data-toggle="button">
+                                           <span style="color:#fff;" onclick="javascript:window.print();">
+                                           <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                              data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                           Print
+                                       </span>
+                                       </button>
+
+
+                                       <button type="button" class="btn btn-responsive button-alignment btn-success" data-toggle="button">
+                                           <span style="color:#fff;" onclick="javascript:window.print();">
+                                           <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                              data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                           Approve
+                                       </span>
+                                       </button>
+
+
+                                       <button type="button" class="btn btn-responsive button-alignment btn-danger" data-toggle="button">
+                                           <span style="color:#fff;" onclick="javascript:window.print();">
+                                           <i class="livicon" data-name="printer" data-size="16" data-loop="true"
+                                              data-c="#fff" data-hc="white" style="position:relative;top:3px;"></i>
+                                           Reject
+                                       </span>
+                                       </button>
+                                   </div>
+                               </div>
 
      </div>
    </div>
