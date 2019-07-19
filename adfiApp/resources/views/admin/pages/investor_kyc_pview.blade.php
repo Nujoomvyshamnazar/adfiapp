@@ -51,37 +51,35 @@
 </table>
 
 
-
 <table class="table table-striped table-bordered" id="inline_edit">
-  <tr>
-  <h3>Identity Details:</h3>
+<tr>
+<h3>Identity Details:</h3>
 </tr>
-<thead>
+<tr>
+<td><label class="control-label">ID Type:</label></td>
+<td>Value</td>
+<td><label class="control-label">ID No:</label></td>
+<td>Value</td>
+</tr>
 
-    <tr>
-        <th>ID Type: </th>
-        <th>ID No</th>
-        <th>Date of Issuance</th>
-        <th>Date of Expiry</th>
-<th>Issuing Authority</th>
-
-
-  </tr>
-</thead>
-<tbody>
-    <tr>
-        <td>value</td>
-          <td>value</td>
-          <td>value</td>
-        <td>value</td>
-<td>value</td>
-
-    </tr>
+<tr>
+<td><label class="control-label">Date of Issuance:</label></td>
+<td>Value</td>
+<td><label class="control-label">Date of Expiry:</label></td>
+<td>Value</td>
+</tr>
 
 
-</tbody>
+<tr>
+<td><label class="control-label">Issuing Authority:</label></td>
+<td>Value</td>
 
-    </table>
+</tr>
+
+
+</table>
+
+
 
 
 
@@ -143,11 +141,7 @@
 
 </tr>
 
-<tr>
-  <td><label class="control-label">Maximum Investment/ month/Half yearly/Annually:</label></td>
-  <td>value</td>
 
-</tr>
 
 
 <tbody>
@@ -157,6 +151,37 @@
 </tbody>
 
  </table>
+
+
+ <table class="table table-striped table-bordered" id="inline_edit">
+ <tr>
+ <h3>Maximum Investment:</h3>
+ </tr>
+ <thead>
+   <tr>
+       <th>Monthly</th>
+       <th>Half yearly</th>
+       <th>Annually</th>
+
+
+
+ </tr>
+ </thead>
+ <tbody>
+   <tr>
+       <td>value</td>
+         <td>value</td>
+         <td>value</td>
+
+
+   </tr>
+
+
+ </tbody>
+
+   </table>
+
+
 
 
  <table class="table table-striped table-bordered" id="inline_edit">
