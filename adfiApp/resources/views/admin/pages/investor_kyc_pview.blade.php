@@ -80,9 +80,6 @@
 </table>
 
 
-
-
-
     <table class="table table-striped table-bordered" id="inline_edit">
       <tr>
       <h3>Source of Wealth:</h3>
