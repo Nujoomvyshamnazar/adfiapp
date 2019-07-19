@@ -87,15 +87,10 @@
 <tr>
 <td><label class="control-label">Annual Turnover:</label></td>
 <td>Value</td>
-<td><label class="control-label">Sources of Income /Other businesses:</label></td>
-<td>Value</td>
-</tr>
-
-<tr>
 <td><label class="control-label">Group Company Details:</label></td>
 <td>Value</td>
-
 </tr>
+
 </table>
 
 
@@ -164,13 +159,10 @@
      </tr>
      <thead>
        <tr>
-           <th> Name </th>
-           <th>Nationality</th>
-           <th>Shareholding % </th>
-           <th>Date of Birth</th>
-             <th>Country of birth </th>
-               <th>Passport Number </th>
-               <th>Physical address </th>
+         <th> Name </th>
+         <th>Country </th>
+         <th>Shareholding % </th>
+         <th>Physical Address</th>
        </tr>
      </thead>
      <tbody>
@@ -179,9 +171,7 @@
                <td>value</td>
                <td>value</td>
              <td>value</td>
-             <td>value</td>
-             <td>value</td>
-             <td>value</td>
+
          </tr>
 
 
@@ -253,7 +243,34 @@
                  </table>
 
 
+                 <table class="table table-striped table-bordered" id="inline_edit">
+                   <tr>
+                   <h3>Source of Wealth:</h3>
+                 </tr>
+                 <thead>
 
+                     <tr>
+                         <th>Annual Income </th>
+                         <th>Income Source</th>
+                         <th>Estimated investment corpus or ADFI</th>
+
+
+
+                   </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td>value</td>
+                           <td>value</td>
+                           <td>value</td>
+
+
+                     </tr>
+
+
+                 </tbody>
+
+                     </table>
 
 <table class="table table-striped table-bordered" id="inline_edit">
 <tr>
@@ -267,22 +284,24 @@
 </tr>
  </thead>
 <tr>
-    <td><label class="control-label">Average Value/invoice:</label></td>
+  <td>
+<label class="control-label">Buyer Invoices preferred:</label>
+</td>
+
+<td> Value</td>
+</tr>
+
+
+<tr>
+    <td><label class="control-label">Preferred Investment tenure: </label></td>
 <td> Value</td>
 </tr>
 
 <tr>
-   <td><label class="control-label">Invoices Received/Month:</label></td>
+   <td><label class="control-label">Maximum investment /invoice: </label></td>
      <td>Value</td>
 
 </tr>
-<tr>
-  <td><label class="control-label">Average Credit Period/Supplier:</label></td>
-  <td>value</td>
-
-</tr>
-
-
 
 
 <tbody>
@@ -293,7 +312,33 @@
 
  </table>
 
+ <table class="table table-striped table-bordered" id="inline_edit">
+ <tr>
+ <h3>Maximum Investment:</h3>
+ </tr>
+ <thead>
+   <tr>
+       <th>Monthly</th>
+       <th>Half yearly</th>
+       <th>Annually</th>
 
+
+
+ </tr>
+ </thead>
+ <tbody>
+   <tr>
+       <td>value</td>
+         <td>value</td>
+         <td>value</td>
+
+
+   </tr>
+
+
+ </tbody>
+
+   </table>
  <table class="table table-striped table-bordered" id="inline_edit">
    <tr>
    <h3>Current Banks/ Sources of Finance: </h3>
