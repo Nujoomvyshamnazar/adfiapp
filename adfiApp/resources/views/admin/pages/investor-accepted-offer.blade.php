@@ -1,8 +1,8 @@
 @extends('admin.layouts.adminlayout2')
 
-@section('title', 'Offer Pending With Buyer')
+@section('title', 'Investor Accepted Offers')
 
-@section('maintitle', 'Offer Pending With Buyer')
+@section('maintitle', 'Investor Accepted Offers')
 
 @section('content')
 
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Pending With Buyer
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Investor Accepted Offers
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">

@@ -117,7 +117,7 @@
                  </a>
                  <ul class="sub-menu">
 
-          
+
                      <li>
                          <a href="{{ url('/admin/offer-pending-supplier') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Pending With Supplier
@@ -129,7 +129,12 @@
                              <i class="fa fa-angle-double-right"></i> Offer Pending With Buyer
                          </a>
                      </li>
-
+                     
+                     <li>
+                         <a href="{{ url('/admin/offer-pending-investor') }}">
+                             <i class="fa fa-angle-double-right"></i> Offer Pending with Investor
+                         </a>
+                     </li>
 
                      <li>
                          <a href="{{ url('/admin/buyer-returned-offer') }}">
@@ -138,15 +143,19 @@
                      </li>
 
                      <li>
-                         <a href="{{ url('/admin/offer-pending-investor') }}">
-                             <i class="fa fa-angle-double-right"></i> Offer Pending with Investor
+                         <a href="{{ url('/admin/investor-Accepted-Offers') }}">
+                             <i class="fa fa-angle-double-right"></i> Investor Accepted Offers
                          </a>
                      </li>
+
+
+
                      <li>
                          <a href="{{ url('/admin/offer-Overdue-with-investor') }}">
                              <i class="fa fa-angle-double-right"></i> Offer Overdue With Investor
                          </a>
                      </li>
+
 
                  </ul>
              </li>
