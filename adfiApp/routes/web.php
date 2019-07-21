@@ -14,7 +14,15 @@
 // KYC view
 
 // all-transactions
+Route::get('/buyer/third-party-payments', function()
+{
+return View::make('buyer.pages.third-party-payments');
+});
 
+//offer-pending
+
+
+//third-party-payments
 Route::get('/admin/investor-Accepted-Offers', function()
 {
 return View::make('admin.pages.investor-accepted-offer');

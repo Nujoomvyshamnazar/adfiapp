@@ -57,7 +57,7 @@
  </li>
 
  <li>
-     <a href="{{ url('/buyer/Third-Party-payments') }}">
+     <a href="{{ url('/buyer/third-party-payments') }}">
          <i class="fa fa-angle-double-right"></i>Third Party payments
      </a>
  </li>

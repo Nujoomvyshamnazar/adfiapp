@@ -1,7 +1,7 @@
 @extends('buyer.layouts.adminlayout2')
 
-@section('title', 'Returned Offers')
-@section('maintitle', 'Returned Offers')
+@section('title', 'Third Party Payments')
+@section('maintitle', 'Third Party Payments')
 
 
 @section('content')
@@ -12,7 +12,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Returned Offers
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Third Party Payments
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -24,11 +24,12 @@
                                             <th class="numeric">PO reference</th>
                                             <th class="numeric">Supplier</th>
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due date</th>
-                                            <th class="numeric">Status</th>
 
-                                            <th class="numeric">Remark</th>
-                                                <th class="numeric">Action</th>
+                                            <th class="numeric">Status</th>
+                                            <th class="numeric">Investor Bank</th>
+                                            <th class="numeric">Due date</th>
+                                            <th class="numeric">Date Of Payment</th>
+  <th class="numeric">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -39,18 +40,20 @@
                                             <td>DELL</td>
 
                                             <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td class="Returned">
-Offer returned
+
+                                            <td class="Submitted">
+Offer Submitted
 
 </td>
+  <td class="numeric">Rak Bank</td>
+  <td class="numeric">30/11/2019</td>
+  <td class="numeric">30/11/2019</td>
+<td>
+<button type="button" class="btn btn-primary btn_sizes">Approve</button>
+<button type="button" class="btn btn-danger btn_sizes">Reject</button>
 
-                                            <td class="numeric">Followup</td>
-                                            <td>
-                                            <button type="button" class="btn btn-primary btn_sizes">Check Availability</button>
+                                            </td>
 
-
-                                                                                        </td>
                                         </tr>
 
 
@@ -66,11 +69,12 @@ Offer returned
                                                                     <th class="numeric">PO reference</th>
                                                                     <th class="numeric">Supplier</th>
                                                                     <th class="numeric">Invoice Amount</th>
-                                                                    <th class="numeric">Due date</th>
-                                                                    <th class="numeric">Status</th>
 
-                                                                    <th class="numeric">Remark</th>
-                                                                      
+                                                                    <th class="numeric">Status</th>
+                                                                    <th class="numeric">Investor Bank</th>
+                                                                    <th class="numeric">Due date</th>
+                                                                    <th class="numeric">Date Of Payment</th>
+                        
 
                                                                   </tr>
 
@@ -83,6 +87,7 @@ Offer returned
 </div>
 </div>
 </div>
+
 
 @endsection
 @section('addheader')

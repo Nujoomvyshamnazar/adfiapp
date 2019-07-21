@@ -48,6 +48,7 @@ Offer Submitted
 <td>
 <button type="button" class="btn btn-primary btn_sizes">Approve</button>
 <button type="button" class="btn btn-danger btn_sizes">Reject</button>
+<button type="button" class="btn btn-info btn_sizes">View</button>
 
                                             </td>
 
@@ -71,7 +72,7 @@ Offer Rejected
                                             <td>
                                             <button type="button" class="btn btn-primary btn_sizes">Approve</button>
                                             <button type="button" class="btn btn-danger btn_sizes">Reject</button>
-
+<button type="button" class="btn btn-info btn_sizes">View</button>
                                                                                         </td>
                                         </tr>
                                     </tbody>
