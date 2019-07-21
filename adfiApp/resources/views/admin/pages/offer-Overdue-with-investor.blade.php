@@ -16,7 +16,7 @@
                                     <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>Offer Overdue with Investor
                                 </div>
                             </div>
-                            <div class="portlet-body flip-scroll">
+                            <div class="portlet-body flip-scroll" style="overflow-y: scroll;">
                               <table class="table table-striped table-bordered" id="table1">
                                     <thead class="flip-content">
                                         <tr>

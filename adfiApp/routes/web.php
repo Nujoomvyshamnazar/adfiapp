@@ -15,7 +15,10 @@
 
 // all-transactions
 
-
+Route::get('/admin/investor-Accepted-Offers', function()
+{
+return View::make('admin.pages.investor-accepted-offer');
+});
 
 Route::get('/buyer/buyer-kyc-view-pdf', function()
 {
@@ -527,7 +530,7 @@ Route::get('/investor/offer-Availables', function()
 //offer-Accepted
 Route::get('/investor/offer-Accepted', function()
 {
-    return View::make('investor.pages.offer-Accepted');
+    return View::make('investor.pages.offer-accepted');
 });
 
 
