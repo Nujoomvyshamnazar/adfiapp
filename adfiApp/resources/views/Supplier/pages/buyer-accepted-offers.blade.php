@@ -28,7 +28,7 @@
                                             <th class="numeric">Invoice Amount</th>
                                             <th class="numeric">Due Date</th>
                                             <th class="numeric">Status</th>
-                                            <th class="numeric">Remark</th>
+                                            <th class="numeric">Payment Details</th>
                                             <th class="numeric">Action</th>
 
                                         </tr>
@@ -141,6 +141,12 @@ Offer Accepted
                                                 <div class="col-md-4">
                                                   <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Supplier Bank Account : </label>
+                                                <div class="col-md-6">
+                                                  <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="3" disabled=""></textarea></div>
+                                            </div>
 </div>
                                               <div class="col-md-6">
                                             <div class="form-group">
@@ -177,6 +183,8 @@ Offer Accepted
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
+
+
                                             </div>
                                         </fieldset>
 
