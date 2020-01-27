@@ -1,7 +1,7 @@
 @extends('investor.layouts.adminlayout2')
 
-@section('title', 'Offer Submitted')
-@section('maintitle', 'Offer Submitted')
+@section('title', 'Offer Accepted')
+@section('maintitle', 'Offer Accepted')
 
 
 @section('content')
@@ -13,7 +13,7 @@
                         <div class="portlet box primary">
                             <div class="portlet-title">
                                 <div class="caption">
-                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Submitted
+                                    <i class="livicon" data-name="responsive" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i> Offer Accepted
                                 </div>
                             </div>
                             <div class="portlet-body flip-scroll">
@@ -26,9 +26,9 @@
                                             <th class="numeric">Buyer</th>
 
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due Date</th>
-                                            <th class="numeric">Status</th>
-                                            <th class="numeric">Remark</th>
+                                            <th class="numeric">Early Payment Days</th>
+                                            <th class="numeric">Accepted Date</th>
+
                                             <th class="numeric">Action</th>
 
                                         </tr>
@@ -41,16 +41,13 @@
                                             <td>DELL</td>
 
                                             <td class="numeric">$10000</td>
+                                            <td class="numeric">65</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Submitted">
-Offer Submitted
 
 
-                                            </td>
-                                            <td class="numeric">test</td>
                                             <td>
   <button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
-
+  <button type="button" class="btn btn-warning btn_sizes" data-toggle="modal" data-href="#archeve" href="#responsive">Archieve</button>
 
                                             </td>
 
@@ -67,8 +64,8 @@ Offer Submitted
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
+
+
 
                                     </tr>
                                     <tfoot>
@@ -82,9 +79,11 @@ Offer Submitted
                                                                   <th class="numeric">Buyer</th>
 
                                                                   <th class="numeric">Invoice Amount</th>
-                                                                  <th class="numeric">Due Date</th>
-                                                                  <th class="numeric">Status</th>
-<th class="numeric">Remark</th>
+                                                                  <th class="numeric">Early Payment Days</th>
+                                                                  <th class="numeric">Accepted Date</th>
+
+                                                                  <th class="numeric">Action</th>
+
 
                                                                 </tr>
                                                             </tfoot>

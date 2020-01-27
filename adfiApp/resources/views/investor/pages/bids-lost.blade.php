@@ -23,50 +23,50 @@
                                             <th>Invoice No</th>
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
-                                            <th class="numeric">Supplier</th>
+
                                             <th class="numeric">Buyer</th>
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due date</th>
+                                            <th class="numeric">Early Payment Days</th>
+                                            <th class="numeric">Rejected date</th>
 
-                                            <th class="numeric">Status</th>
-                                            <th class="numeric">Remark</th>
+
+
                                             <th class="numeric">Action</th>
                                         </tr>
                                     </thead>
                                     <tbody>
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
-  <td>Intel</td>
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td class="Rejected">
-Bid Rejected
-
-</td>
-
-                                            <td class="numeric">Followup</td>
-                                              <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button></td>
-                                        </tr>
+                        
 
                                         <tr>
                                             <td>INV20002 </td>
                                             <td>235612</td>
                                             <td>PO 1321</td>
-                                            <td>DELL</td>
+
   <td>Intel</td>
                                             <td class="numeric">$10000</td>
+                                              <td class="numeric">65</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Rejected">
-Bid Rejected
 
-</td>
 
-                                            <td class="numeric">Followup</td>
-                                                <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button></td>
+
+                                                <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
+                                                  <button type="button" class="btn btn-warning btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">Feedback</button></td>
                                         </tr>
+
+                                        <tr>
+                                          <th></th>
+                                          <th></th>
+                                          <th class="numeric"></th>
+                                          <th class="numeric"></th>
+                                          <th class="numeric"></th>
+                                          <th class="numeric"></th>
+                                          <th class="numeric"></th>
+
+                                          <th class="numeric"></th>
+
+
+                                        </tr>
+
                                     </tbody>
                                     <tfoot>
 
@@ -77,13 +77,15 @@ Bid Rejected
                                                                     <th>Invoice No</th>
                                                                     <th>Transaction ID</th>
                                                                     <th class="numeric">PO reference</th>
-                                                                    <th class="numeric">Supplier</th>
+
                                                                     <th class="numeric">Buyer</th>
                                                                     <th class="numeric">Invoice Amount</th>
-                                                                    <th class="numeric">Due date</th>
+                                                                    <th class="numeric">Early Payment Days</th>
+                                                                    <th class="numeric">Rejected date</th>
 
-                                                                    <th class="numeric">Action</th>
-                                                                    <th class="numeric">Remark</th>
+
+
+
 
                                                                   </tr>
 

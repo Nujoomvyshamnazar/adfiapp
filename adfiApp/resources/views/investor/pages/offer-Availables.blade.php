@@ -27,10 +27,10 @@
                                             <th class="numeric">Buyer</th>
 
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due Date</th>
-                                            <th class="numeric">Status</th>
-                                              <th class="numeric">Remark</th>
-                                            <th class="numeric">Action</th>
+                                            <th class="numeric">Early Payment Days</th>
+
+                                              <th class="numeric">Due Date</th>
+                                            <th class="numeric" width="22%">Action</th>
 
                                         </tr>
 
@@ -44,15 +44,14 @@
                                             <td>DELL</td>
 
                                             <td class="numeric">$10000</td>
+                                            <td class="numeric">65 days</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Approved">
 
-                                                                            Buyer Approved
 
-                                                                                      </td>
-                                                                                        <td class="numeric">test</td>
                                             <td>
-<button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">Request Early Payment</button>
+<button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#view" href="#view">View</button>
+<button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#accept" href="#accept">Accept</button>
+<button type="button" class="btn btn-danger btn_sizes" data-toggle="modal" data-href="#reject" href="#reject">Reject</button>
 
 
                                             </td>
@@ -70,8 +69,8 @@
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-                                    <td></td>
+
+
 
                                     </tr>
                                     <tfoot>
@@ -85,9 +84,10 @@
                                                                   <th class="numeric">Buyer</th>
 
                                                                   <th class="numeric">Invoice Amount</th>
-                                                                  <th class="numeric">Due Date</th>
-                                                                  <th class="numeric">Status</th>
-<th class="numeric">Remark</th>
+                                                                  <th class="numeric">Early Payment Days</th>
+
+                                                                    <th class="numeric">Due Date</th>
+
 
                                                                 </tr>
                                                             </tfoot>
@@ -101,7 +101,7 @@
 </div>
 </div>
 </div>
-<div class="modal fade in" id="responsive" tabindex="-1" role="dialog" aria-hidden="false">
+<div class="modal fade in" id="view" tabindex="-1" role="dialog" aria-hidden="false">
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header bg-primary">
@@ -116,51 +116,52 @@
                                             <!-- Name input-->
 
                                               <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label" for="name">Buyer: </label>
+                                                    <div class="col-md-4">
+                                                        <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                </div>
                                             <div class="form-group">
                                                 <label class="col-md-6 control-label" for="name">Invoice Number : </label>
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
-                                            <!-- Email input-->
-                                            <div class="form-group">
-                                                <label class="col-md-6 control-label" for="name">Transaction ID : </label>
-                                                <div class="col-md-4">
-                                                  <input id="name" name="name" type="text"  class="form-control" disabled="" ></div>
-                                            </div>
+
                                             <div class="form-group">
                                                 <label class="col-md-6 control-label" for="name">Invoice Amount : </label>
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
-
+                                            <!-- Email input-->
                                             <div class="form-group">
                                                 <label class="col-md-6 control-label" for="name">Due Date : </label>
+                                                <div class="col-md-4">
+                                                  <input id="name" name="name" type="text"  class="form-control" disabled="" ></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Days Paid Early : </label>
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
 
-                                            <div class="form-group">
-                                                <label class="col-md-6 control-label" for="name">Early Payment Date : </label>
-                                                <div class="col-md-4">
-                                                    <input id="name" name="name" type="text"  class="form-control"></div>
-                                            </div>
 </div>
                                               <div class="col-md-6">
                                             <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Days Paid Early : </label>
+                                                <label class="col-md-8 control-label" for="name">Payment Offer: </label>
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control"></div>
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">ADFI Offer : </label>
+                                                <label class="col-md-8 control-label" for="name">Discount Value : </label>
                                                 <div class="col-md-4">
                                                     <div class=" input-group">
-                                                    <input id="name" name="name" type="text"  class="form-control"><span class="input-group-addon">%</span></div>
+                                                    <input id="name" name="name" type="text"  class="form-control">
+                                                  </div>
                                           </div>  </div>
 
                                             <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
+                                                <label class="col-md-8 control-label" for="name">Available Limits : </label>
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control"></div>
                                             </div>
@@ -168,26 +169,120 @@
 
 
                                             <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Supplier Offer : </label>
+                                                <label class="col-md-8 control-label" for="name">Insurence Coverage : </label>
                                                 <div class="col-md-4">
                                                   <div class="input-group">
                                                   <input id="name" name="name" type="text"  class="form-control"><span class="input-group-addon">%</span></div>
                                         </div></div>
 
 
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
-                                                <div class="col-md-4">
-                                                    <input id="name" name="name" type="text"  class="form-control"></div>
-                                            </div>
+
                                             </div>
                                         </fieldset>
 
-                                        <div class="panel panel-primary" id="hidepanel1">
+
+                                    </form>
+                                </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- END modal-->
+
+<!-- Offer Detailed view -->
+<div class="modal fade in" id="accept" tabindex="-1" role="dialog" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-success">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Accepted Early Payment Offer</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                  <div class="panel-body">
+                                    <form class="form-horizontal" action="#" method="post">
+                                        <fieldset>
+                                            <!-- Name input-->
+
+                                              <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label" for="name">Buyer: </label>
+                                                    <div class="col-md-4">
+                                                        <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                </div>
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Invoice Number : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Invoice Amount : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+                                            <!-- Email input-->
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Due Date : </label>
+                                                <div class="col-md-4">
+                                                  <input id="name" name="name" type="text"  class="form-control" disabled="" ></div>
+                                            </div>
+                                            <div class="form-group">
+                                                <label class="col-md-6 control-label" for="name">Days Paid Early : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                            </div>
+
+</div>
+                                              <div class="col-md-6">
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Discount Offer : </label>
+                                                <div class="col-md-4">
+                                                  <div class="input-group">
+                                                  <input id="name" name="name" type="text"  class="form-control"><span class="input-group-addon">%</span></div>
+                                        </div></div>
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Discount Value : </label>
+                                                <div class="col-md-4">
+                                                    <div class=" input-group">
+                                                    <input id="name" name="name" type="text"  class="form-control">
+                                                  </div>
+                                          </div>  </div>
+                                          <div class="form-group">
+                                              <label class="col-md-8 control-label" for="name">Payment Date : </label>
+                                              <div class="col-md-4">
+                                                <div class="input-group">
+                                                <input id="name" name="name" type="text"  class="form-control"></div>
+                                      </div></div>
+
+
+                                            <div class="form-group">
+                                                <label class="col-md-8 control-label" for="name">Available Limits : </label>
+                                                <div class="col-md-4">
+                                                    <input id="name" name="name" type="text"  class="form-control"></div>
+                                            </div>
+
+
+
+
+
+
+
+                                            </div>
+                                        </fieldset>
+
+                                                <div class="col-md-6">
+                                        <div class="panel panel-success" id="hidepanel1">
                                             <div class="panel-heading">
                                                 <h3 class="panel-title">
                                                     <i class="livicon" data-name="clock" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>
-                                                    Final Supplier Offer:
+                                                  Source Bank Account:
                                                 </h3>
                                                 <span class="pull-right">
                                                     <i class="glyphicon glyphicon-chevron-up clickable"></i>
@@ -199,17 +294,23 @@
                                                     <fieldset>
                                                         <!-- Name input-->
                                                         <div class="form-group">
-                                                            <label class="col-md-3 control-label" for="name">Discount Percentage:</label>
-                                                            <div class="col-md-3">
+                                                            <label class="col-md-3 control-label" for="name">Title:</label>
+                                                            <div class="col-md-6">
 
                                                               <div class="input-group">
-                                                              <input id="name" name="name" type="text"  class="form-control"><span class="input-group-addon">%</span></div></div>
+                                                              <input id="name" name="name" type="text" value="20" class="form-control" disabled=""></div></div>
                                                         </div>
                                                         <!-- Email input-->
                                                         <div class="form-group">
-                                                            <label class="col-md-3 control-label" for="email">Discount Value: </label>
-                                                            <div class="col-md-3">
-                                                                <input id="bb" name="bb" type="text"  class="form-control"></div>
+                                                            <label class="col-md-3 control-label" for="email">Bank: </label>
+                                                            <div class="col-md-6">
+                                                                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="email">A/C No: </label>
+                                                            <div class="col-md-6">
+                                                                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
                                                         </div>
                                                         <!-- Message body -->
 
@@ -224,17 +325,104 @@
                                                 </form>
                                             </div>
                                         </div>
+</div>
+
+<div class="col-md-6">
+<div class="panel panel-success" id="hidepanel1">
+<div class="panel-heading">
+<h3 class="panel-title">
+    <i class="livicon" data-name="clock" data-size="16" data-loop="true" data-c="#fff" data-hc="white"></i>
+    Destination Bank Account:
+</h3>
+<span class="pull-right">
+    <i class="glyphicon glyphicon-chevron-up clickable"></i>
+
+</span>
+</div>
+<div class="panel-body">
+<form class="form-horizontal" action="#" method="post">
+    <fieldset>
+        <!-- Name input-->
+        <div class="form-group">
+            <label class="col-md-3 control-label" for="name">Title:</label>
+            <div class="col-md-6">
+
+              <div class="input-group">
+              <input id="name" name="name" type="text" value="20" class="form-control" disabled=""></div></div>
+        </div>
+        <!-- Email input-->
+        <div class="form-group">
+            <label class="col-md-3 control-label" for="email">Bank: </label>
+            <div class="col-md-6">
+                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
+        </div>
+
+        <div class="form-group">
+            <label class="col-md-3 control-label" for="email">A/C No: </label>
+            <div class="col-md-6">
+                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
+        </div>
+        <!-- Message body -->
+
+
+        <!-- Form actions -->
+        <div class="form-group">
+            <div class="col-md-12 text-right">
+
+            </div>
+        </div>
+    </fieldset>
+</form>
+</div>
+</div>
+</div>
+
+
+
                                     </form>
                                 </div>
                 </div>
             </div>
             <div class="modal-footer">
-  <button type="submit" class="btn btn-responsive btn-primary btn-sm">Submit</button>
+  <button type="submit" class="btn btn-responsive btn-success btn-sm">Pay Early</button>
+  <button type="submit" class="btn btn-responsive btn-warning btn-sm">Archive</button>
+    <button type="submit" class="btn btn-responsive btn-danger btn-sm">Cancel</button>
             </div>
         </div>
     </div>
 </div>
 <!-- END modal-->
+
+<!-- reject model -->
+<div class="modal fade in" id="reject" tabindex="-1" role="dialog" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header bg-danger">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title"Reject Offer Reason</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                  <div class="panel-body">
+                                    <form class="form-horizontal" action="#" method="post">
+                                        <fieldset>
+                                            <!-- Name input-->
+
+
+                                        </fieldset>
+
+
+                                    </form>
+                                </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+
+            </div>
+        </div>
+    </div>
+</div>
+<!-- reject -->
 @endsection
 @section('addheader')
 
