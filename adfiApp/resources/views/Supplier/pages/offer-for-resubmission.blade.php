@@ -49,8 +49,8 @@ Offer Rejected  By Buyer
                                             </td>
                                             <td class="numeric">test</td>
                                             <td>
-  <button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
-  <button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#responsive1" href="#responsive1">Resubmit Offer</button>
+
+  <button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#responsive1" href="#responsive1">Submit Reviced Offer</button>
 
                                             </td>
 
