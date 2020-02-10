@@ -23,13 +23,13 @@
                                             <th>Invoice No</th>
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
+                                            <th class="numeric">Supplier</th>
                                             <th class="numeric">Buyer</th>
-  <th class="numeric">Supplier</th>
+                                            <th class="numeric">Due Date</th>
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Discount</th>
-                                            <th class="numeric">Days Pending After Offer</th>
-                                            <th class="numeric">Status</th>
-                                            <th class="numeric">Remark</th>
+
+                                            <th class="numeric">Days Pending</th>
+
                                             <th class="numeric">Action</th>
 
                                         </tr>
@@ -40,25 +40,19 @@
                                             <td>235612</td>
                                             <td>PO 1321</td>
                                             <td>DELL</td>
-<td>DELL</td>
+                                            <td>DELL</td>
+                                            <td class="numeric">01/12/2020</td>
                                             <td class="numeric">$10000</td>
-                                            <td class="numeric">5%</td>
                                               <td class="numeric">10 days</td>
-                                            <td class="Pending">
-Offer Pending
 
 
-                                            </td>
-                                            <td class="numeric">test</td>
                                             <td>
-                                                <div class="buttonwrap"style="width:240px;">
-                                              <div class="buttrap"style="padding:5px;float:left;">
-  <button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
-</div>
-  <div class="buttrap"style="padding:5px;float:right;">
-<button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#stack2" href="#stack2">Send Reminder</button>
-</div>
-        </div>                                    </td>
+
+
+
+<button type="button" class="btn btn-success btn_sizes" data-toggle="modal" data-href="#stack2" href="#stack2">Return To Supplier</button>
+
+                                 </td>
 
                                         </tr>
 
@@ -75,8 +69,7 @@ Offer Pending
                                     <td></td>
                                     <td></td>
                                     <td></td>
-                                    <td></td>
-  <td></td>
+
                                     </tr>
                                     <tfoot>
 
@@ -86,13 +79,15 @@ Offer Pending
                                                                   <th>Invoice No</th>
                                                                   <th>Transaction ID</th>
                                                                   <th class="numeric">PO reference</th>
+                                                                  <th class="numeric">Supplier</th>
                                                                   <th class="numeric">Buyer</th>
-                        <th class="numeric">Supplier</th>
+                                                                  <th class="numeric">Due Date</th>
                                                                   <th class="numeric">Invoice Amount</th>
-                                                                  <th class="numeric">Discount</th>
-                                                                  <th class="numeric">Days Pending After Offer</th>
-                                                                  <th class="numeric">Status</th>
-                                                                  <th class="numeric">Remark</th>
+
+                                                                  <th class="numeric">Days Pending</th>
+
+
+
 
                                                                 </tr>
                                                             </tfoot>
