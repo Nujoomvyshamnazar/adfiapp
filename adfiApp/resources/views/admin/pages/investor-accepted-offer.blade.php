@@ -24,11 +24,11 @@
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
                                             <th class="numeric">Supplier</th>
+                                            <th class="numeric">Buyer</th>
                                             <th class="numeric">Invoice Amount</th>
+                                              <th class="numeric">Investor</th>
                                             <th class="numeric">Due date</th>
-                                            <th class="numeric">Status</th>
-                                            <th class="numeric">Pending Days</th>
-                                            <th class="numeric">Remark</th>
+
                                             <th class="numeric">Action</th>
                                         </tr>
                                     </thead>
@@ -38,34 +38,16 @@
                                             <td>235612</td>
                                             <td>PO 1321</td>
                                             <td>DELL</td>
-
+        <td>DELL</td>
                                             <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td class="Approved">
-Buyer Approved
+                                                <td class="numeric">RAK Bank</td>
 
-</td>
-<td class="numeric">3</td>
-                                            <td class="numeric">Followup</td>
-                                            <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button></td>
+                                              <td class="numeric">30/11/2019</td>
+
+                                            <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">Monitoring Module</button></td>
                                         </tr>
 
-                                        <tr>
-                                            <td>INV20002 </td>
-                                            <td>235612</td>
-                                            <td>PO 1321</td>
-                                            <td>DELL</td>
 
-                                            <td class="numeric">$10000</td>
-                                            <td class="numeric">30/11/2019</td>
-                                            <td class="Rejected">
-Buyer Rejected
-
-</td>
-<td class="numeric">3</td>
-                                            <td class="numeric">Followup</td>
-                                            <td class="numeric"><button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button></td>
-                                        </tr>
                                     </tbody>
                                     <tr>
                                         <td></td>
@@ -80,8 +62,7 @@ Buyer Rejected
 
 
 </td>
-<td class="numeric"></td>
-                                        <td class="numeric"></td>
+
                                     </tr>
                                     <tfoot>
 
@@ -89,15 +70,16 @@ Buyer Rejected
 
 
                                                                   <tr>
-                                                                      <th>Invoice No</th>
-                                                                      <th>Transaction ID</th>
-                                                                      <th class="numeric">PO reference</th>
-                                                                      <th class="numeric">Supplier</th>
-                                                                      <th class="numeric">Invoice Amount</th>
-                                                                      <th class="numeric">Due date</th>
-                                                                      <th class="numeric">Status</th>
-                                                                      <th class="numeric">Pending Days</th>
-                                                                      <th class="numeric">Remark</th>
+                                                                    <th>Invoice No</th>
+                                                                    <th>Transaction ID</th>
+                                                                    <th class="numeric">PO reference</th>
+                                                                    <th class="numeric">Supplier</th>
+                                                                    <th class="numeric">Buyer</th>
+                                                                    <th class="numeric">Invoice Amount</th>
+                                                                      <th class="numeric">Investor</th>
+                                                                    <th class="numeric">Due date</th>
+
+                                                        
                                                                   </tr>
 
                                                             </tfoot>
