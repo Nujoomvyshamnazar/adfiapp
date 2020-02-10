@@ -1,7 +1,7 @@
 @extends('supplier.layouts.adminlayout2')
 
-@section('title', 'Offer Accepted By Investor')
-@section('maintitle', 'Offer Accepted By Investor')
+@section('title', 'Investor Acceped Offer')
+@section('maintitle', 'Investor Acceped Offer')
 
 
 @section('content')
@@ -24,12 +24,16 @@
                                             <th>Transaction ID</th>
                                             <th class="numeric">PO reference</th>
                                             <th class="numeric">Buyer</th>
-<th class="numeric">Investor</th>
+
                                             <th class="numeric">Invoice Amount</th>
-                                            <th class="numeric">Due Date</th>
-                                            <th class="numeric">Status</th>
+
+
+                                              <th class="numeric">Payment Date</th>
+                                                    <th class="numeric">Investor</th>
+                                                          <th class="numeric">Due Date</th>
+
                                             <th class="numeric">Remark</th>
-                                            <th class="numeric">Action</th>
+
 
                                         </tr>
                                     </thead>
@@ -39,15 +43,13 @@
                                             <td>235612</td>
                                             <td>PO 1321</td>
                                             <td>DELL</td>
-<td>Mashreq</td>
+
                                             <td class="numeric">$10000</td>
                                             <td class="numeric">30/11/2019</td>
-                                            <td class="Accepted">
-Offer Accepted
+                                            <td>Mashreq</td>
+                                              <td class="numeric">30/11/2019</td>
 
 
-                                            </td>
-                                            <td class="numeric">test</td>
                                             <td>
   <button type="button" class="btn btn-primary btn_sizes" data-toggle="modal" data-href="#responsive" href="#responsive">View Offer</button>
 
@@ -80,11 +82,15 @@ Offer Accepted
                                                                   <th>Transaction ID</th>
                                                                   <th class="numeric">PO reference</th>
                                                                   <th class="numeric">Buyer</th>
-<th class="numeric">Investor</th>
+
                                                                   <th class="numeric">Invoice Amount</th>
-                                                                  <th class="numeric">Due Date</th>
-                                                                  <th class="numeric">Status</th>
-<th class="numeric">Remark</th>
+
+
+                                                                    <th class="numeric">Payment Date</th>
+                                                                          <th class="numeric">Investor</th>
+                                                                                <th class="numeric">Due Date</th>
+
+
 
                                                                 </tr>
                                                             </tfoot>
@@ -118,12 +124,12 @@ Offer Accepted
                                                 <div class="col-md-4">
                                                     <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
-                                            <!-- Email input-->
+                                            <!-- Email input
                                             <div class="form-group">
                                                 <label class="col-md-6 control-label" for="name">Transaction ID : </label>
                                                 <div class="col-md-4">
                                                   <input id="name" name="name" type="text"  class="form-control" disabled="" ></div>
-                                            </div>
+                                            </div>-->
                                             <div class="form-group">
                                                 <label class="col-md-6 control-label" for="name">Invoice Amount : </label>
                                                 <div class="col-md-4">
@@ -137,46 +143,29 @@ Offer Accepted
                                             </div>
 
                                             <div class="form-group">
-                                                <label class="col-md-6 control-label" for="name">Early Payment Date : </label>
+                                                <label class="col-md-6 control-label" for="name">Buyer : </label>
                                                 <div class="col-md-4">
-                                                  <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
                                             </div>
+
 </div>
                                               <div class="col-md-6">
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Days Paid Early : </label>
-                                                <div class="col-md-4">
-                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
-                                            </div>
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label" for="name">Investor : </label>
+                                                    <div class="col-md-4">
+                                                        <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                </div>
 
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">ADFI Offer : </label>
-                                                <div class="col-md-4">
-                                                    <div class=" input-group">
-                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""><span class="input-group-addon">%</span></div>
-                                          </div>  </div>
-
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
-                                                <div class="col-md-4">
-                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
-                                            </div>
-
-
-
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Supplier Offer : </label>
-                                                <div class="col-md-4">
-                                                  <div class="input-group">
-                                                  <input id="name" name="name" type="text"  class="form-control" disabled=""><span class="input-group-addon">%</span></div>
-                                        </div></div>
-
-
-                                            <div class="form-group">
-                                                <label class="col-md-8 control-label" for="name">Discount in Value terms: AED/USD : </label>
-                                                <div class="col-md-4">
-                                                    <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
-                                            </div>
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label" for="name">Source Bank: </label>
+                                                    <div class="col-md-4">
+                                                        <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="col-md-6 control-label" for="name">Transaction Ref : </label>
+                                                    <div class="col-md-4">
+                                                      <input id="name" name="name" type="text"  class="form-control" disabled=""></div>
+                                                </div>
                                             </div>
                                         </fieldset>
 
@@ -196,7 +185,7 @@ Offer Accepted
                                                     <fieldset>
                                                         <!-- Name input-->
                                                         <div class="form-group">
-                                                            <label class="col-md-3 control-label" for="name">Discount Percentage:</label>
+                                                            <label class="col-md-3 control-label" for="name">Discount Offer:</label>
                                                             <div class="col-md-3">
 
                                                               <div class="input-group">
@@ -205,6 +194,12 @@ Offer Accepted
                                                         <!-- Email input-->
                                                         <div class="form-group">
                                                             <label class="col-md-3 control-label" for="email">Discount Value: </label>
+                                                            <div class="col-md-3">
+                                                                <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
+                                                        </div>
+
+                                                        <div class="form-group">
+                                                            <label class="col-md-3 control-label" for="email">Payment Date: </label>
                                                             <div class="col-md-3">
                                                                 <input id="bb" name="bb" type="text"  class="form-control" disabled=""></div>
                                                         </div>
